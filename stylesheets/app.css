@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {font-family: "Helvetica Neue", "Helvetica", Helvetica, A
 
 .websymbols {font-family: 'WebSymbolsRegular';    text-shadow: 0 3px 3px #000;color: #e1e1e1;}
 .full-width {width: 100%;}
-.row {z-index: 200; width: 1000px;min-width: 205px;margin-top: 0px;padding-top: 0px;padding-bottom: 0px;}
+.row {z-index: 200; width: 1100px;min-width: 205px;margin-top: 0px;padding-top: 0px;padding-bottom: 0px;}
 .transition {-webkit-transition: all 400ms ease-out;
 -moz-transition: all 400ms ease-out;
 -ms-transition: all 400ms ease-out;
@@ -20,7 +20,8 @@ background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.75) 0%,
 background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.75) 84%,rgba(255,255,255,0) 100%); /* IE10+ */
 background: radial-gradient(ellipse at center, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.75) 84%,rgba(255,255,255,0) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+-webkit-border-radius: 5px;
+border-radius: 5px; 
 
 }
 
@@ -99,8 +100,8 @@ h1 {background: none repeat scroll 0 0 transparent;
     margin-top: 5px;
     margin-bottom: 5px;
     font-family: 'BenchNine', sans-serif; }
-h2 { font-weight: 400;color: #333}
-h3 { color: #333}
+h2 { font-weight: 400;text-shadow: 0 1px 1px #fff;color: #333;}
+h3 { color: #333;text-shadow: 0 1px 1px #fff;}
 h4 {color: #333; }
 h5 { }
 h6 {margin-left: 12px; }
@@ -132,7 +133,7 @@ opacity: 0.6;
 a { cursor: pointer;font-family: 'BenchNine', sans-serif;font-size:18px;}
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
-.nav-bar-wrapper {width:100%;float: none;margin:0;margin-top: 5px;margin-bottom: 20px;
+.nav-bar-wrapper {width:100%;float: none;margin:0;margin-top: 15px;margin-bottom: 20px;
 	height: auto;border-top: 1px solid #222;border-bottom: 1px solid #333;
 	-webkit-box-shadow: 0px 1px 3px 1px #fff;
 box-shadow: 0px 1px 3px 1px #444; 
@@ -183,7 +184,7 @@ margin-top: 7px;opacity: 0.2;background: transparent;
 box-shadow: 1px 1px 2px 1px ;}
 
 
-#homepage {height:auto;overflow: hidden;}
+#homepage {;height:auto;overflow: hidden;}
 #cathyphill {height:0px;overflow: hidden;visibility: hidden;opacity: 0.0}
 #timsteen {height:0px;overflow: hidden;visibility: hidden;opacity: 0.0}
 
