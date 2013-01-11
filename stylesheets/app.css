@@ -1,4 +1,4 @@
-body, html  {padding: 0;margin: auto;background: #e1e1e1;background: url(../images/pattern1.jpg);background: #fff;}
+body, html  {padding: 0;margin: auto;background: #e1e1e1;background: url(../images/pattern1.jpg);}
 
 h1, h2, h3, h4, h5, h6 {font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-family: 'BenchNine', sans-serif;font-weight: normal;font-style: normal;color: #ffffff;text-rendering: optimizeLegibility;line-height: 1.1;}
 
@@ -132,7 +132,7 @@ opacity: 0.6;
 a { cursor: pointer;font-family: 'BenchNine', sans-serif;font-size:18px;}
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
-.nav-bar-wrapper {width:100%;float: none;margin:0;margin-top: 0px;margin-bottom: 20px;
+.nav-bar-wrapper {width:100%;float: none;margin:0;margin-top: 5px;margin-bottom: 20px;
 	height: auto;border-top: 1px solid #222;border-bottom: 1px solid #333;
 	-webkit-box-shadow: 0px 1px 3px 1px #fff;
 box-shadow: 0px 1px 3px 1px #444; 
@@ -183,9 +183,9 @@ margin-top: 7px;opacity: 0.2;background: transparent;
 box-shadow: 1px 1px 2px 1px ;}
 
 
-#homepage {height:500px;overflow: hidden;}
-#cathyphill {height:0px;overflow: hidden;;}
-#timsteen {height:0px;overflow: hidden;;}
+#homepage {height:auto;overflow: hidden;}
+#cathyphill {height:0px;overflow: hidden;visibility: hidden;opacity: 0.0}
+#timsteen {height:0px;overflow: hidden;visibility: hidden;opacity: 0.0}
 
 
 
