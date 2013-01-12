@@ -51,7 +51,7 @@
   <div name="menubar" class=" transition">
     <div class="row nav-bar-wrapper transition">
       <div class="twelve columns nopadding">
-        <div name="homebutton" class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow" onClick="ontwerperspagehide();homeshow();timhide();cathyhide();anhide();"   >  
+        <div name="homebutton" class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow" onClick="ontwerperspagehide();timhide();cathyhide();anhide();;chrishide();homeshow()"   >  
           <li>
             <a>Home</a>
             <div class="exerp-menubox mobile-text-center">About our store
@@ -103,25 +103,25 @@
   <div  id="ontwerperspage" class="full-width transition">
     <div class="arrow-up no-transition" style=""> </div> 
     <div   class="row transition text-center ">
-      <div class="ontwerpersbox twelve columns nopadding  transition" style="-webkit-box-shadow: 1px 1px 2px 1px;box-shadow: 1px 1px 2px 1px ;">
+      <div class="ontwerpersbox twelve columns nopadding  transition background-medium" style="-webkit-box-shadow: 1px 1px 2px 1px;box-shadow: 1px 1px 2px 1px ;">
         <div class="tussenstuk" style=""> </div>
-        <div class="twelve columns text-left  background-opacity-corners  nopadding"style="" >
+        <div class="twelve columns text-left    nopadding"style="" >
           <ul>
-            <div id="cathy" class="two columns  background-medium shadowbox-white text-center" onClick="homehide();timhide();anhide();cathyshow();">
+            <div id="cathy" class="two columns  background-medium shadowbox-white text-center" onClick="homehide();timhide();anhide();chrishide();cathyshow();">
               <li class="" ><a>Cathy Phill</a></li> 
             </div>
-            <div id="tim" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();anhide();timshow();">
+            <div id="tim" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();anhide();chrishide();timshow();">
               <li><a>Tim Van Steenbergen</a></li>
             </div>
-            <div id="an" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();timhide();anshow()">
+            <div id="an" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();timhide();chrishide();anshow()">
               <li><a>Annemie Verbeke</a></li></div>
-              <div id="chris" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();timshow();">
+              <div id="chris" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
                 <li><a>Chris Jansens</a></li>
               </div>
-              <div id="chris" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();timshow();">
+              <div id="chris" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();timhide();">
                 <li><a>Chris Jansens</a></li>
               </div>
-              <div id="chris" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();timshow();">
+              <div id="chris" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();timshow();chrisshow();">
                 <li><a>Chris Jansens</a></li>
               </div>
             </ul>
@@ -149,7 +149,7 @@
            </div>
          </div>
          <div   id="timsteen" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
-        <div class="arrow-up no-transition" style="margin-left:5%"> </div> 
+        <div class="arrow-up no-transition" style="margin-left:20%"> </div> 
         <div   class="twelve columns transition text-center ">
           <div class="four columns text-center mobile-text-center ">
             <div id="featured2" class="featured" style="height:0px;overflow:hidden;">          
@@ -173,7 +173,7 @@ Tim Van Steenbergen also created jewellery for Swarovski UK, shoes for Novella I
            </div>
          </div>
          <div   id="anverbeke" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
-        <div class="arrow-up no-transition" style="margin-left:5%"> </div> 
+        <div class="arrow-up no-transition" style="margin-left:35%"> </div> 
         <div   class="twelve columns transition text-center ">
           <div class="four columns text-center mobile-text-center ">
             <div id="featured3" class="featured"style="height:0px;overflow:hidden;">          
@@ -197,13 +197,13 @@ Her way is a fragile expression of an A-typical fashion but with a strong 'tempe
            </div>
          </div>
          <div   id="chrisjansens" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
-        <div class="arrow-up no-transition" style="margin-left:5%"> </div> 
+        <div class="arrow-up no-transition" style="margin-left:50%"> </div> 
         <div   class="twelve columns transition text-center ">
           <div class="four columns text-center mobile-text-center ">
             <div id="featured4" class="featured" style="height:0px;overflow:hidden;">          
-              <img style=""src="images/chris3.jpg" alt="slide image">
-              <img style=""src="images/chris1.jpg" alt="slide image">
-              <img style=""src="images/chris2.jpg" alt="slide image">
+              <img style=""src="images/20.jpg" alt="slide image">
+              <img style=""src="images/10.jpg" alt="slide image">
+              <img style=""src="images/30.jpg" alt="slide image">
             </div>
           </div>
           <div class="one columns"></div>
@@ -371,6 +371,27 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 }
 </script>
 
+<script>
+    function chrisshow() {
+    var x, divArray = ["chrisjansens"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
+        }
+    }
+}
+</script>
+<script>
+    function chrishide() {
+    var x, divArray = ["chrisjansens"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
+        }
+    }
+}
+</script>
+
 
 
 <script>
@@ -479,19 +500,19 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
  
  <script>
 $("#cathy").hover(function () {
-    $('#cathyshow').toggleClass('testings');$('.ontwerpersbox').toggleClass('background-medium');
+    $('#cathyshow').toggleClass('testings');
 });
 
 $("#tim").hover(function () {
-    $('#timshow').toggleClass('testings');$('.ontwerpersbox').toggleClass('background-medium');
+    $('#timshow').toggleClass('testings');
 });
 
 $("#an").hover(function () {
-    $('#anshow').toggleClass('testings');$('.ontwerpersbox').toggleClass('background-medium');
+    $('#anshow').toggleClass('testings');
 });
 
 $("#chris").hover(function () {
-    $('#chrisshow').toggleClass('testings');$('.ontwerpersbox').toggleClass('background-medium');
+    $('#chrisshow').toggleClass('testings');
 });
 </script>
 

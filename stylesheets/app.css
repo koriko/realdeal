@@ -184,7 +184,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4d', end
 
 #logo { } 
 .ontwerpersbox > .columns > ul{ margin-bottom: 0px;} 
-.ontwerpersbox > .columns > ul > div li { list-style: none;width:100%;padding:5px;background:#555;margin-left: 0px;cursor: pointer;}
+.ontwerpersbox > .columns > ul > div li { list-style: none;width:100%;padding:5px;background:#555;margin-left: 0px;margin-bottom: 0px;cursor: pointer;}
 .ontwerpersbox > .columns > ul > div li:hover { background:#333;} 
 .ontwerpersbox > .columns > ul > div li > a { text-decoration: none;color: #e1e1e1}
 
@@ -192,7 +192,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4d', end
 .hideit img {max-height: 240px;width: 185px;}
 
 
-.columns .featured { opacity:0.8;} 
+.columns .featured { opacity:0.9;} 
 img { width:100%;} 
 img { width:100%;} 
 .testings {visibility: visible;opacity:1;-webkit-box-shadow: 1px 1px 2px 1px ;background: transparent;
