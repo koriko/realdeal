@@ -1,4 +1,4 @@
-body, html  {padding: 0;margin: auto;background: #e1e1e1;background: url(../images/pattern1.jpg);}
+body, html  {padding: 0;margin: auto;background: #e1e1e1;background: url(../images/pattern5.jpg);}
 
 h1, h2, h3, h4, h5, h6 {font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-family: 'BenchNine', sans-serif;font-weight: normal;font-style: normal;color: #ffffff;text-rendering: optimizeLegibility;line-height: 1.1;}
 
@@ -95,6 +95,7 @@ background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(225,225,225,1) 
 background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(225,225,225,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e1e1e1',GradientType=0 ); /* IE6-9 */}
 .nopadding {padding: 0px;}
+.noborder-radius{border-radius: 0px;}
 .nopadding-left-top {padding-left: 0px;padding-top: 0px;}
 .low-padding {padding: 4px;}
 .overflow-hidden{overflow: hidden;}
@@ -125,9 +126,9 @@ h6 {margin-left: 12px; }
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
 	margin-top: -10px;
-	margin-left:37%;
+	margin-left:38%;
 	border-bottom: 10px solid white;
-opacity: 0.5;
+opacity: 0.4;
 }
 
 .arrow-down {
@@ -184,7 +185,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4d', end
 
 #logo { } 
 .ontwerpersbox > .columns > ul{ margin-bottom: 0px;} 
-.ontwerpersbox > .columns > ul > div li { list-style: none;width:100%;padding:5px;background:#555;margin-left: 0px;margin-bottom: 0px;cursor: pointer;}
+.ontwerpersbox > .columns > ul > div li { list-style: none;width:100%;padding:5px;background:#444;margin-left: 0px;margin-bottom: 0px;cursor: pointer;}
 .ontwerpersbox > .columns > ul > div li:hover { background:#333;} 
 .ontwerpersbox > .columns > ul > div li > a { text-decoration: none;color: #e1e1e1}
 
@@ -193,7 +194,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4d', end
 
 
 .columns .featured { opacity:0.9;} 
-img { width:100%;} 
+
 img { width:100%;} 
 .testings {visibility: visible;opacity:1;-webkit-box-shadow: 1px 1px 2px 1px ;background: transparent;
 box-shadow: 1px 1px 2px 1px ;}
