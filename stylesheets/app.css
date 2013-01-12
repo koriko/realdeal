@@ -71,7 +71,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .border-top {border-top: solid 1px #000;}
 .border-bottom {border-bottom: solid 1px #000;}
 .border {border: solid 1px #000;}
-.ontwerpersbox .columns {padding: 4px;}
+
 	.shadowbox {-webkit-box-shadow: inset 0px 0px 1px 1px #555;box-shadow: inset 0px 0px 1px 1px #555;}
 	.shadowbox-white {-webkit-box-shadow: inset 0px 0px 1px 1px #d1d1d1;box-shadow: inset 0px 0px 1px 1px #d1d1d1;}
 .columns { padding:15px;;}
@@ -113,7 +113,7 @@ h1 {background: none repeat scroll 0 0 transparent;
     text-shadow: 0 3px 3px #000;color: #e1e1e1;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-family: 'BenchNine', sans-serif; }
+    font-family: 'BenchNine', sans-serif;}
 h2 { font-weight: 400;text-shadow: 0 1px 1px #fff;color: #333;}
 h3 { color: #333;text-shadow: 0 1px 1px #fff;}
 h4 {color: #333; }
@@ -164,7 +164,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4d', end
 }
 .nav-bar {background: transparent;margin-top:0px; }
 .exerp-menubox {padding-left:20px;padding-right:20px;font-size:18px; color: #777;font-family: 'BenchNine', sans-serif; }
-.menubox  {height: 80px;}
+.menubox  {height: auto;}
 
 
 .nav-bar > li {height:80px;cursor: pointer;float: none;width:100%;padding:10px;padding-top:10px;padding-bottom:10px;margin-top: 0px; border: 0px solid #333333;-webkit-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; }
@@ -176,18 +176,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4d', end
 .orbit-wrapper{margin-top: 15px;}
 
 
-.ontwerpersbox { margin-bottom:10px;
+.ontwerpersbox { ;
  } 
 .tussenstuk {position:absolute;top:-20px;left:0px;height:30px;width:100%;background: transparent;}
 .ontwerpersboxhover:hover .arrow-up  {visibility: visible;opacity: 1;}
 .ontwerpersboxhover:hover .ontwerpersbox  {visibility: visible;z-index: 100;}
 .tussenstuk:hover .ontwerpersbox  {visibility: visible;opacity: 1;height:200px;}
 
+
+.menubox  li {list-style: none;margin-left:0px;height:auto;cursor: pointer;float: none;width:100%;
+	padding:10px;padding-top:10px;padding-bottom:10px;margin-top: 0px; border: 0px solid #333333;-webkit-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; }
+.menubox  li:first-child {border: solid 0px #000;  height:auto; }
+.menubox  li:last-child { height:auto;border-right: solid 0px #000; -webkit-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset;}
+.menubox  li > a:first-child{ color:#fff;font-weight: lighter;line-height: normal;
+    font-family: 'BenchNine', sans-serif; ;font-size: 18px;list-style: none;text-decoration: none;}
+.menubox  li:hover {opacity:0.5;background: #333;}
+.menubox  li:hover {opacity:0.5;background: #333;}
+
 #logo { } 
-.ontwerpersbox > .columns > ul{ margin-bottom: 0px;} 
-.ontwerpersbox > .columns > ul > div li { list-style: none;width:100%;padding:5px;background:#444;margin-left: 0px;margin-bottom: 0px;cursor: pointer;}
-.ontwerpersbox > .columns > ul > div li:hover { background:#333;} 
-.ontwerpersbox > .columns > ul > div li > a { text-decoration: none;color: #e1e1e1}
+
 
 .hideit {visibility: hidden;opacity:0;position: absolute;}
 .hideit img {max-height: 240px;width: 185px;}
