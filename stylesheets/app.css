@@ -13,6 +13,12 @@ h1, h2, h3, h4, h5, h6 {font-family: "Helvetica Neue", "Helvetica", Helvetica, A
 -o-transition: all 400ms ease-out;
 transition: all 400ms ease-out;}
 .color-white {color: #e1e1e1}
+.no-transition{-webkit-transition: all 0ms ease-out;
+-moz-transition: all 0ms ease-out;
+-ms-transition: all 0ms ease-out;
+-o-transition: all 0ms ease-out;
+transition: all 0ms ease-out;}
+.color-white {color: #e1e1e1}
 .background-opacity-corners {background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.75) 84%, rgba(255,255,255,0) 100%); /* FF3.6+ */
 background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.75)), color-stop(84%,rgba(255,255,255,0.75)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
 background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.75) 84%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
@@ -114,10 +120,10 @@ h6 {margin-left: 12px; }
 	height: 0; 
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
-	margin-top: 5px;
-	margin-left:25%;
+	margin-top: -10px;
+	margin-left:37%;
 	border-bottom: 10px solid white;
-visibility:hidden;
+opacity: 0.5;
 }
 
 .arrow-down {
@@ -129,7 +135,7 @@ visibility:hidden;
 	margin-top: 25px;
 	margin-left:75%;
 	border-top: 7px solid #d1d1d1;
-opacity: 0.6;
+opacity: 0.2;
 }
 .fb-icon {font-size:55px; opacity:0.4;margin-top: -58px;padding-right: 15px;}
 
@@ -163,12 +169,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4d', end
 .orbit-wrapper{margin-top: 15px;}
 
 
-.ontwerpersbox { visibility: hidden;position:absolute;height:auto;width:400%;top:85px;left:-100%;
-margin-top: 7px;opacity: 0.0;background: transparent;
+.ontwerpersbox { margin-bottom:10px;
  } 
 .tussenstuk {position:absolute;top:-20px;left:0px;height:30px;width:100%;background: transparent;}
 .ontwerpersboxhover:hover .arrow-up  {visibility: visible;opacity: 1;}
-.ontwerpersboxhover:hover .ontwerpersbox  {visibility: visible;opacity: 1;z-index: 100;}
+.ontwerpersboxhover:hover .ontwerpersbox  {visibility: visible;z-index: 100;}
 .tussenstuk:hover .ontwerpersbox  {visibility: visible;opacity: 1;height:200px;}
 
 #logo { } 
@@ -188,6 +193,8 @@ box-shadow: 1px 1px 2px 1px ;}
 
 
 #homepage {;height:auto;overflow: hidden;}
+#ontwerperspage { height:0px;overflow: hidden;visibility: hidden;opacity: 0.0 } 
+#contactpage { height:0px;overflow: hidden;visibility: hidden;opacity: 0.0 } 
 #cathyphill {height:0px;overflow: hidden;visibility: hidden;opacity: 0.0}
 #timsteen {height:0px;overflow: hidden;visibility: hidden;opacity: 0.0}
 

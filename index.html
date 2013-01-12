@@ -37,268 +37,135 @@
 
 
 
-<div    class="row transition text-center  header-background " style="margin-top:5px;">
-  
-         <div class="twelve columns text-center mobile-text-center border-left border-right border-shadow">
-       <div class="six columns  text-center mobile-text-center menubox nopadding  ">
-          <h1>Seventy4</h1>    
-        </div>
-        <div class="six columns  text-center mobile-text-center menubox nopadding">
-          <h2>Fashion-Strictly For Women</h2>
-        </div>
-            
-        
-       
- 
-
-
-
- 
-       </div></div>
-
-
-
-
+  <div name="header"class="row transition text-center  header-background">
+    <div class="twelve columns text-center mobile-text-center border-left border-right border-shadow">
+      <div class="six columns  text-center mobile-text-center menubox nopadding  ">
+        <h1>Seventy4</h1>    
+      </div>
+      <div class="six columns  text-center mobile-text-center menubox nopadding">
+        <h2>Fashion-Strictly For Women</h2>
+      </div>
+    </div>
+  </div>
 
   <div name="menubar" class=" transition">
-
-
-    <div id="logo" class="row nav-bar-wrapper transition">
-      
-
-      <div class="twelve columns nopadding">       
-        
-
-
-
-
-
-        <div class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow" onClick="timhide();ontwerpershide();homeshow()"   >  
+    <div class="row nav-bar-wrapper transition">
+      <div class="twelve columns nopadding">
+        <div name="homebutton" class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow" onClick="ontwerperspagehide();homeshow();timhide();cathyhide();"   >  
           <li>
             <a>Home</a>
-            <div class="exerp-menubox mobile-text-center">About our store</div>
+            <div class="exerp-menubox mobile-text-center">About our store
+            </div>
           </li>  
         </div>
-
-
-
-
-
-
-        <div class=" three columns  text-left mobile-text-center menubox nopadding ontwerpersboxhover nav-bar border-right border-shadow">  
+        <div name="ontwerpersbutton"onClick="ontwerperspageshow();homehide();cathyshow();" class=" three columns  text-left mobile-text-center menubox nopadding ontwerpersboxhover nav-bar border-right border-shadow">  
           <li >
             <a>Designers</a>
-            <div class="exerp-menubox mobile-text-center">Belgian Fashion</div>
+            <div class="exerp-menubox mobile-text-center">Belgian Fashion
+            </div>
           </li>
           <div class="arrow-down" style="top:10px;"> </div> 
-           <div class="arrow-up" style=""> </div> 
-
-      <div class="ontwerpersbox   transition" style="-webkit-box-shadow: 1px 1px 2px 1px ;
-box-shadow: 1px 1px 2px 1px ;">
-          <div class="tussenstuk" style=""> </div>
-
-
-
-
-      <div class="twelve columns text-left  background-opacity-corners  nopadding"style="" >
-      <ul>
-
-
-<div id="cathy" class="two columns  background-medium shadowbox-white" onClick="homehide();timhide();ontwerpersshow();">
-<li class="" ><a>Cathy Phill</a></li> </div>
-<div id="tim" class="two columns  background-medium shadowbox-white"onClick="homehide();ontwerpershide();timshow();">
-<li><a>Tim Van Steenbergen</a></li></div>
-<div id="an" class="two columns  background-medium shadowbox-white"onClick="homehide();ontwerpershide();timshow();">
-<li><a>Annemie Verbeke</a></li></div>
-<div id="chris" class="two columns  background-medium shadowbox-white"onClick="homehide();ontwerpershide();timshow();">
-<li><a>Chris Jansens</a></li></div>
-<div id="chris" class="two columns  background-medium shadowbox-white"onClick="homehide();ontwerpershide();timshow();">
-<li><a>Chris Jansens</a></li></div>
-<div id="chris" class="two columns  background-medium shadowbox-white"onClick="homehide();ontwerpershide();timshow();">
-<li><a>Chris Jansens</a></li></div>
-
-
-
-      </ul>
-      </div>
-<!--
-      <div class="eight columns text-left " style="">
-<div id="cathyshow" class="hideit transition"><img  src="images/cathypill.jpg" ></div>
-<div id="timshow" class="hideit transition"><img  src="images/TimVanSteenbergen.jpg" ></div>
-<div id="anshow" class="hideit transition"><img  src="images/cathypill.jpg" ></div>
-<div id="chrisshow" class="hideit transition"><img  src="images/chrisjansens.jpg" ></div>
-
-
-
-
-
-         </div>
-        
-       -->
-     
-
-
-
-
-
-
-
-
-
-
-          </div>    
         </div>
-
-
-        <div class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow">  
+        <div name="contactbutton"class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow">  
           <li onClick="contacthide();contactshow()" >
             <a>Contact</a>
-            <div class="exerp-menubox mobile-text-center">Get in touch</div>
+            <div class="exerp-menubox mobile-text-center">Get in touch
+            </div>
           </li> 
         </div>  
         
-        <div class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow">  
+        <div name="facebookbutton"class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow">  
           <li onClick="contacthide();contactshow()" >
-
             <a>Follow us</a>
-         <div class="exerp-menubox text-left mobile-text-center">See the new arivals</div>
-           <div class="websymbols fb-icon text-right mobile-text-center">f</div> 
+            <div class="exerp-menubox text-left mobile-text-center">See the new arivals</div>
+            <div class="websymbols fb-icon text-right mobile-text-center">f</div> 
           </li> 
         </div>  
       </div>
     </div>
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div   id="homepage" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
-  
-         <div class="four columns text-center mobile-text-center">
-
-      
-            
-        <img style=""src="images/bg.jpg" alt="slide image">
-        
-     
- 
-
-       
-
-      
-       </div>
-  
-
-
-<div class="eight columns text-left mobile-text-center">
-
-   <h3  style="">homepage </h3>
+  <div id="homepage" class="row  text-center  transition background-opacity-corners border-left border-right border-shadow">
+    <div class="arrow-up no-transition" style="margin-left:10%"> </div> 
+    <div class="four columns text-center mobile-text-center">
+      <img style=""src="images/bg.jpg" alt="slide image">
+    </div>
+    <div class="eight columns text-left mobile-text-center">
+      <h3  style="">homepage </h3>
       <p>Seventy4 staat voor uitgebreide merkenmode voor het hele gezin, met vestigingen in Aartrijke, Oostende, Poperinge, Brugge en Veurne. Trendy toegankelijkheid is het woord, zowel qua service als qua prijszetting.</p>
 
 
 
    
        <p>Bacon ipsum dt, doloredolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est m aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adst mdolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-
-
-
-   </div>
-  
- </div>
-<div  id="cathyphill" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
-  
-         <div class="four columns text-center mobile-text-center">
-
-      <div id="featured5" style="margin-top:10px;overflow:hidden;border: 0px solid #222;height:0px;overflow:hidden;">
-            
-        <img style=""src="images/cathypill.jpg" alt="slide image">
-       
-        
- 
-
-       
-
+     </div>
+  </div>
+  <div  id="ontwerperspage" class="full-width transition">
+    <div class="arrow-up no-transition" style=""> </div> 
+    <div   class="row transition text-center ">
+      <div class="ontwerpersbox twelve columns nopadding  transition" style="-webkit-box-shadow: 1px 1px 2px 1px;box-shadow: 1px 1px 2px 1px ;">
+        <div class="tussenstuk" style=""> </div>
+        <div class="twelve columns text-left  background-opacity-corners  nopadding"style="" >
+          <ul>
+            <div id="cathy" class="two columns  background-medium shadowbox-white text-center" onClick="homehide();timhide();cathyshow();">
+              <li class="" ><a>Cathy Phill</a></li> 
+            </div>
+            <div id="tim" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();timshow();">
+              <li><a>Tim Van Steenbergen</a></li>
+            </div>
+            <div id="an" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();timshow();">
+              <li><a>Annemie Verbeke</a></li></div>
+              <div id="chris" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();timshow();">
+                <li><a>Chris Jansens</a></li>
+              </div>
+              <div id="chris" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();timshow();">
+                <li><a>Chris Jansens</a></li>
+              </div>
+              <div id="chris" class="two columns  background-medium shadowbox-white text-center"onClick="homehide();cathyhide();timshow();">
+                <li><a>Chris Jansens</a></li>
+              </div>
+            </ul>
+          </div>
+        </div>    
       </div>
-
-
-
-
-
-
-
-
-
-
-
-       </div>
-  
-
-
-<div class="eight columns text-left mobile-text-center">
-
-   <h3  style="">cathyphill </h3>
-      <p>Cathy Pill is a fashion designer living and working in Belgium. After completing her studies at the E.N.S.A.V. of La Cambre, Pill went on to work as an intern for A.F. Vandevorst and Vivienne Westwood. In 2003 Pill won The Collection of the Year at Trieste's contest, and in 2005 she also won sponsorships from La Fondation Pierre Bergé et Yves Saint Laurent and from Yves Saint Laurent at the Andam contest in France. </p>  <p>In the same year she went onto win the Fabio Inghirami Award in Italy and the Modo Bruxellae Price in Belgium. Her first S/S 2006 collection titled 'Blink' married Art Nouveau influenced sinuous patterns with draped and bunched silhouettes. The collection itself was shown at the Louvre in Paris and since then Pill presents her collections during Paris Fashion Weeks. </p>  <p>Her collections continue to be recognised for their smart use of prints, drapes and sharp details, creating modern and feminine silhouettes. Her first ready-to-wear collection was launched during the S/S 2006 Paris Fashion Week.  </p>
-
-
-
-   </div>
-   </div>
-<div  id="timsteen" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
-  
-         <div class="four columns text-center mobile-text-center">
-
-      <div id="featured" style="margin-top:10px;overflow:hidden;border: 0px solid #222;height:0px;overflow:hidden;">
-            
-        <img style=""src="images/TimVanSteenbergen.jpg" alt="slide image">
-       
-        
- 
-
-       
-
+      <div   id="cathyphill" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
+        <div class="arrow-up no-transition" style="margin-left:5%"> </div> 
+        <div   class="twelve columns transition text-center ">
+          <div class="four columns text-center mobile-text-center">
+            <div id="featured5" style="margin-top:10px;overflow:hidden;border: 0px solid #222;height:0px;overflow:hidden;">          
+              <img style=""src="images/cathypill.jpg" alt="slide image">
+            </div>
+          </div>
+          <div class="eight columns text-left mobile-text-center">
+            <h3  style="">cathyphill </h3>
+            <p>Cathy Pill is a fashion designer living and working in Belgium. After completing her studies at the E.N.S.A.V. of La Cambre, Pill went on to work as an intern for A.F. Vandevorst and Vivienne Westwood. In 2003 Pill won The Collection of the Year at Trieste's contest, and in 2005 she also won sponsorships from La Fondation Pierre Bergé et Yves Saint Laurent and from Yves Saint Laurent at the Andam contest in France. </p>  <p>In the same year she went onto win the Fabio Inghirami Award in Italy and the Modo Bruxellae Price in Belgium. Her first S/S 2006 collection titled 'Blink' married Art Nouveau influenced sinuous patterns with draped and bunched silhouettes. The collection itself was shown at the Louvre in Paris and since then Pill presents her collections during Paris Fashion Weeks. </p>  <p>Her collections continue to be recognised for their smart use of prints, drapes and sharp details, creating modern and feminine silhouettes. Her first ready-to-wear collection was launched during the S/S 2006 Paris Fashion Week.  </p>
+          </div>
+        </div>
       </div>
-       </div>
-  
-
-
-<div class="eight columns text-left mobile-text-center">
-
-   <h3  style="">tim van steenbergen </h3>
-      <p>Tim Van Steenbergen graduated Magna cum Laude at the Antwerp Royal Academy of Fine Arts (fashion department, textile creation and theatre costume). Subsequently he took classes in drapery and couture techniques and worked as the first assistant of Olivier Theyskens.
-His first collection was launched in 2001 in Paris and in the same year he set up his company Mitzlavv bvba.
-</p>  <p>
-Meanwhile he's up to his twenty first collection/fashion show and the label Tim Van Steenbergen is being sold in the best designer shops all over the world. His style evolves into a refined pureness and female elegance. </p>  <p>
-Tim Van Steenbergen also created jewellery for Swarovski UK, shoes for Novella Italia, "Barbie" outfits, a jean for Xfit by Lycra, an haute couture dress for the Museum of Fine Arts and Lace in Calais (France) and the bag "le Seau Elsa" for the French label Lancel. </p>
-
-
-
-   </div>
-
+      <div  id="timsteen" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
+        <div class="arrow-up no-transition" style="margin-left:20%"> </div>
+        <div class="four columns text-center mobile-text-center">
+          <div id="featured" style="margin-top:10px;overflow:hidden;border: 0px solid #222;height:0px;overflow:hidden;">
+            <img style=""src="images/TimVanSteenbergen.jpg" alt="slide image">
+          </div>
+        </div>
+        <div class="eight columns text-left mobile-text-center">
+          <h3  style="">tim van steenbergen </h3>
+          <p>Tim Van Steenbergen graduated Magna cum Laude at the Antwerp Royal Academy of Fine Arts (fashion department, textile creation and theatre costume). Subsequently he took classes in drapery and couture techniques and worked as the first assistant of Olivier Theyskens.His first collection was launched in 2001 in Paris and in the same year he set up his company Mitzlavv bvba.</p>
+          <p>Meanwhile he's up to his twenty first collection/fashion show and the label Tim Van Steenbergen is being sold in the best designer shops all over the world. His style evolves into a refined pureness and female elegance. </p>
+          <p>Tim Van Steenbergen also created jewellery for Swarovski UK, shoes for Novella Italia, "Barbie" outfits, a jean for Xfit by Lycra, an haute couture dress for the Museum of Fine Arts and Lace in Calais (France) and the bag "le Seau Elsa" for the French label Lancel. </p>
+        </div>
+      </div>
     </div>
+  </div>
 
-
+ <div  id="contactpage" class="full-width ">
+    <div class="arrow-up" style=""> </div> 
+    <div   class="row transition text-center ">
+      <div class="ontwerpersbox twelve columns nopadding  transition" style="-webkit-box-shadow: 1px 1px 2px 1px;box-shadow: 1px 1px 2px 1px ;">
+      </div>
+    </div>
+  </div>
 
 
     <!--                                                        scripts                                         -->
@@ -335,7 +202,26 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 
 
 
-
+<script>
+    function ontwerperspageshow() {
+    var x, divArray = ["ontwerperspage"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
+        }
+    }
+}
+</script>
+<script>
+    function ontwerperspagehide() {
+    var x, divArray = ["ontwerperspage"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
+        }
+    }
+}
+</script>
 
 <script>
     function homeshow() {
@@ -352,7 +238,7 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
     var x, divArray = ["homepage"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'height:0px;opacity:0.0;';
+            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
         }
     }
 }
@@ -361,7 +247,7 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 
 
 <script>
-    function ontwerpersshow() {
+    function cathyshow() {
     var x, divArray = ["cathyphill"];
     for (x in divArray) {
         if (x) {
@@ -371,11 +257,11 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 }
 </script>
 <script>
-    function ontwerpershide() {
+    function cathyhide() {
     var x, divArray = ["cathyphill"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'height:0px;opacity:0.0;';
+            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
         }
     }
 }
@@ -395,7 +281,7 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
     var x, divArray = ["timsteen"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'height:0px;opacity:0.0;';
+            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
         }
     }
 }
