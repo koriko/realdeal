@@ -28,1285 +28,311 @@
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-
+<link href='http://fonts.googleapis.com/css?family=Lato:400,300italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=BenchNine:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  
-  
 
 
-      
-      
-    
-
-        
-          <div id="content">
-
-<div id="nav-bar-mobile">
-       <ul  style="z-index:100;text-align:center;margin-top:0px;margin-bottom:0px;">
-
-  
-<li><a href="#content" onclick="homepage();homepage2()">Home</a></li>
-
-       <li> <a href="#content" onClick="ontwerpers();ontwerpers2(); ">Ontwerpers</a></li>
 
 
-       
 
-
-     
-
-
-         
-        </ul>
-
-</div>
-
-           <div class="row"> 
-             
-
-                <div class="nav-barwrapper" style="-webkit-box-shadow: inset 0px 0px 1px 1px #555;
-box-shadow: inset 0px 0px 1px 1px #555; 
-
- ">
-
-<div class="four columns" style=""> 
-  <h1>Seventy4</h1>
-</div>
-
-
-<div class="three columns">
-<h3 style="padding:5px;margin-top:25px;">Fashion - Stricly for women</h3>
- </div>
-     
-<div class="five columns">
-        <ul class="nav-bar" style="z-index:100;text-align:center;margin-top:0px;margin-bottom:0px;">
-
-  
-
-
-        <li><a  onClick=";ontwerpers2();ontwerpers();designer1();designer10(); ">Ontwerpers</a></li>
-
-
-       
-
-<li><a onclick="homepage();homepage2();">Home</a></li>
-     
-
-
-         
-        </ul>
+  <div id="header"class="row transition text-center  header-background margin-top nopadding">
+    <div class="twelve columns text-center mobile-text-center border-left border-right border-shadow border-radius">
+      <div class="three columns  text-center mobile-text-center menubox nopadding  ">
+        <h1>Seventy4</h1>    
       </div>
-</div>
-
-  
-      
- 
-<div id="page">
-
-
-
-
-
-
-
-                     <div id="homepage" class="page transition"> 
-
-  
-
-
-
-
-                         <div class="four columns" style="">
-  <!--
-  <p><img src="http://placehold.it/700x400&text=[banner img]" /></p>
-    -->
-    
-    
-        <div class="mobilehide">
-       <div id="featured" style="margin-top:16px;overflow:hidden;border: 0px solid #222;
-       -webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
-            
-        <img style=""src="images/123.jpg" alt="slide image">
-        <img style="-webkit-box-shadow: 0px 0px 0px 0px #333;
-box-shadow: 0px 0px 0px 0px #333;"src="images/124.jpg" alt="slide image">
-        <img style="-webkit-box-shadow: 0px 0px 0px 0px #333;
-box-shadow: 0px 0px 0px 0px #333;"src="images/126.jpg" alt="slide image">
-        <img style="-webkit-box-shadow: 0px 0px 0px 0px #333;
-box-shadow: 0px 0px 0px 0px #333;" src="images/127.jpg" alt="slide image">
+      <div class="six columns  text-center mobile-text-center menubox nopadding">
+        <h2>Fashion-Strictly For Women</h2>
       </div>
-    </div>   
- 
-
-
-       <div class="mobileshow featmob smallhide">
-       <div id="featured2" style="margin-top:10px;overflow:hidden;border: 0px solid #222;
-       -webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
-            
-        <img style=""src="images/small.png" alt="slide image">
- <img style=""src="images/small.png" alt="slide image">
-
-       
-
-      </div>
-    </div> 
-
-        <div class="smallshow">
-          <img style="width:100%;margin-right:2%;"src="images/seventyhome.jpg" alt="slide image">
-
-        
-         </div>
-
-
-  </div>
-    
-  <div class="seven columns" style="height:auto;">
-    
-      
-    
-  <!-- End of Modal -->
-  
-
-
-  
-  <!-- Main Content Section -->
-   <div class="menuhovermobile" onClick="toggle_visibility('overons');toggle_visibility('menuarrowdown');toggle_visibility('menuarrowup');">
-
-      <h2  style="">Over ons</h2>
-
-      <div class="mobileshow" style="margin-top:-27px;margin-bottom:27px;"> 
-              <div id="menuarrowdown" class="arrow" style="display:block;">;</div> 
-               <div id="menuarrowup" class="arrow" style="display:none;">:</div>
-  </div>
-
-
-  </div>
-
-  <div id="overons">
-      <p>Seventy4 staat voor uitgebreide merkenmode voor het hele gezin, met vestigingen in Aartrijke, Oostende, Poperinge, Brugge en Veurne. Trendy toegankelijkheid is het woord, zowel qua service als qua prijszetting.</p>
-
-
-
-   
-       <p>Bacon ipsum dt, doloredolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est m aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adst mdolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-
-
-
-   </div>
-
-      <div class="mobileshow menuhovermobile" onClick="toggle_visibility('openinghours');toggle_visibility('menuarrowdownopening');toggle_visibility('menuarrowupnopening');">
-
-      <h2  style="">openinghours</h2>
-
-      <div  style="margin-top:-27px;margin-bottom:27px;"> 
-              <div id="menuarrowdownopening"  class="arrow" style="display:block;">;</div> 
-               <div id="menuarrowupnopening" class="arrow" style="display:none;">:</div>
-  </div>
-  </div>
-
-  <div id="openinghours">
-        <span>Monday
-01.30 pm - 06.30 pm
-
-Tuesday - Saturday
-10.00 am - 12.00 am & 01.30 pm - 06.30 pm
-
-Sunday & Public Holidays
-closed
-
-</span>
-
-
-
-   </div>
-
-<div class="mobileshow menuhovermobile" >
-  <a style="text-align:left;" href="https://www.facebook.com/pages/Seventy4/195588051974" >
-
-<h2>Follow Us <img  class="fb" src="images/like-us-on-facebook220.png"></h2>
-
-
-</a>
-</div>
- <div class="mobilehide">
-      <div class="four columns" style="">
-
-
-      <h3 style="color:#222;font-size:16px;padding-left:0px;width:100%;margin-bottom:25px;">Opening hours</h3>
-
-      <span>Monday
-01.30 pm - 06.30 pm
-
-Tuesday - Saturday
-10.00 am - 12.00 am & 01.30 pm - 06.30 pm
-
-Sunday & Public Holidays
-closed
-
-</span>
-
-
-    
-    
-        
-</div>
-</div>
-
-   </div>
-  <div class="three columns" style="">
-
-
-     
-       
-            
-         
-
-
-
-
-
-<!--                                                      POPUPS collection                                                  -->
-
-
-<div id="testModal" class="reveal-modal" style="z-index:300;">
-<img  src="images/1.jpg" style="width:100%;margin-top:13px;float:left;z-index:200;" >  
-<p>
-<a class="close-reveal-modal">×</a>
-</div>
-
-<div id="testModal2" class="reveal-modal" style="z-index:300;">
-<img  src="images/2.jpg" style="width:100%;margin-top:13px;float:left;z-index:200;" >  
-<p>
-<a class="close-reveal-modal">×</a>
-</div>
-
-<div id="testModal3" class="reveal-modal" style="z-index:300;">
-<img  src="images/3.jpg" style="width:100%;margin-top:13px;float:left;z-index:200;" >  
-<p>
-<a class="close-reveal-modal">×</a>
-</div>
-
-<div id="testModal4" class="reveal-modal" style="z-index:300;">
-<img  src="images/4.jpg" style="width:100%;margin-top:13px;float:left;z-index:200;" >  
-<p>
-<a class="close-reveal-modal">×</a>
-</div>
-
-<div id="testModal5" class="reveal-modal" style="z-index:300;">
-<img  src="images/5.jpg" style="width:100%;margin-top:13px;float:left;z-index:200;" >  
-<p>
-<a class="close-reveal-modal">×</a>
-</div>
-
-<div id="testModal6" class="reveal-modal" style="z-index:300;">
-<img  src="images/6.jpg" style="width:100%;margin-top:13px;float:left;z-index:200;" >  
-<p>
-<a class="close-reveal-modal">×</a>
-</div>
-
-</div>
-
-<!--                                                       images collection                                                  -->
-
- 
-
- <div class="twelve columns mobilehide">
-
-
-<div class="mobilehide">
-
-<h4 style="margin-bottom:0px;">seventy4 collection - Preview</h4>
-
-
-
-
-
-  <a style="float:right;text-align:left;" href="https://www.facebook.com/pages/Seventy4/195588051974" >
-
-<h4>Check out the new arivals on Facebook</h4> <img  class="fb"style="" src="images/like-us-on-facebook220.png">
-
-
-</a>
-</div>
-
-
-
-
-
-
-
-
-
-
-<!--
-
-<div class="three columns" style="float:right;margin-top:0px;margin-right:20px;;">
-
-<div class="fb-wrap" style="">
-  <a href="https://www.facebook.com/pages/Seventy4/195588051974" >
-
-         <img class="fb" style="width:110px;-webkit-box-shadow: inset 0px 0px 0px #fff;
-box-shadow: inset 0px 0px 0px #fff;" src="images/like-us-on-facebook220.png">
-
-
-
-
-        <h3 style="padding:15px;font-size:25px;float:left;margin-top:0px;margin-right:20px;color:#fff; text-shadow: 1px 1px 1px #000;">Follow us on facebook </h3>
-   </a>    
-       
-            
-          </div>
-
-</div>
-
--->
-
-
-</div>
-
-
-
-
-
-<div class="twelve columns">
-<div  style="float:left;width:100%;overflow:hidden;margin-bottom:60px;margin-top:0px;
-   background: url(pattern5.jpg) repeat center center fixed;background: -moz-linear-gradient(left, rgba(20,9,9,0.85) 0%, rgba(20,9,9,0.32) 99%, rgba(255,255,255,0.31) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(20,9,9,0.85)), color-stop(99%,rgba(20,9,9,0.32)), color-stop(100%,rgba(255,255,255,0.31))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left, rgba(20,9,9,0.85) 0%,rgba(20,9,9,0.32) 99%,rgba(255,255,255,0.31) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left, rgba(20,9,9,0.85) 0%,rgba(20,9,9,0.32) 99%,rgba(255,255,255,0.31) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left, rgba(20,9,9,0.85) 0%,rgba(20,9,9,0.32) 99%,rgba(255,255,255,0.31) 100%); /* IE10+ */
-background: linear-gradient(to right, rgba(20,9,9,0.85) 0%,rgba(20,9,9,0.32) 99%,rgba(255,255,255,0.31) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9140909', endColorstr='#4fffffff',GradientType=1 ); /* IE6-9 */ ;background: url(pattern5.jpg) repeat center center fixed;background: -moz-linear-gradient(left, rgba(0,0,0,0.90) 0%, rgba(68,68,68,0.90) 51%, rgba(0,0,0,0.90) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.90)), color-stop(51%,rgba(68,68,68,0.90)), color-stop(100%,rgba(0,0,0,0.90))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left, rgba(0,0,0,0.90) 0%,rgba(68,68,68,0.90) 51%,rgba(0,0,0,0.90) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left, rgba(0,0,0,0.90) 0%,rgba(68,68,68,0.90) 51%,rgba(0,0,0,0.90) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left, rgba(0,0,0,0.90) 0%,rgba(68,68,68,0.90) 51%,rgba(0,0,0,0.90) 100%); /* IE10+ */
-background: linear-gradient(to right, rgba(0,0,0,0.90) 0%,rgba(68,68,68,0.90) 51%,rgba(0,0,0,0.90) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2000000', endColorstr='#c2000000',GradientType=1 ); /* IE6-9 */
-">
-
-
-
-<div id="collection" style="">
- 
-<div class="two columns" style="margin-left:0px;">
-<a data-reveal-id="testModal" href="#">
-<img  src="images/1.jpg" style=";margin-top:13px;float:left;" >    
-</a></div>
-
-
-
-
-
-
-
-
- <div class="two columns" style="margin-left:0px;">
-<a data-reveal-id="testModal2" href="#">
-<img  src="images/2.jpg" style=";margin-top:13px;float:left;" >    
-</a></div>
-
-
- <div class="two columns" style="margin-left:0px;">
-<a data-reveal-id="testModal3" href="#">
-<img  src="images/3.jpg" style=";margin-top:13px;float:left;" >    
-</a></div>
-
-
-
-
- <div class="two columns" style="margin-left:0px;">
-<a data-reveal-id="testModal4" href="#">
-<img  src="images/4.jpg" style=";margin-top:13px;float:left;" >    
-</a></div>
-
- <div class="two columns" style="float:left;margin-left:0px;">
-<a data-reveal-id="testModal5" href="#">
-<img  src="images/5.jpg" style=";margin-top:13px;float:left;" >    
-</a></div>
-
-
- <div class="two columns" style="float:left;margin-left:0px;">
-<a data-reveal-id="testModal6" href="#">
-<img  src="images/6.jpg" style=";margin-top:13px;float:left;" >    
-</a></div>
-
-
-
-
-</div>
-<h5 id="back" onclick="document.getElementById('collection').style.cssText = 'margin-left:-3px;',document.getElementById('back').style.cssText = 'opacity:0.3',document.getElementById('next').style.cssText = 'opacity:1.0'"><</h5>
-
-<h5 id="next" onclick="document.getElementById('collection').style.cssText = 'margin-left:-600px;',document.getElementById('next').style.cssText = 'opacity:0.3',document.getElementById('back').style.cssText = 'opacity:1.0'">></h5>
-</div>  
- </div>
-      </div>
-
-      
-
-  
-
-
-
-
-
-
-
- </div> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- </div> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                         
-  <!--                                                       DESIGNERS PAGE                                                      -->
-
-
-
-
-
-  <div id="page2"class="page transition"> 
-
-
-<div id="ontwerpersmenu">
-      
-
-        <div class="menuhovermobile">
-
-              <li><a  onClick="toggle_visibility('cathyphill');"> Cathy phill</a></li>
-
-               
-
-        <div style="margin-top:-27px;margin-bottom:27px;float:right;"> 
-              <div id="menuarrowdown" class="arrow" style="display:block;">;</div> 
-               <div id="menuarrowup" class="arrow" style="display:none;">:</div>
-        </div>
-
-
-           <div id="cathyphill" class="desgn"> 
-             
-                 <div id="featured4" style="margin-top:16px;overflow:hidden;border: 0px solid #222;
-                  -webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
-                    <img style=""src="images/cathy1.jpg" alt="slide image">
-                    <img style=""src="images/cathy2.jpg" alt="slide image">
-                    <img style=""src="images/cathy3.jpg" alt="slide image">
-                 </div>
-             
-           </div>
-</div>
-
-
-
-
-<div id="ontwerpersmenu">
-      
-
-        <div class="menuhovermobile">
-
-              <li><a  onClick="toggle_visibility('tim');">tim van steenbergen</a></li>
-
-               
-
-        <div style="margin-top:-27px;margin-bottom:27px;float:right;"> 
-              <div id="menuarrowdown" class="arrow" style="display:block;">;</div> 
-               <div id="menuarrowup" class="arrow" style="display:none;">:</div>
-        </div>
-
-
-           <div id="tim" class="desgn"> 
-             
-                 <div id="featured7" style="margin-top:16px;overflow:hidden;border: 0px solid #222;
-                  -webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
-                    <img style=""src="images/tim1.jpg" alt="slide image">
-                    <img style=""src="images/tim2.jpg" alt="slide image">
-                    <img style=""src="images/tim3tim.jpg" alt="slide image">
-                 </div>
-             
-           </div>
-</div>
-
-
-
-
-<div id="ontwerpersmenu">
-      
-
-        <div class="menuhovermobile">
-
-              <li><a  onClick="toggle_visibility('annemie');">annemie verbeke</a></li>
-
-               
-
-        <div style="margin-top:-27px;margin-bottom:27px;float:right;"> 
-              <div id="menuarrowdown" class="arrow" style="display:block;">;</div> 
-               <div id="menuarrowup" class="arrow" style="display:none;">:</div>
-        </div>
-
-
-           <div id="annemie" class="desgn"> 
-             
-                 <div id="featured8" style="margin-top:16px;overflow:hidden;border: 0px solid #222;
-                  -webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
-                    <img style=""src="images/an1.jpg" alt="slide image">
-                    <img style=""src="images/an2.jpg" alt="slide image">
-                    <img style=""src="images/an3.jpg" alt="slide image">
-                 </div>
-             
-           </div>
-</div>
-
-<div id="ontwerpersmenu">
-      
-
-        <div class="menuhovermobile">
-
-              <li><a  onClick="toggle_visibility('annemie');">annemie verbeke</a></li>
-
-               
-
-        <div style="margin-top:-27px;margin-bottom:27px;float:right;"> 
-              <div id="menuarrowdown" class="arrow" style="display:block;">;</div> 
-               <div id="menuarrowup" class="arrow" style="display:none;">:</div>
-        </div>
-
-
-           <div id="annemie" class="desgn"> 
-             
-                 <div id="featured8" style="margin-top:16px;overflow:hidden;border: 0px solid #222;
-                  -webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
-                    <img style=""src="images/an1.jpg" alt="slide image">
-                    <img style=""src="images/an2.jpg" alt="slide image">
-                    <img style=""src="images/an3.jpg" alt="slide image">
-                 </div>
-             
-           </div>
-</div>
-
-<div id="ontwerpersmenu">
-      
-
-        <div class="menuhovermobile">
-
-              <li><a  onClick="toggle_visibility('annemie');">annemie verbeke</a></li>
-
-               
-
-        <div style="margin-top:-27px;margin-bottom:27px;float:right;"> 
-              <div id="menuarrowdown" class="arrow" style="display:block;">;</div> 
-               <div id="menuarrowup" class="arrow" style="display:none;">:</div>
-        </div>
-
-
-           <div id="annemie" class="desgn"> 
-             
-                 <div id="featured8" style="margin-top:16px;overflow:hidden;border: 0px solid #222;
-                  -webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
-                    <img style=""src="images/an1.jpg" alt="slide image">
-                    <img style=""src="images/an2.jpg" alt="slide image">
-                    <img style=""src="images/an3.jpg" alt="slide image">
-                 </div>
-             
-           </div>
-</div>
-
-
-
-       
-
-</div>
-
-
-
-
-
-  <!--                                                        sidebar       links                                               -->
-
-        <div class="three columns mobilehide" id="designers">
-
-
-
-
-<ul class="nav-bardesigners" style="z-index:100;text-align:center;padding-top:15px;padding-left:0px;">
-
-
-<a style="margin-top:50px;" onClick="designer1();designer10()">
-
-        <li></li>
-
-</a>
-
-
-<a  onClick="designer1();designer10()">
-
-        <li>Cathy Pill</li>
-
-</a>
-
-
-        <a  onClick="designer2();designer20()">
-
-          <li>Tim Van Steenbergen</li>
-</a>
-
-
-
-        <a  onClick="designer3();designer30()"><li>Annemie Verbeke</li></a>
-
-
-        <a style="" onclick="document.getElementById('designerspage').style.cssText = 'margin-top:-3300px;'"><li>Chris Jansens</li></a>
-
-         <a style="" onclick="document.getElementById('designerspage').style.cssText = 'margin-top:-4400px;'"><li>Pauw</li></a>
-
-          <a style="" onclick="document.getElementById('designerspage').style.cssText = 'margin-top:-5500px;'"><li>Martin Margiela 6</li></a>
-
-           <a style="" onclick="document.getElementById('designerspage').style.cssText = 'margin-top:-4080px;'"><li>
-Violetta & Vera Pepa</li></a>
-
-
- <a style="" onclick="document.getElementById('designerspage').style.cssText = 'margin-top:-4080px;'">  
-  <li>
- 
-Conni Kaminski</li></a>
-
- <a style="" onclick="document.getElementById('designerspage').style.cssText = 'margin-top:-4080px;'">  <li>
-  
- 
-Mads Norgaard</li></a>
-
- <a style="margin-bottom: 45px" onclick="document.getElementById('designerspage').style.cssText = 'margin-top:-4080px;'">  <li>
- 
-  
-Sete di Jaipur
-</li></a>
-        </ul>
-
-
-
-            </div>  
-
-
-
-  <!--                                                        designers content                                              -->
-
-
-<div class="nine columns" style=";overflow:hidden;">
-
-
-
-
-
-
-    <!--                                                        designer 1                                              -->
-  <div id="designerspage" class="designerspage">
-  <!--
-  <p><img src="http://placehold.it/700x400&text=[banner img]" /></p>
-    -->
-    
-    
-
- 
-
-
-      <div id="designer1" class="designerspageinside">
-      
-      
-
-
-
-
-  
-
-  <div class="twelve columns mobilehide" style="height:50px;"> </div>
-
-
-      
-<div class="mobile80">
- <div class="twelve columns">
-
-  <div class="menubar">
-<h2>Cathy Pill - Collection Preview </h2>
-  </div>
-
-
-
-
-   <div class="four columns mobilehide" style="">
-
-
-<img  src="images/cathy1.jpg" style="width:100%;margin-top:13px;float:left;"
-
- >
-
-    
-    
-        
-</div>
-<div class="four columns mobilehide" style="">
-
-
-<img  src="images/cathy2.jpg" style="width:100%;margin-top:13px;float:left;"
-
- >
-
-    
-    
-        
-</div>
-
-
-<div class="four columns mobilehide" style="">
-
-
-<img  src="images/cathy3.jpg" style="width:100%;margin-top:13px;float:left;"
-
- >
-
-    
-    
-        
-</div>
-
-
-
-     <div class="mobileshow mobile80">
-       <div id="featured4" style="margin-top:16px;overflow:hidden;border: 0px solid #222;
-       -webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
-            
-        <img style=""src="images/cathy1.jpg" alt="slide image">
-
-         <img style=""src="images/cathy2.jpg" alt="slide image">
-
-       <img style=""src="images/cathy3.jpg" alt="slide image">
-       
-
-      </div>
-    </div>  
-
-
-
-      <div class="seven columns" >
-
-        <div id="menubar menuhovermobile" onClick="toggle_visibility('bio');toggle_visibility('menuarrowdown');toggle_visibility('menuarrowup');">
-          <h2>Biografie   </h2>
-
-            <div class="mobileshow" style="margin-top:-27px;"> 
-              <div id="menuarrowdown"  class="arrow" style="display:block;">;</div> 
-               <div id="menuarrowup" class="arrow" style="display:none;">:</div>
-             </div>
-          
-
-        </div>
-
-  <div id="bio">
-<div class="five columns">
-        
-        <img  src="cathypill.jpg" style="">     
-      
-      </div>
-      <p>Cathy Pill is a fashion designer living and working in Belgium. After completing her studies at the E.N.S.A.V. of La Cambre, Pill went on to work as an intern for A.F. Vandevorst and Vivienne Westwood. In 2003 Pill won The Collection of the Year at Trieste's contest, and in 2005 she also won sponsorships from La Fondation Pierre Bergé et Yves Saint Laurent and from Yves Saint Laurent at the Andam contest in France. </p>  <p>In the same year she went onto win the Fabio Inghirami Award in Italy and the Modo Bruxellae Price in Belgium. Her first S/S 2006 collection titled 'Blink' married Art Nouveau influenced sinuous patterns with draped and bunched silhouettes. The collection itself was shown at the Louvre in Paris and since then Pill presents her collections during Paris Fashion Weeks. </p>  <p>Her collections continue to be recognised for their smart use of prints, drapes and sharp details, creating modern and feminine silhouettes. Her first ready-to-wear collection was launched during the S/S 2006 Paris Fashion Week.  </p>
-         </div>
-</div></div>
-
-
-
-
-
-
-</div>
-
-    <!--                                                        designer 2                                              -->
-
-      <div id="designer2" class="designerspageinside">
-      
-      
-  <div class="twelve columns" style="height:80px;">
-<h2>Tim van steenbergen- Collection Preview</h2>
-  </div>
-
-
-
-     <div class="mobileshow mobile80">
-       <div id="featured5" style="margin-top:16px;overflow:hidden;border: 0px solid #222;
-       -webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
-            
-        <img style=""src="images/tim1.jpg" alt="slide image">
-
-         <img style=""src="images/tim2.jpg" alt="slide image">
-
-       <img style=""src="images/tim3.jpg" alt="slide image">
-       
-
-      </div>
-    </div>  
-
-
-   <div class="four columns mobilehide" style="">
-
-
-<img  src="images/tim1.jpg" style="width:100%;margin-top:13px;float:left;"
-tim
- >
-
-    
-    
-        
-</div>
-<div class="four columns mobilehide" style="float:left;margin-left:0px;">
-
-
-<img  src="images/tim2.jpg" style="width:100%;margin-top:13px;float:left;"
-
- >
-
-    
-    
-        
-</div>
-
-
-<div class="four columns mobilehide" style="">
-
-
-<img  src="images/tim3.jpg" style="width:100%;margin-top:13px;float:left;"
-
- >
-
-    
-    
-        
-</div>
-
-  <div class="twelve columns" style="height:100px;">
-
-  </div>
-       
-
-      <div class="seven columns" >
-      <h2>Bio</h2>
-      <p>Tim Van Steenbergen graduated Magna cum Laude at the Antwerp Royal Academy of Fine Arts (fashion department, textile creation and theatre costume). Subsequently he took classes in drapery and couture techniques and worked as the first assistant of Olivier Theyskens.
-His first collection was launched in 2001 in Paris and in the same year he set up his company Mitzlavv bvba.
-</p>  <p>
-Meanwhile he's up to his twenty first collection/fashion show and the label Tim Van Steenbergen is being sold in the best designer shops all over the world. His style evolves into a refined pureness and female elegance. </p>  <p>
-Tim Van Steenbergen also created jewellery for Swarovski UK, shoes for Novella Italia, "Barbie" outfits, a jean for Xfit by Lycra, an haute couture dress for the Museum of Fine Arts and Lace in Calais (France) and the bag "le Seau Elsa" for the French label Lancel. </p>
-         </div>
-
-<div class="five columns" style="float:left;margin-top:15px;">
-        
-        <img src="TimVanSteenbergen.jpg" style="">     
-      
-      </div>
-
-</div>
-   
-
-      
-    <!--                                                        designer 3                                              -->
-    
-      <div id="designer3" class="designerspageinside">
-      
-  <div class="twelve columns" style="height:80px;">
-<h2>Annemie Verbeke</h2>
-  </div>
-
-
-<div class="mobileshow mobile80">
-       <div id="featured6" style="margin-top:16px;overflow:hidden;border: 0px solid #222;
-       -webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
-            
-        <img style=""src="images/tim1.jpg" alt="slide image">
-
-         <img style=""src="images/tim2.jpg" alt="slide image">
-
-       <img style=""src="images/tim3.jpg" alt="slide image">
-       
-
-      </div>
-    </div>  
-
-
-
-
-       <div class="four columns mobilehide" style="float:left;margin-left:0px;">
-
-
-<img  src="images/an1.jpg" style="width:100%;margin-top:13px;float:left;"
-
- >
-
-    
-    
-        
-</div>
-<div class="four columns mobilehide" style="float:left;margin-left:0px;">
-
-
-<img  src="images/an2.jpg" style="width:100%;margin-top:13px;float:left;"
-
- >
-
-    
-    
-        
-</div>
-
-
-<div class="four columns mobilehide" style="float:left;margin-left:0px;">
-
-
-<img  src="images/an3.jpg" style="width:100%;margin-top:13px;float:left;"
-
- >
-
-    
-    
-        
-</div>
-
-  <div class="twelve columns" style="height:100px;">
-
-  </div>
-
-
-       
-
-
-      <div class="seven columns" >
-      <h2>Bio</h2>
-         <p>The most important continuity throughout all the collections of Annemie is the yearning, the desire to achieve a personal view on sublime "daily life" clothes.
-Her creative knitwear is unique and expresses her extreme sensibility for the intimate combinations of colors and materials. </p>  
-<p>Every season, mostly female personalities with an exceptional destiny (who accomplished an artistic career with a social involvement) are giving her a human profoundness she really needs. It's a way of traveling, analyzing her own metaphors and dualities.</p>  <p>
-Paradoxes seem reality for her and in her design strategy she succeeds to confront the ephemeral to the timelessness. A special attention is made on gorgeous shapes for dresses and skirts with surprising, almost hidden details.
-Her way is a fragile expression of an A-typical fashion but with a strong 'temperament'. </p>
-         </div>
-
-<div class="five columns" style="float:right;margin-top:15px;">
-        
-          <img src="annemie_foto.jpg" style="">    
-      
-      </div>
-
-</div>
-
-
-    <!--                                                        designer 4                                              
-    
-      <div class="designerspageinside">
-      
-        
-       <div class="five columns" style="margin-top:20px;">
-        
-        <img src="images/chrisjansens.jpg" style="width:400px;">     
-       
-      </div>
-
-      <div class="seven columns" >
-
-      <h2>Chris Janssens</h2>
-
-
-      <p>De Belgische modeontwerpster Chris Janssens (°1967) heeft door de jaren heen een eigen signatuur ontwikkeld die herkenbaar is uit de duizend. Ze laat zich niet leiden door vluchtige hypes maar wel door een uitgesproken gevoel voor schoonheid, vrouwelijkheid en elegantie die ze op een heel eigentijdse en kleurige manier vertaalt.</p>  <p> Haar fans zijn geen fashion victims, maar sterke vrouwen die gaan voor een eigenzinnige, karaktervolle stijl met een sensuele ondertoon. Denk vloeiend vallende zijde, supervrouwelijke wikkeleffecten en drapages maar ook knus breiwerk en speelse combinaties.
-</p>  <p>
-Chris Janssens ontwerpt vanuit haar buikgevoel, maar verliest nooit de realiteit van de mode uit het oog. Haar perfecte pasvormen en kwalitatieve stoffen verraden een sterke technische knowhow. Chris Janssens volgde inderdaad eerst een technische modeopleiding voor ze als ontwerpster aan de slag ging bij Olivier Strelli. Ze was jarenlang de ontwerpster achter de Strelli-collectie “22 Octobre”.</p>
-         </div>
     </div>
+  </div>
 
-   
+  <div name="menubar" class=" transition">
+    <div class="row nav-bar-wrapper transition">
+      <div class="twelve columns nopadding">
+        <div name="homebutton" class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow" onClick="ontwerperspagehide();timhide();cathyhide();anhide();;chrishide();contacthide();homeshow()"   >  
+          <li>
+            <a>Home</a>
+            <div class="exerp-menubox mobile-text-center">About our store
+            </div>
+          </li>  
+        </div>
+        <div name="ontwerpersbutton"onClick=";contacthide();ontwerperspageshow();homehide();cathyshow();" class=" three columns  text-left mobile-text-center menubox nopadding ontwerpersboxhover nav-bar border-right border-shadow">  
+          <li >
+            <a>Designers</a>
+            <div class="exerp-menubox mobile-text-center">Belgian Fashion
+            </div>
+          </li>
+          <div class="arrow-down" style="top:10px;"> </div> 
+        </div>
+        <div name="contactbutton"class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow">  
+          <li onClick=";ontwerperspagehide();homehide();;contactshow()" >
+            <a>Contact</a>
+            <div class="exerp-menubox mobile-text-center">Get in touch
+            </div>
+          </li> 
+        </div>  
+        
+        <div name="facebookbutton"class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow">  
+          <div class="websymbols fb-icon">f</div> 
+          <li onClick="contacthide();contactshow()" >
+
+            <a target="_blank" href="http://www.youtube.com/watch?v=VvRVu78IHHo">Follow us</a>
+             <a target="_blank" href="http://www.youtube.com/watch?v=VvRVu78IHHo"><div class="exerp-menubox text-left mobile-text-center">See the new arivals</div></a>
+           
+          </li> 
+        </div>  
+      </div>
+    </div>
+  </div>
+
+  <div id="homepage" class="row  text-center  transition background-opacity-corners border-left border-right border-shadow">
+    <div class="arrow-up no-transition" style="margin-left:10%"> </div> 
+    
     
 
-    <div class="designerspageinside">
 
-      <img src="images/seventyhome.jpg" style="width:400px;"> 
-      <h2>Dit is een biografie van ontwerper5</h2>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-      </div>
-
-   
-    
-      <div class="designerspageinside">
-
-      <img src="seventyhome.jpg" style="width:400px;"> 
-      <h2>Dit is een biografie van ontwerper6</h2>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-      </div>
-
-
+     
+<div   class="twelve columns transition text-center nopadding">
+          <div class="four columns text-center mobile-text-center background-opacity-corners">
+            <div id="featured8" class="featured" style="height:0px;overflow:hidden;">          
+              <img style=""src="images/123.jpg" alt="slide image">
+              <img style=""src="images/124.jpg" alt="slide image">
+              <img style=""src="images/126.jpg" alt="slide image">
+              <img style=""src="images/127.jpg" alt="slide image">
+            </div>
+          </div>
+          <div class="one columns"></div>
+          <div class="six columns text-left mobile-text-center">
+            <h3  style="">About </h3>
+            <div class="four columns text-right  mobile-text-center nopadding-left-top ">
+              <img class="low-padding shadowbox"style=""src="images/bg.jpg">
+            </div>
+            <p>De Belgische modeontwerpster Chris Janssens (°1967) heeft door de jaren heen een eigen signatuur ontwikkeld die herkenbaar is uit de duizend. Ze laat zich niet leiden door vluchtige hypes maar wel door een uitgesproken gevoel voor schoonheid, vrouwelijkheid en elegantie die ze op een heel eigentijdse en kleurige manier vertaalt.</p>  <p> Haar fans zijnsensuele ondertoon. Denk vloeiend vallende zijde, supervrouwelijke wikkeleffecten en drapages maar ook knus breiwerk en speelse combinaties.</p>
+            <p>Chris Janssens ontwerpt vanuit haar buikgevoel, maar verliest nooit de realiteit van de mode uit het oog. Haar perfecte pasvormen en kwalitatieve stohe modeopleiding voor ze als ontwerpster aan de slag ging bij Olivier Strelli. Ze was jarenlang de ontwerpster achter de Strelli-collectie “22 Octobre”.</p>
           
+             <div class="four columns text-left mobile-text-center nopadding " >
+   <h4  style="">Monday </h4>
+   <span>
+01.30 pm - 06.30 pm</div>
+
+<div class="four columns text-left mobile-text-center nopadding ">
+<h4  style="">
+Tuesday - Saturday</h4>
+10.00 am - 12.00 am 
+</br>& 01.30 pm - 06.30 pm
+</div>
+<div class="four columns text-left mobile-text-center nopadding ">
+
+<h4  style="">Sunday & Public Holidays</h4>
+closed
+</div>
+</span>
+</div><div class="one columns"></div>
+
         </div>
 
+     </div>
 
+
+   
+</div>
+
+
+  <div  id="ontwerperspage" class="full-width transition">
+     
+    <div   class="row transition text-center nav-bar-wrapper " style="height:auto;margin-top:0px;">
+      <div class="ontwerpersbox twelve columns nopadding  transition " style="-webkit-box-shadow: 1px 1px 2px 1px;box-shadow: 1px 1px 2px 1px ;">
+        <div class="tussenstuk" style=""> </div>
+        <div class="twelve columns text-left nopadding"style="" >
+          <ul>
+            <div id="cathy" class="two columns    text-center menubox nopadding border-right border-shadow" onClick="homehide();timhide();anhide();chrishide();cathyshow();">
+              <li class="" >
+                <a>Cathy Phill</a>
+              </li> 
+            </div>
+            <div id="tim" class="two columns    text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();chrishide();timshow();">
+              <li><a>Tim Van Steenbergen</a>
+              </li>
+            </div>
+            <div id="an" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();timhide();chrishide();anshow()">
+              <li><a>Annemie Verbeke</a>
+              </li>
+            </div>
+              <div id="chris" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
+                <li><a>Chris Jansens</a>
+                </li>
+              </div>
+              <div id="chris" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
+                <li><a>Chris Jansens</a>
+                </li>
+              </div>
+              <div id="chris" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
+                <li><a>Chris Jansens</a>
+                </li>
+              </div>
+              
+            </ul>
+          </div>
+        </div>    
+      </div>
+      <div   id="cathyphill" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
+        <div class="arrow-up no-transition" style="margin-left:10%"> </div> 
+        <div   class="twelve columns transition text-center nopadding">
+          <div class="four columns text-center mobile-text-center background-opacity-corners">
+            <div id="featured" class="featured " style="height:0px;overflow:hidden;">          
+              <img style=""src="images/cathy3.jpg" alt="slide image">
+              <img style=""src="images/cathy1.jpg" alt="slide image">
+              <img style=""src="images/cathy2.jpg" alt="slide image">
+            </div>
+          </div>
+          <div class="one columns"></div>
+          <div class="six columns text-left mobile-text-center">
+            <h3  style="">cathyphill </h3>
+            <div class="four columns text-right  mobile-text-center nopadding-left-top ">
+              <img class="low-padding shadowbox"style=""src="images/cathy.jpg">
+            </div>
+            <p>Cathy Pill is a fashion designer living and working in Belgium. After completing her studies at the E.N.S.A.V. of La Cambre, Pill went on to work as an intern for A.F. Vandevorst and Vivienne Westwood. In 2003 Pill won The Collection of the Year at Trieste's contest, and in 2005 she also won sponsorships from La Fondation Pierre Bergé et Yves Saint Laurent and from Yves Saint Laurent at the Andam contest in France. </p>  <p>In the same year she went onto win the Fabio Inghirami Award in Italy and the Modo Bruxellae Price in Belgium. Her first S/S 2006 collection titled 'Blink' married Art Nouveau influenced sinuous patterns with draped and bunched silhouettes. The collection itself was shown at the Louvre in Paris and since then Pill presents her collections during Paris Fashion Weeks. </p>  <p>Her collections continue to be recognised for their smart use of prints, drapes and sharp details, creating modern and feminine silhouettes. Her first ready-to-wear collection was launched during the S/S 2006 Paris Fashion Week.  </p>
+          </div><div class="one columns"></div>
+        </div>
+      </div>
+      <div   id="timsteen" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
+        <div class="arrow-up no-transition" style="margin-left:31%"> </div> 
+        <div   class="twelve columns transition text-center nopadding">
+          <div class="four columns text-center mobile-text-center background-opacity-corners">
+            <div id="featured2" class="featured" style="height:0px;overflow:hidden;">          
+              <img style=""src="images/tim3.jpg" alt="slide image">
+              <img style=""src="images/tim1.jpg" alt="slide image">
+              <img style=""src="images/tim2.jpg" alt="slide image">
+            </div>
+          </div>
+          <div class="one columns"></div>
+          <div class="six columns text-left mobile-text-center">
+            <h3  style="">Tim van Steenbergen </h3>
+            <div class="four columns text-right  mobile-text-center nopadding-left-top ">
+              <img class="low-padding shadowbox"style=""src="images/tim.jpg">
+            </div>
+            <p>Tim Van Steenbergen graduated Magna cum Laude at the Antwerp Royal Academy of Fine Arts (fashion department, textile creation and theatre costume). Subsequently he took classes in drapery and couture techniques and worked as the first assistant of Olivier Theyskens.His first collection was launched in 2001 in Paris and in the same year he set up his company Mitzlavv bvba.</p>
+            <p>Meanwhile he's up to his twenty first collection/fashion show and the label Tim Van Steenbergen is being sold in the best designer shops all over the world. His style evolves into a refined pureness and female elegance. </p>
+            <p>Tim Van Steenbergen also created jewellery for Swarovski UK, shoes for Novella Italia, "Barbie" outfits, a jean for Xfit by Lycra, an haute couture dress for the Museum of Fine Arts and Lace in Calais (France) and the bag "le Seau Elsa" for the French label Lancel. </p>
+          </div><div class="one columns"></div>
+        </div>
+      </div>
+      <div   id="anverbeke" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
+        <div class="arrow-up no-transition" style="margin-left:53%"> </div> 
+        <div   class="twelve columns transition text-center nopadding">
+          <div class="four columns text-center mobile-text-center background-opacity-corners">
+            <div id="featured3" class="featured"style="height:0px;overflow:hidden;">          
+              <img style=""src="images/an3.jpg" alt="slide image">
+              <img style=""src="images/an1.jpg" alt="slide image">
+              <img style=""src="images/an2.jpg" alt="slide image">
+            </div>
+          </div>
+          <div class="one columns"></div>
+          <div class="six columns text-left mobile-text-center">
+            <h3  style="">Annemie Verbeke </h3>
+            <div class="four columns text-right  mobile-text-center nopadding-left-top ">
+              <img class="low-padding shadowbox"style=""src="images/an.jpg">
+            </div>
+            <p>The most important continuity throughout all the collections of Annemie is the yearning, the desire to achieve a personal view on sublime "daily life" clothes.Her creative knitwear is unique and expresses her extreme sensibility for the intimate combinations of colors and materials. </p>
+            <p>Every season, mostly female personalities with an exceptional destiny (who accomplished an artistic career with a social involvement) are giving her a human profoundness she really needs. It's a way of traveling, analyzing her own metaphors and dualities.</p>
+            <p>Paradoxes seem reality for her and in her design strategy she succeeds to confront the ephemeral to the timelessness. A special attention is made on gorgeous shapes for dresses and skirts with surprising, almost hidden details.Her way is a fragile expression of an A-typical fashion but with a strong 'temperament'.</p>
+          </div><div class="one columns"></div>
+        </div>
+      </div>
+      <div   id="chrisjansens" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
+        <div class="arrow-up no-transition" style="margin-left:74%"> </div> 
+        <div   class="twelve columns transition text-center nopadding">
+          <div class="four columns text-center mobile-text-center background-opacity-corners">
+            <div id="featured4" class="featured" style="height:0px;overflow:hidden;">          
+              <img style=""src="images/20.jpg" alt="slide image">
+              <img style=""src="images/10.jpg" alt="slide image">
+              <img style=""src="images/30.jpg" alt="slide image">
+            </div>
+          </div>
+          <div class="one columns"></div>
+          <div class="six columns text-left mobile-text-center">
+            <h3  style="">chris jansens </h3>
+            <div class="four columns text-right  mobile-text-center nopadding-left-top ">
+              <img class="low-padding shadowbox"style=""src="images/chris.jpg">
+            </div>
+            <p>De Belgische modeontwerpster Chris Janssens (°1967) heeft door de jaren heen een eigen signatuur ontwikkeld die herkenbaar is uit de duizend. Ze laat zich niet leiden door vluchtige hypes maar wel door een uitgesproken gevoel voor schoonheid, vrouwelijkheid en elegantie die ze op een heel eigentijdse en kleurige manier vertaalt.</p>  <p> Haar fans zijn geen fashion victims, maar sterke vrouwen die gaan voor een eigenzinnige, karaktervolle stijl met een sensuele ondertoon. Denk vloeiend vallende zijde, supervrouwelijke wikkeleffecten en drapages maar ook knus breiwerk en speelse combinaties.</p>
+            <p>Chris Janssens ontwerpt vanuit haar buikgevoel, maar verliest nooit de realiteit van de mode uit het oog. Haar perfecte pasvormen en kwalitatieve stoffen verraden een sterke technische knowhow. Chris Janssens volgde inderdaad eerst een technische modeopleiding voor ze als ontwerpster aan de slag ging bij Olivier Strelli. Ze was jarenlang de ontwerpster achter de Strelli-collectie “22 Octobre”.</p>
+          </div><div class="one columns"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ <div id="contactpage" class="row  text-center  transition background-opacity-corners border-left border-right border-shadow">
+    <div class="arrow-up no-transition" style="margin-left:10%"> </div> 
+    
+    
+
+
+<div   class="twelve columns transition text-center nopadding">
+          <div class="four columns text-center mobile-text-center background-opacity-corners">
+           
+
+            <iframe width="100%" height="470" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.be/maps?q=seventy4+roeselare+google+maps&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=seventy4&amp;hnear=Roeselare,+West-Vlaanderen,+Vlaams+Gewest&amp;t=m&amp;ll=50.947288,3.122263&amp;spn=0.018927,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.be/maps?q=seventy4+roeselare+google+maps&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=seventy4&amp;hnear=Roeselare,+West-Vlaanderen,+Vlaams+Gewest&amp;t=m&amp;ll=50.947288,3.122263&amp;spn=0.018927,0.036478&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">Grotere kaart weergeven</a></small>
+
+
+          </div>
+          <div class="one columns"></div>
+          <div class="six columns text-left mobile-text-center">
+           <h3>Contact us</h3>
+            <div class="four columns text-right  mobile-text-center nopadding-left-top ">
+              <img class="low-padding shadowbox"style=""src="images/bg.jpg">
+            </div>  <div class="one columns"></div>
+            <div class="four columns text-left  mobile-text-center nopadding-left-top ">
+            <h4  style="margin-top:0px;">Seventy4 </br>
+Noordstraat 74 </br>
+8800 Roeselare</br>
+
+Tel 051 21 25 30</br>
+
+<a style="font-size:25px;"href="mailto:seventy4@gmail.com">Seventy4@gmail.com</a></h4> 
+</div>
+
+<div id="contact-form" style="width:100%;float:left;margin-top:22px;">
+<form id="contact" method="post" action="">
+<fieldset style="width:100%">    
+ <div style="width:50%;float:left;padding:5px;" >
+<label for="name">Naam</label>
+<input style="width:98%;float:left;"type="text" name="name">
  </div>
 
-
--->
-
-</div> 
-
-</div> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--                                                        CONTACT PAGE                                         
-  <div id="page3"class="page"> 
-
-
-
-
-
-<div id="contact-form" style="width:500px;float:left;">    
- 
-<form id="contact" method="post" action="">
-<fieldset>    
- 
-<label for="name">Naam</label>
-<input type="text" name="name">
- 
+  <div style="width:50%;float:left;padding:5px;" >
 <label for="email">E-mail</label>
-<input type="email" name="email">
- 
-
- 
-
- 
-<label for="message">Jouw vraag?</label>
-<textarea name="message"></textarea>
- 
+<input style="width:100%;float:left;" type="email" name="email">
+ </div>
+ <div style="width:100%;float:left;" >
+<label style="width:100%;float:left;" for="message">Jouw vraag?</label>
+<textarea style="width:100%;float:left;height:70%" name="message"></textarea>
+  </div>
 <input type="submit" name="submit" id="submit" value="Versturen" />
  
 </fieldset>
 </form>
- 
-</div>
+          </div></div>
+          <div class="one columns"></div>
 
-
-
-
-
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.be/maps?q=seventy4+roeselare+google+maps&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=seventy4&amp;hnear=Roeselare,+West-Vlaanderen,+Vlaams+Gewest&amp;t=m&amp;ll=50.947288,3.122263&amp;spn=0.018927,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.be/maps?q=seventy4+roeselare+google+maps&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=seventy4&amp;hnear=Roeselare,+West-Vlaanderen,+Vlaams+Gewest&amp;t=m&amp;ll=50.947288,3.122263&amp;spn=0.018927,0.036478&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">Grotere kaart weergeven</a></small>
-
-<img src="SBSEVENTY4[1].JPG" style="float:left;height:150px; width:auto;">      
-    </div>
-
- <div id="page4" class="page"> 
-  
-<h1> i am page 4</h1>
-
-    </div>
-
-
-
-
-
-
-       </div>
-   </div></div></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--                                                        footer                                            -->
-
-  </div>    </div>
-    
-<div class="nav-barwrapper2 " style="">
-
-  <div class="row" style="margin-bottom: 0px;">
-    <p style="width:200px;float:left;">&copy; Copyright Seventy4.</p>
-        <div class="four columns" style="float:right;margin-top:10px;">
-          <ul class="link-list right">
-            <span style="float:left;font-weight:bold;">Designed by</span></a>
-            <img src="images/fractured.png" style="width:80px;opacity:0.5;border:1px solid #444;border-radius:8px;">
-          </ul>
         </div>
-     
-  </div>
-  
- </div>   
+
+     </div>
 
 
-</div> 
-
-
-
-
-
-
-
-
-
-
+   
+</div>
 
 
 
     <!--                                                        scripts                                         -->
      
 
-
+</body>
 
 
 
@@ -1336,172 +362,161 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 </script>
 
 
+
 <script>
-    function designer1() {
-    var x, divArray = ["designer2", "designer3"];
+    function ontwerperspageshow() {
+    var x, divArray = ["ontwerperspage"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:none';
+            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
+        }
+    }
+}
+</script>
+<script>
+    function ontwerperspagehide() {
+    var x, divArray = ["ontwerperspage"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
         }
     }
 }
 </script>
 
 <script>
-    function designer2() {
-    var x, divArray = ["designer1", "designer3"];
-    for (x in divArray) {
-        if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:none;';
-        }
-    }
-}
-</script>
-
-<script>
-    function designer3() {
-    var x, divArray = ["designer1", "designer2"];
-    for (x in divArray) {
-        if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:none;';
-        }
-    }
-}
-</script>
-
-
-
-
-
-
-
-
-
-<script>
-    function designer10() {
-    var x, divArray = ["designer1"];
-    for (x in divArray) {
-        if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:block;';
-            
-        }
-    }
-}
-</script>
-
-
-
-
-<script>
-    function designer20() {
-   var x, divArray = ["designer2"];
-    for (x in divArray) {
-        if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:block;';
-        }
-    }
-}
-</script>
-
-<script>
-    function designer30() {
-    var x, divArray = ["designer3"];
-    for (x in divArray) {
-        if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:block;';
-        }
-    }
-}
-</script>
-
-<script>
-    function ontwerpers() {
-    var x, divArray = ["page2"];
-    for (x in divArray) {
-        if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:block;';
-        }
-    }
-}
-</script>
-<script>
-    function ontwerpers2() {
+    function homeshow() {
     var x, divArray = ["homepage"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:none;';
-        }
-    }
-}
-</script>
-
-
-
-
-
-
-<script>
-    function homepage() {
-    var x, divArray = ["page2"];
-    for (x in divArray) {
-        if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:none;';
+            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
         }
     }
 }
 </script>
 <script>
-    function homepage2() {
+    function homehide() {
     var x, divArray = ["homepage"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:block;';
+            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
+        }
+    }
+}
+</script>
+
+
+
+<script>
+    function cathyshow() {
+    var x, divArray = ["cathyphill"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
+        }
+    }
+}
+</script>
+<script>
+    function cathyhide() {
+    var x, divArray = ["cathyphill"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
+        }
+    }
+}
+</script>
+<script>
+    function timshow() {
+    var x, divArray = ["timsteen"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
+        }
+    }
+}
+</script>
+<script>
+    function timhide() {
+    var x, divArray = ["timsteen"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
         }
     }
 }
 </script>
 
 <script>
-    function ontwerpersmenu() {
-    var x, divArray = ["ontwerpersmenu"];
+    function anshow() {
+    var x, divArray = ["anverbeke"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:block;';
+            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
+        }
+    }
+}
+</script>
+<script>
+    function anhide() {
+    var x, divArray = ["anverbeke"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
         }
     }
 }
 </script>
 
 <script>
-    function stop() {
-    var x, divArray = ["ontwerpersmenu"];
+    function chrisshow() {
+    var x, divArray = ["chrisjansens"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:none;';
+            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
         }
     }
 }
 </script>
 <script>
-    function closeontwerpersmenumenu() {
-    var x, divArray = ["ontwerpersmenu"];
+    function chrishide() {
+    var x, divArray = ["chrisjansens"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:none;';
+            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
         }
     }
 }
 </script>
+
+
+
 <script>
-    function naam1() {
-    var x, divArray = ["ontwerpersmenu"];
+    function contacthide() {
+    var x, divArray = ["contactpage"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'display:block;';
+            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
         }
     }
 }
 </script>
+
+<script>
+    function contactshow() {
+    var x, divArray = ["contactpage"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
+        }
+    }
+}
+</script>
+
+
+
+
 
 
 
@@ -1521,10 +536,10 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 <!--
     function toggle_height(id) {
        var e = document.getElementById(id);
-       if(e.style.height == '2500')
-          e.style.height = '0';
+       if(e.style.height == '0px')
+          e.style.height = '500px';
        else
-          e.style.height = '2500';
+          e.style.height = '0px';
     }
 //-->
 </script>
@@ -1581,6 +596,22 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
     });
     </script> 
  
- 
-</body>
+ <script>
+$("#cathy").hover(function () {
+    $('#cathyshow').toggleClass('testings');
+});
+
+$("#tim").hover(function () {
+    $('#timshow').toggleClass('testings');
+});
+
+$("#an").hover(function () {
+    $('#anshow').toggleClass('testings');
+});
+
+$("#chris").hover(function () {
+    $('#chrisshow').toggleClass('testings');
+});
+</script>
+
 </html>

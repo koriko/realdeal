@@ -1,4 +1,4 @@
-body, html  {padding: 0;margin:0px;background: #e1e1e1;background: url(../images/pattern1.jpg) repeat center center fixed; 
+body, html  {padding: 0;margin:0px;background: #e1e1e1;background: url(../images/pattern5.jpg) repeat center center fixed; 
 }
 html  {padding: 0;margin:0px;}
 h1, h2, h3, h4, h5, h6 {font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-family: 'BenchNine', sans-serif;font-weight: normal;font-style: normal;color: #ffffff;text-rendering: optimizeLegibility;line-height: 1.1;}
@@ -27,8 +27,7 @@ background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.75) 0%,
 background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.75) 84%,rgba(255,255,255,0) 100%); /* IE10+ */
 background: radial-gradient(ellipse at center, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.75) 84%,rgba(255,255,255,0) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
--webkit-border-radius: 5px;
-border-radius: 5px; 
+ 
 
 }
 
@@ -72,9 +71,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .border-top {border-top: solid 1px #000;}
 .border-bottom {border-bottom: solid 1px #000;}
 .border {border: solid 1px #000;}
-
+.border-white {border: solid 1px #fff;}
 	.shadowbox {-webkit-box-shadow: inset 0px 0px 1px 1px #555;box-shadow: inset 0px 0px 1px 1px #555;}
-	.shadowbox-white {-webkit-box-shadow: inset 0px 0px 1px 1px #d1d1d1;box-shadow: inset 0px 0px 1px 1px #d1d1d1;}
+	.shadowbox-white {-webkit-box-shadow: inset 0px 0px 1px 1px #b1b1b1;box-shadow: inset 0px 0px 1px 1px #999;}
 .columns { padding:15px;;}
 .hover-highlite img {width:100%;height: 220px; overflow:hidden;padding:10px;}
 .hover-highlite:hover {cursor: pointer;-webkit-box-shadow: inset 0px 0px 2px 1px #333;
@@ -97,8 +96,8 @@ background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(225,225,225,1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e1e1e1',GradientType=0 ); /* IE6-9 */}
 .nopadding {padding: 0px;}
 .noborder-radius{border-radius: 0px;}
-.border-radius{border-radius: 10px;}
-.margin-top {margin-top:10px;}
+.border-radius{border-radius: 5px;}
+.margin-top {margin-top:3%;}
 .nopadding-left-top {padding-left: 0px;padding-top: 0px;}
 .low-padding {padding: 4px;}
 .overflow-hidden{overflow: hidden;}
@@ -152,7 +151,7 @@ a { cursor: pointer;font-family: 'BenchNine', sans-serif;font-size:18px;}
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 
-.nav-bar-wrapper {float: none;margin-top: 5px;margin-bottom: 10px;
+.nav-bar-wrapper {float: none;margin-top: 0px;margin-bottom: 5px;
 	height: auto;border-top: 1px solid #222;border-bottom: 1px solid #333;
 	-webkit-box-shadow: 0px 1px 3px 1px #fff;
 box-shadow: 0px 1px 3px 1px #444; 
@@ -165,18 +164,7 @@ background: -ms-linear-gradient(top, rgba(77,77,77,1) 0%,rgba(60,60,60,1) 100%);
 background: linear-gradient(to bottom, rgba(77,77,77,1) 0%,rgba(60,60,60,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4d', endColorstr='#3c3c3c',GradientType=0 ); /* IE6-9 */
 }
-.nav-bar {background: transparent;margin-top:0px; }
-.exerp-menubox {text-decoration: none;;padding-left:20px;padding-right:20px;font-size:18px; color: #777;font-family: 'BenchNine', sans-serif; }
-a div {text-decoration: none;font size:55px;}
-	.menubox  {height: auto;}
 
-
-.nav-bar > li {height:80px;cursor: pointer;float: none;width:100%;padding:10px;padding-top:10px;padding-bottom:10px;margin-top: 0px; border: 0px solid #333333;-webkit-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; }
-.nav-bar > li:first-child {border: solid 0px #000;  height:80px; }
-.nav-bar > li:last-child { height:80px;border-right: solid 0px #000; -webkit-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset;}
-.nav-bar > li > a:first-child{ color:#fff;font-weight: lighter;line-height: normal;
-    font-family: 'BenchNine', sans-serif; ;font-size: 24px;}
-.nav-bar > li:hover {opacity:0.5;}
 .orbit-wrapper{margin-top: 15px;}
 
 
@@ -197,7 +185,18 @@ a div {text-decoration: none;font size:55px;}
 .menubox  li:hover {opacity:0.5;background: #333;}
 .menubox  li:hover {opacity:0.5;background: #333;}
 
+.nav-bar {background: transparent;margin-top:0px; }
+.exerp-menubox {text-decoration: none;;padding-left:20px;padding-right:20px;font-size:18px; color: #777;font-family: 'BenchNine', sans-serif; }
+a div {text-decoration: none;font size:55px;}
+	.menubox  {height: auto;}
 
+
+.nav-bar > li {height:80px;cursor: pointer;float: none;width:100%;padding:10px;padding-top:10px;padding-bottom:10px;margin-top: 0px; border: 0px solid #333333;-webkit-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; }
+.nav-bar > li:first-child {border: solid 0px #000;  height:80px; }
+.nav-bar > li:last-child { height:80px;border-right: solid 0px #000; -webkit-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset;}
+.nav-bar > li > a:first-child{ color:#fff;font-weight: lighter;line-height: normal;
+    font-family: 'BenchNine', sans-serif; ;font-size: 24px;}
+.nav-bar > li:hover {opacity:0.5;}
 #facebookbutton  a li {list-style: none;text-decoration: none;margin-left:0px;height:auto;cursor: pointer;float: none;width:100%;
 	padding:10px;padding-top:10px;padding-bottom:10px;margin-top: 0px;margin-bottom: 0px; border: 0px solid #333333;-webkit-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; }
 #facebookbutton a:first-child{ color:#fff;font-weight: lighter;line-height: normal;
