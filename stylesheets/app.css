@@ -1,4 +1,5 @@
-body, html  {padding: 0;margin:0px;background: #e1e1e1;background: url(../images/pattern1.jpg) repeat center center fixed; 
+body, html  {padding: 0;margin:0px;background: #e1e1e1;background: url(../images/pattern1.jpg) repeat;;
+
 }
 html  {padding: 0;margin:0px;}
 h1, h2, h3, h4, h5, h6 {font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-family: 'BenchNine', sans-serif;font-weight: normal;font-style: normal;color: #ffffff;text-rendering: optimizeLegibility;line-height: 1.1;}
@@ -20,18 +21,19 @@ transition: all 400ms ease-out;}
 -o-transition: all 0ms ease-out;
 transition: all 0ms ease-out;}
 .color-white {color: #e1e1e1}
-.background-opacity-corners {background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.75) 84%, rgba(255,255,255,0) 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.75)), color-stop(84%,rgba(255,255,255,0.75)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.75) 84%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.75) 84%,rgba(255,255,255,0) 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.75) 84%,rgba(255,255,255,0) 100%); /* IE10+ */
-background: radial-gradient(ellipse at center, rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.75) 84%,rgba(255,255,255,0) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
- 
+.background-opacity-corners {background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 88%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(88%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 88%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 88%,rgba(255,255,255,0) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 88%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(255,255,255,1) 88%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 
 }
 
-
+.shadowbox-outer {-webkit-box-shadow: 0px 1px 3px 1px #444;
+box-shadow: 0px 1px 3px 1px #666;}
 .header-background {background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
 background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
 background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
@@ -98,21 +100,23 @@ h1 {background: none repeat scroll 0 0 transparent;
     color: #d1d1d1;
     cursor: default;
     font-family: 'OpenSansLight',sans-serif;
-    font-size: 52px;
+    font-size: 62px;
     height: auto;
-   letter-spacing: 2px;
+   letter-spacing: 4px;
     
     line-height: normal;
     text-indent: 0;
-    text-shadow: 0 3px 3px #000;color: #e1e1e1;
+    text-shadow: 0 3px 3px #000;color: #fff;
     margin-top: 5px;
     margin-bottom: 5px;
     font-family: 'BenchNine', sans-serif;}
+
+
 h2 { font-weight: 400;text-shadow: 0 1px 1px #fff;color: #333;}
 h3 { color: #333;text-shadow: 0 1px 1px #fff;}
 h4 {color: #333; }
-h5 { }
-h6 {margin-left: 12px; }
+h5 {color: #333; }
+h6 {color: #333;}
 .arrow-up {
 	position:absolute;
 	width: 0; 
@@ -143,10 +147,10 @@ a { cursor: pointer;font-family: 'BenchNine', sans-serif;font-size:18px;}
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 
-.nav-bar-wrapper {float: none;margin-top: 4px;margin-bottom: 8px;
-	height: auto;border-top: 0px solid #222;border-bottom: 1px solid #333;
+.nav-bar-wrapper {float: none;margin-top: 5px;margin-bottom: 6px;
+	height: auto;border-top: 1px solid #555;border-bottom: 1px solid #333;
 	-webkit-box-shadow: 0px 1px 3px 1px #fff;
-box-shadow: 0px 1px 3px 1px #444; 
+box-shadow: 0px 1px 3px 1px #333; 
 	background: rgb(77,77,77); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(77,77,77,1) 0%, rgba(60,60,60,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(77,77,77,1)), color-stop(100%,rgba(60,60,60,1))); /* Chrome,Safari4+ */
@@ -187,7 +191,7 @@ a div {text-decoration: none;font size:55px;}
 .nav-bar > li:first-child {border: solid 0px #000;  height:80px; }
 .nav-bar > li:last-child { height:80px;border-right: solid 0px #000; -webkit-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset;}
 .nav-bar > li > a:first-child{ color:#fff;font-weight: lighter;line-height: normal;
-    font-family: 'BenchNine', sans-serif; ;font-size: 24px;}
+    font-family: 'BenchNine', sans-serif; ;font-size: 22px;}
 .nav-bar > li:hover {opacity:0.5;}
 #facebookbutton  a li {list-style: none;text-decoration: none;margin-left:0px;height:auto;cursor: pointer;float: none;width:100%;
 	padding:10px;padding-top:10px;padding-bottom:10px;margin-top: 0px;margin-bottom: 0px; border: 0px solid #333333;-webkit-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 0px 0 0 rgba(255, 255, 255, 0.2) inset; }
