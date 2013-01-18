@@ -32,33 +32,37 @@
 <link href='http://fonts.googleapis.com/css?family=BenchNine:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "113ae654-c236-4992-9801-43f7a1a952f3"});</script>
+<div class="row  transition ">
+ <div class="twelve columns paddingback shadowbox-outer" style="">
 
-
-
-
-
-  <div id="header"class="row transition text-center  header-background margin-top nopadding">
-    <div class="twelve columns text-center mobile-text-center border-left border-right border-shadow border-radius">
-      <div class="three columns  text-center mobile-text-center menubox nopadding  ">
+  <div id="header"class="twelve columns transition text-center  header-background nopadding shadowbox-outer" >
+    <div class="twelve columns text-center mobile-text-center" style="margin-top:0px;">
+      <div class="three columns  text-center mobile-text-center  nopadding  ">
         <h1>Seventy4</h1>    
       </div>
-      <div class="six columns  text-center mobile-text-center menubox nopadding">
+      <div class="six columns  text-center mobile-text-center  nopadding">
         <h2>Fashion-Strictly For Women</h2>
       </div>
     </div>
   </div>
 
-  <div name="menubar" class=" transition">
-    <div class="row nav-bar-wrapper transition">
-      <div class="twelve columns nopadding">
-        <div name="homebutton" class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow" onClick="ontwerperspagehide();timhide();cathyhide();anhide();;chrishide();contacthide();homeshow()"   >  
+
+<div name="menu"class="twelve columns transition text-center  nopadding " style="" >
+  <div  class=" transition ">
+    <div class="twelve columns  transition  nopadding ">
+
+      <div class="twelve columns nopadding nav-bar-wrapper">
+        <div name="homebutton" class="three columns   text-left mobile-text-center menubox nopadding border-right border-shadow nav-bar" onClick="ontwerperspagehide();timhide();cathyhide();anhide();;chrishide();contacthide();homeshow()"   >
           <li>
             <a>Home</a>
             <div class="exerp-menubox mobile-text-center">About our store
             </div>
           </li>  
         </div>
-        <div name="ontwerpersbutton"onClick=";contacthide();ontwerperspageshow();homehide();cathyshow();" class=" three columns  text-left mobile-text-center menubox nopadding ontwerpersboxhover nav-bar border-right border-shadow">  
+        <div name="ontwerpersbutton"onClick=";contacthide();ontwerperspageshow();homehide();cathyshow();" class=" three columns  text-left mobile-text-center menubox nopadding ontwerpersboxhover nav-bar border-right border-shadow">
           <li >
             <a>Designers</a>
             <div class="exerp-menubox mobile-text-center">Belgian Fashion
@@ -66,183 +70,174 @@
           </li>
           <div class="arrow-down" style="top:10px;"> </div> 
         </div>
-        <div name="contactbutton"class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow">  
+        <div name="contactbutton"class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow">
           <li onClick=";ontwerperspagehide();homehide();;contactshow()" >
             <a>Contact</a>
             <div class="exerp-menubox mobile-text-center">Get in touch
             </div>
           </li> 
-        </div>  
-        
-        <div name="facebookbutton"class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow">  
-          <div class="websymbols fb-icon">f</div> 
-          <li onClick="contacthide();contactshow()" >
+        </div>
+        <div name="facebookbutton"class="three columns  nav-bar text-left mobile-text-center menubox nopadding  border-shadow">
+          <div class="websymbols fb-icon">f</div> <li onClick="contacthide();contactshow()" >
+          <a target="_blank" href="http://www.youtube.com/watch?v=VvRVu78IHHo">Follow us</a>
+          <a target="_blank" href="http://www.youtube.com/watch?v=VvRVu78IHHo"><div class="exerp-menubox text-left mobile-text-center">See the new arivals</div></a>
+        </li> 
+      </div>  
+    </div>
+  </div>
+</div>
 
-            <a target="_blank" href="http://www.youtube.com/watch?v=VvRVu78IHHo">Follow us</a>
-             <a target="_blank" href="http://www.youtube.com/watch?v=VvRVu78IHHo"><div class="exerp-menubox text-left mobile-text-center">See the new arivals</div></a>
-           
-          </li> 
-        </div>  
+
+<div id="homepage" class="twelve columns nopadding  text-center  transition background-opacity-corners   shadowbox-outer ">
+  <div class="arrow-up no-transition" style="margin-left:10%"> </div> 
+  <div   class="twelve columns transition text-center ">
+    <div   class="twelve columns transition text-center ">
+      <div class="three columns background-opacity-corners   " style="margin-top:22px;">
+        <div class="twelve columns background-opacity-corners " style="opacity:0.95">
+          <img class="background-opacity-corners low-padding "style="opacity:0.9;width:200%;;"src="images/fadepic4.jpg">
+          <div class="twelve columns text-center mobile-text-center low-padding ">
+            <h4  style="">Monday </h4>
+            <h5>01.30 pm - 06.30 pm</h5>
+            <h4  style="">Tuesday - Saturday</h4>
+            <h5>10.00 am - 12.00 am 
+            </br>& 01.30 pm - 06.30 pm</h5>
+            <h4  style="">Sunday & Public Holidays</h4>
+            <h5>closed</h5>
+          </div>
+        </div>
+      </div>
+      <div class="one columns"></div>
+      <div class="seven columns text-left mobile-text-center nopadding" style="margin-top:22px;">
+        <h3  style="">About </h3>
+        <p>De Belgische modeontwerpster Chris Janssens iet leiden door vluchtige hypes maar wel door een uitgesproken gevoel voor schoonheid, vrouwelijkheid en elegantie die ze op een heel eigentijdse en kleurige manier vertaalt.</p>  
+        <p> Haar fans zijnsensuele ondertoon. Denk vloeiend vallende zijde, supervrouwelijke wikkeleffecten en drapages maar ook knus breiwerk en speelse combinaties.</p>            
+        <p>Chris Janssens ontwerpt vanuit haar buikgevoel, maar verliest nooit de realiteit van de mode uit het oog. Haar perfecte pasvormen en kwalitatieve stohe modeopleiding v22 Octobre”.</p>
+        <div class="twelve columns background-opacity-corners shadowbox-outer " style="">
+          <div class="two columns background-opacity-corners" >
+            <img class=" "style="opacity:0.9;width:200%;float:right;"src="images/cathy2.jpg">
+          </div>
+          <div class="eight columns background-opacity-corners text-center" >
+            <h3  style="">share Seventy4 with your friends</h3>
+            <span class='st_facebook' displayText='Facebook'></span>
+            <span class='st_twitter' displayText='Tweet'></span>
+            <span class='st_linkedin' displayText='LinkedIn'></span>
+          </div>
+          <div class="two columns background-opacity-corners" >
+            <img class=" "style="opacity:1;width:200%;float:right;"src="images/cathy3.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="one columns">
       </div>
     </div>
   </div>
-
-  <div id="homepage" class="row  text-center  transition background-opacity-corners border-left border-right border-shadow">
-    <div class="arrow-up no-transition" style="margin-left:10%"> </div> 
-    
-    
-
-
-     
-<div   class="twelve columns transition text-center nopadding">
-          <div class="four columns text-center mobile-text-center background-opacity-corners">
-            <div id="featured8" class="featured" style="height:0px;overflow:hidden;">          
-              <img style=""src="images/123.jpg" alt="slide image">
-              <img style=""src="images/124.jpg" alt="slide image">
-              <img style=""src="images/126.jpg" alt="slide image">
-              <img style=""src="images/127.jpg" alt="slide image">
-            </div>
-          </div>
-          <div class="one columns"></div>
-          <div class="six columns text-left mobile-text-center">
-            <h3  style="">About </h3>
-            <div class="four columns text-right  mobile-text-center nopadding-left-top ">
-              <img class="low-padding shadowbox"style=""src="images/bg.jpg">
-            </div>
-            <p>De Belgische modeontwerpster Chris Janssens (°1967) heeft door de jaren heen een eigen signatuur ontwikkeld die herkenbaar is uit de duizend. Ze laat zich niet leiden door vluchtige hypes maar wel door een uitgesproken gevoel voor schoonheid, vrouwelijkheid en elegantie die ze op een heel eigentijdse en kleurige manier vertaalt.</p>  <p> Haar fans zijnsensuele ondertoon. Denk vloeiend vallende zijde, supervrouwelijke wikkeleffecten en drapages maar ook knus breiwerk en speelse combinaties.</p>
-            <p>Chris Janssens ontwerpt vanuit haar buikgevoel, maar verliest nooit de realiteit van de mode uit het oog. Haar perfecte pasvormen en kwalitatieve stohe modeopleiding voor ze als ontwerpster aan de slag ging bij Olivier Strelli. Ze was jarenlang de ontwerpster achter de Strelli-collectie “22 Octobre”.</p>
-          
-             <div class="four columns text-left mobile-text-center nopadding " >
-   <h4  style="">Monday </h4>
-   <span>
-01.30 pm - 06.30 pm</div>
-
-<div class="four columns text-left mobile-text-center nopadding ">
-<h4  style="">
-Tuesday - Saturday</h4>
-10.00 am - 12.00 am 
-</br>& 01.30 pm - 06.30 pm
-</div>
-<div class="four columns text-left mobile-text-center nopadding ">
-
-<h4  style="">Sunday & Public Holidays</h4>
-closed
-</div>
-</span>
-</div><div class="one columns"></div>
-
-        </div>
-
-     </div>
-
-
-   
 </div>
 
-
-  <div  id="ontwerperspage" class="full-width transition">
-     
-    <div   class="row transition text-center nav-bar-wrapper " style="height:auto;margin-top:0px;">
-      <div class="ontwerpersbox twelve columns nopadding  transition " style="-webkit-box-shadow: 1px 1px 2px 1px;box-shadow: 1px 1px 2px 1px ;">
-        <div class="tussenstuk" style=""> </div>
-        <div class="twelve columns text-left nopadding"style="" >
-          <ul>
-            <div id="cathy" class="two columns    text-center menubox nopadding border-right border-shadow" onClick="homehide();timhide();anhide();chrishide();cathyshow();">
-              <li class="" >
-                <a>Cathy Phill</a>
-              </li> 
-            </div>
-            <div id="tim" class="two columns    text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();chrishide();timshow();">
-              <li><a>Tim Van Steenbergen</a>
-              </li>
-            </div>
-            <div id="an" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();timhide();chrishide();anshow()">
-              <li><a>Annemie Verbeke</a>
-              </li>
-            </div>
-              <div id="chris" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
-                <li><a>Chris Jansens</a>
-                </li>
-              </div>
-              <div id="chris" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
-                <li><a>Chris Jansens</a>
-                </li>
-              </div>
-              <div id="chris" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
-                <li><a>Chris Jansens</a>
-                </li>
-              </div>
-              
-            </ul>
+<div  id="ontwerperspage" class="twelve columns transition nopadding">
+  <div   class="row transition text-center nav-bar-wrapper nopadding" style="">
+    <div class="ontwerpersbox twelve columns nopadding  transition " style="-webkit-box-shadow: 1px 1px 2px 1px;box-shadow: 1px 1px 2px 1px ;">
+      <div class="tussenstuk" style=""> </div>
+      <div class="twelve columns text-left nopadding"style="" >
+        <ul>
+          <div id="cathy" class="two columns    text-center menubox nopadding border-right border-shadow" onClick="homehide();timhide();anhide();chrishide();cathyshow();">
+            <li class="" >
+              <a>Cathy Phill</a>
+            </li> 
           </div>
-        </div>    
+          <div id="tim" class="two columns    text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();chrishide();timshow();">
+            <li><a>Tim Van Steenbergen</a>
+            </li>
+          </div>
+          <div id="an" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();timhide();chrishide();anshow()">
+            <li><a>Annemie Verbeke</a>
+            </li>
+          </div>
+          <div id="chris" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
+            <li><a>Chris Jansens</a>
+            </li>
+          </div>
+          <div id="chris" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
+            <li><a>Chris Jansens</a>
+            </li>
+          </div>
+          <div id="chris" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
+            <li><a>Chris Jansens</a>
+            </li>
+          </div>
+        </ul>
       </div>
-      <div   id="cathyphill" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
-        <div class="arrow-up no-transition" style="margin-left:10%"> </div> 
-        <div   class="twelve columns transition text-center nopadding">
-          <div class="four columns text-center mobile-text-center background-opacity-corners">
-            <div id="featured" class="featured " style="height:0px;overflow:hidden;">          
-              <img style=""src="images/cathy3.jpg" alt="slide image">
-              <img style=""src="images/cathy1.jpg" alt="slide image">
-              <img style=""src="images/cathy2.jpg" alt="slide image">
-            </div>
-          </div>
-          <div class="one columns"></div>
-          <div class="six columns text-left mobile-text-center">
-            <h3  style="">cathyphill </h3>
-            <div class="four columns text-right  mobile-text-center nopadding-left-top ">
-              <img class="low-padding shadowbox"style=""src="images/cathy.jpg">
-            </div>
-            <p>Cathy Pill is a fashion designer living and working in Belgium. After completing her studies at the E.N.S.A.V. of La Cambre, Pill went on to work as an intern for A.F. Vandevorst and Vivienne Westwood. In 2003 Pill won The Collection of the Year at Trieste's contest, and in 2005 she also won sponsorships from La Fondation Pierre Bergé et Yves Saint Laurent and from Yves Saint Laurent at the Andam contest in France. </p>  <p>In the same year she went onto win the Fabio Inghirami Award in Italy and the Modo Bruxellae Price in Belgium. Her first S/S 2006 collection titled 'Blink' married Art Nouveau influenced sinuous patterns with draped and bunched silhouettes. The collection itself was shown at the Louvre in Paris and since then Pill presents her collections during Paris Fashion Weeks. </p>  <p>Her collections continue to be recognised for their smart use of prints, drapes and sharp details, creating modern and feminine silhouettes. Her first ready-to-wear collection was launched during the S/S 2006 Paris Fashion Week.  </p>
-          </div><div class="one columns"></div>
+    </div>    
+  </div>
+  <div   id="cathyphill" class="row transition text-center  background-opacity-corners shadowbox-outer">
+    <div class="arrow-up no-transition" style="margin-left:5%"> </div> 
+    <div   class="twelve columns transition text-center nopadding">
+      <div class="four columns text-center mobile-text-center background-opacity-corners">
+        <div id="featured" class="featured"style="height:0px;overflow:hidden;">          
+          <img style=""src="images/cathy3.jpg" alt="slide image">
+          <img style=""src="images/cathy1.jpg" alt="slide image">
+          <img style=""src="images/cathy2.jpg" alt="slide image">
         </div>
       </div>
-      <div   id="timsteen" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
-        <div class="arrow-up no-transition" style="margin-left:31%"> </div> 
-        <div   class="twelve columns transition text-center nopadding">
-          <div class="four columns text-center mobile-text-center background-opacity-corners">
-            <div id="featured2" class="featured" style="height:0px;overflow:hidden;">          
-              <img style=""src="images/tim3.jpg" alt="slide image">
-              <img style=""src="images/tim1.jpg" alt="slide image">
-              <img style=""src="images/tim2.jpg" alt="slide image">
-            </div>
-          </div>
-          <div class="one columns"></div>
-          <div class="six columns text-left mobile-text-center">
-            <h3  style="">Tim van Steenbergen </h3>
-            <div class="four columns text-right  mobile-text-center nopadding-left-top ">
-              <img class="low-padding shadowbox"style=""src="images/tim.jpg">
-            </div>
-            <p>Tim Van Steenbergen graduated Magna cum Laude at the Antwerp Royal Academy of Fine Arts (fashion department, textile creation and theatre costume). Subsequently he took classes in drapery and couture techniques and worked as the first assistant of Olivier Theyskens.His first collection was launched in 2001 in Paris and in the same year he set up his company Mitzlavv bvba.</p>
-            <p>Meanwhile he's up to his twenty first collection/fashion show and the label Tim Van Steenbergen is being sold in the best designer shops all over the world. His style evolves into a refined pureness and female elegance. </p>
-            <p>Tim Van Steenbergen also created jewellery for Swarovski UK, shoes for Novella Italia, "Barbie" outfits, a jean for Xfit by Lycra, an haute couture dress for the Museum of Fine Arts and Lace in Calais (France) and the bag "le Seau Elsa" for the French label Lancel. </p>
-          </div><div class="one columns"></div>
+      <div class="one columns"></div>
+      <div class="six columns text-left mobile-text-center">
+        <h3  style="">cathy phill </h3>
+        <div class="four columns text-right  mobile-text-center nopadding-left-top ">
+          <img class="low-padding shadowbox"style=""src="images/cathy.jpg">
+        </div>
+        <p>Cathy Pill is a fashion designer living and working in Belgium. After completing her studies at the E.N.S.A.V. of La Cambre, Pill went on to work as an intern for A.F. Vandevorst and Vivienne Westwood. In 2003 Pill won The Collection of the Year at Trieste's contest.</p>  <p>In the same year she went onto win the Fabio Inghirami Award in Italy and the Modo Bruxellae Price in Belgium. Her first S/S 2006 collection titled 'Blink' married Art Nouveau influenced sinuous patterns with draped and bunched silhouettes. </p>  <p>Her collections continue to be recognised for their smart use of prints, drapes and sharp details, creating modern and feminine silhouettes. Her first ready-to-wear collection was launched during the S/S 2006 Paris Fashion Week.  </p>
+      </div>
+      <div class="one columns"></div>
+    </div>
+  </div>
+  <div id="timsteen" class="row transition text-center  background-opacity-corners shadowbox-outer">
+    <div class="arrow-up no-transition" style="margin-left:18%"> </div> 
+    <div   class="twelve columns transition text-center nopadding">
+      <div class="four columns text-center mobile-text-center background-opacity-corners">
+        <div id="featured2" class="featured"style="height:0px;overflow:hidden;">          
+          <img style=""src="images/tim3.jpg" alt="slide image">
+          <img style=""src="images/tim1.jpg" alt="slide image">
+          <img style=""src="images/tim2.jpg" alt="slide image">
         </div>
       </div>
-      <div   id="anverbeke" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
-        <div class="arrow-up no-transition" style="margin-left:53%"> </div> 
-        <div   class="twelve columns transition text-center nopadding">
-          <div class="four columns text-center mobile-text-center background-opacity-corners">
-            <div id="featured3" class="featured"style="height:0px;overflow:hidden;">          
-              <img style=""src="images/an3.jpg" alt="slide image">
-              <img style=""src="images/an1.jpg" alt="slide image">
-              <img style=""src="images/an2.jpg" alt="slide image">
-            </div>
-          </div>
-          <div class="one columns"></div>
-          <div class="six columns text-left mobile-text-center">
-            <h3  style="">Annemie Verbeke </h3>
-            <div class="four columns text-right  mobile-text-center nopadding-left-top ">
-              <img class="low-padding shadowbox"style=""src="images/an.jpg">
-            </div>
-            <p>The most important continuity throughout all the collections of Annemie is the yearning, the desire to achieve a personal view on sublime "daily life" clothes.Her creative knitwear is unique and expresses her extreme sensibility for the intimate combinations of colors and materials. </p>
-            <p>Every season, mostly female personalities with an exceptional destiny (who accomplished an artistic career with a social involvement) are giving her a human profoundness she really needs. It's a way of traveling, analyzing her own metaphors and dualities.</p>
-            <p>Paradoxes seem reality for her and in her design strategy she succeeds to confront the ephemeral to the timelessness. A special attention is made on gorgeous shapes for dresses and skirts with surprising, almost hidden details.Her way is a fragile expression of an A-typical fashion but with a strong 'temperament'.</p>
-          </div><div class="one columns"></div>
+      <div class="one columns"></div>
+      <div class="six columns text-left mobile-text-center">
+        <h3  style="">Tim van Steenbergen </h3>
+        <div class="four columns text-right  mobile-text-center nopadding-left-top ">
+          <img class="low-padding shadowbox"style=""src="images/tim.jpg">
+        </div>
+        <p>Tim Van Steenbergen graduated Magna cum Laude at the Antwerp Royal Academy of Fine Arts (fashion department, textile creation and theatre costume). Subsequently he took classes in drapery and couture techniques and worked as the first assistant of Olivier Theyskens.His first collection was launched in 2001 in Paris and in the same year he set up his company Mitzlavv bvba.</p>
+        
+        <p>Tim Van Steenbergen also created jewellery for Swarovski UK, shoes for Novella Italia, "Barbie" outfits, a jean for Xfit by Lycra, an haute couture dress for the Museum of Fine Arts and Lace in Calais (France) and the bag "le Seau Elsa" for the French label Lancel.</p>
+      </div>
+      <div class="one columns">
+      </div>
+    </div>
+  </div>
+  <div   id="anverbeke" class="row transition text-center  background-opacity-corners shadowbox-outer">
+    <div class="arrow-up no-transition" style="margin-left:32%"> </div> 
+    <div   class="twelve columns transition text-center nopadding">
+      <div class="four columns text-center mobile-text-center background-opacity-corners">
+        <div id="featured3" class="featured"style="height:0px;overflow:hidden;">          
+          <img style=""src="images/an3.jpg" alt="slide image">
+          <img style=""src="images/an1.jpg" alt="slide image">
+          <img style=""src="images/an2.jpg" alt="slide image">
         </div>
       </div>
-      <div   id="chrisjansens" class="row transition text-center  background-opacity-corners border-left border-right border-shadow">
-        <div class="arrow-up no-transition" style="margin-left:74%"> </div> 
+      <div class="one columns"></div>
+      <div class="six columns text-left mobile-text-center">
+        <h3  style="">Annemie Verbeke </h3>
+        <div class="four columns text-right  mobile-text-center nopadding-left-top ">
+          <img class="low-padding shadowbox"style=""src="images/an.jpg">
+        </div>
+        <p>The most important continuity throughout all the collections of Annemie is the yearning, the desire to achieve a personal view on sublime "daily life" clothes.Her creative knitwear is unique and expresses her extreme sensibility for the intimate combinations of colors and materials. </p>
+        <p>Every season, mostly female personalities with an exceptional destiny (who accomplished an artistic career with a social involvement) are giving her a human profoundness she really needs. It's a way of traveling, analyzing her own metaphors and dualities.</p>
+        <p>Paradoxes seem reality for her and in her design strategy she succeeds to confront the ephemeral to the timelessness. A special attention is made on gorgeous shapes for dresses and skirts with surprising, almost hidden details.Her way is a fragile expression of an A-typical fashion but with a strong 'temperament'.</p>
+      </div>
+      <div class="one columns"></div>
+    </div>
+  </div>
+  <div   id="chrisjansens" class="row transition text-center  background-opacity-corners shadowbox-outer">
+        <div class="arrow-up no-transition" style="margin-left:45%"> </div> 
         <div   class="twelve columns transition text-center nopadding">
           <div class="four columns text-center mobile-text-center background-opacity-corners">
             <div id="featured4" class="featured" style="height:0px;overflow:hidden;">          
@@ -257,8 +252,8 @@ closed
             <div class="four columns text-right  mobile-text-center nopadding-left-top ">
               <img class="low-padding shadowbox"style=""src="images/chris.jpg">
             </div>
-            <p>De Belgische modeontwerpster Chris Janssens (°1967) heeft door de jaren heen een eigen signatuur ontwikkeld die herkenbaar is uit de duizend. Ze laat zich niet leiden door vluchtige hypes maar wel door een uitgesproken gevoel voor schoonheid, vrouwelijkheid en elegantie die ze op een heel eigentijdse en kleurige manier vertaalt.</p>  <p> Haar fans zijn geen fashion victims, maar sterke vrouwen die gaan voor een eigenzinnige, karaktervolle stijl met een sensuele ondertoon. Denk vloeiend vallende zijde, supervrouwelijke wikkeleffecten en drapages maar ook knus breiwerk en speelse combinaties.</p>
-            <p>Chris Janssens ontwerpt vanuit haar buikgevoel, maar verliest nooit de realiteit van de mode uit het oog. Haar perfecte pasvormen en kwalitatieve stoffen verraden een sterke technische knowhow. Chris Janssens volgde inderdaad eerst een technische modeopleiding voor ze als ontwerpster aan de slag ging bij Olivier Strelli. Ze was jarenlang de ontwerpster achter de Strelli-collectie “22 Octobre”.</p>
+            <p>De Belgische modeontwerpster Chris Janssens heeft door de jaren heen een eigen signatuur ontwikkeld die herkenbaar is uit de duizend. Ze laat zich niet leiden door vluchtige hypes maar wel door een uitgesproken gevoel voor schoonheid, vrouwelijkheid en elegantie die ze op een heel eigentijdse en kleurige manier vertaalt.</p>
+            <p>Chris Janssens ontwerpt vanuit haar buikgevoel, maar verliest nooit de realiteit van de mode uit het oog. Haar perfecte pasvormen en kwalitatieve stoffen verraden een sterke technische knowhow. Chris Janssens volgde inderdaad eerst een technische modeopleiding voor ze als ontwerpster aan de slag ging bij Olivier Strelli. Ze was jarenlang de ontwerpster achter de Strelli-collectie.</p>
           </div><div class="one columns"></div>
         </div>
       </div>
@@ -320,14 +315,27 @@ Tel 051 21 25 30</br>
           <div class="one columns"></div>
 
         </div>
+       
 
-     </div>
-
+     
+  </div>
 
    
-</div>
 
+  <div id="header"class="full-width transition text-center   " style="padding-bottom:25px;" >
+  <div class="row  transition nav-bar-wrapper nopadding">
 
+    <div class="twelve columns text-center mobile-text-center menubox" style="margin-top:0px;">
+      <div class="three columns  text-center mobile-text-center  nopadding  ">
+        <h5 style="width:200px;float:left;">© Copyright Seventy4.</h5>    
+      </div>
+      <div class="six columns  text-center mobile-text-center  nopadding">
+       
+            <img src="images/fractured.png" style="width:80px;opacity:0.5;border:1px solid #444;border-radius:8px;">
+      </div>
+    </div>
+  </div>
+  </div>
 
     <!--                                                        scripts                                         -->
      
