@@ -1,4 +1,9 @@
-body, html  {padding: 0;margin:0px;background: url(../images/bg-home.png) ;
+body, html  {padding: 0;margin:0px;background: url(../images/tisty.png) no-repeat center center fixed; 
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;height: 100%;
 }
 html  {padding: 0;margin:0px;}
 h1, h2, h3, h4, h5, h6 {font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-family: 'BenchNine', sans-serif;font-weight: normal;font-style: normal;color: #ffffff;text-rendering: optimizeLegibility;line-height: 1.1;}
@@ -9,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {font-family: "Helvetica Neue", "Helvetica", Helvetica, A
 text-shadow: 0 3px 3px #000;color: #e1e1e1;}
 .full-width {width: 100%; background: transparent;float:none;}
 .row {z-index: 200; border-bottom:0px solid #999;border-top:0px solid #eaeaea;width: 1000px;min-width: 205px;
-  margin-top: 10px;
+  margin-top: 0px;
   padding-top: 0px;padding-bottom: 0px;
     }
 
@@ -60,7 +65,7 @@ background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0) 0%,rg
 background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
 
-.background-dark {background: url(../images/bgg.png)
+.background-dark {background: url(../images/pattern1.jpg)
 }
 .background-light {background:#fff;background: url(../images/bgg.png)}
 .background-white {background:#fff}
@@ -141,10 +146,12 @@ h3 {color: #e1e1e1;
     line-height: 20px;
     text-decoration: none;
     text-shadow: 0 1px 1px #000; }
-h2 { text-shadow: 0 1px 1px #555;color: #d1d1d1;letter-spacing: 4px;
-	font-family: 'Tangerine', cursive;font-size: 155px;}
 
-h4 {color: #555;margin-top:-65px;margin-left:25px;font-size: 26px; float:left;text-shadow: 0 1px 1px #fff;  }
+
+h2 { text-shadow: 0 1px 1px #555;color: #d1d1d1;letter-spacing: 4px;margin-top: 35px;margin-left: 90px;
+	font-family: 'Tangerine', cursive;font-size: 115px;text-shadow: 0 1px 1px #000}
+
+h4 {color: #fff;margin-top:0px;font-size: 20px; text-shadow: 0 1px 1px #000;  }
 
 
 h5 {color: #1F768E;
@@ -227,8 +234,8 @@ li:hover {border-bottom:0px solid #888; color: #000;}
 .boxmenu > li {border: 1px solid #fff;padding: 10px; }
 li > a:first-child { font-size:15px;text-shadow: 0 0px 0px #7B8284;color: #222;
     font-weight: bold;text-decoration: none;
-    line-height: 20px; text-shadow: 0 1px 1px #fff;color: #1F768E;letter-spacing: 3px;}
-li > a:first-child:hover { color: #000;}
+    line-height: 20px; text-shadow: 0 1px 1px #000;color: #1F768E;letter-spacing: 3px;}
+li > a:first-child:hover { color: #d1d1d1;}
 
   a {list-style: none;text-decoration: none; }
 .textbox {margin-top:22px; }
@@ -341,9 +348,11 @@ box-shadow: 1px 1px 1px 1px #d1d1d1;}
 
 
 
-#homepage { height:550px;visibility: visible;overflow: hidden;border-top:1px dashed #d1d1d1;border-bottom:1px dashed #d1d1d1;}
+#homepage { float:left;height:700px;visibility: visible;overflow: hidden;
+	border-top:0px dashed #d1d1d1;border-bottom:0px dashed #d1d1d1;}
 
-#ontwerperspage { height:0px;visibility: hidden;overflow: hidden;border-top:1px dashed #d1d1d1;border-bottom:1px dashed #d1d1d1;}
+#ontwerperspage { height:0px;visibility: hidden;overflow: hidden;
+	border-top:0px dashed #d1d1d1;border-bottom:0px dashed #d1d1d1;}
 
 .hoverbox { float:right;height:200px;width:0%;background: url(../images/hover.png) no-repeat; 
 	-webkit-background-size: cover;overflow: hidden;margin-top:-200px;
@@ -352,7 +361,7 @@ box-shadow: 1px 1px 1px 1px #d1d1d1;}
 	background-size: cover;;opacity: 1.0}
 
 .ontwerpersfoto:hover > .hoverbox { width:100%;visibility: visible;z-index: 1800;opacity: 0.7;}
-
+.ontwerpersfotob { background: url(../images/bgg.png);padding: 5px;}
 .pointer { cursor: pointer;}
 
 

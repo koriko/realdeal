@@ -30,315 +30,272 @@
   <![endif]-->
 <link href='http://fonts.googleapis.com/css?family=Lato:400,300italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=BenchNine:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Port+Lligat+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "113ae654-c236-4992-9801-43f7a1a952f3"});</script>
-<div class="row  transition ">
- <div class="twelve columns paddingback shadowbox-outer" style="">
-
-  <div id="header"class="twelve columns transition text-center  header-background nopadding shadowbox-outer" >
-    <div class="twelve columns text-center mobile-text-center" style="margin-top:0px;">
-      <div class="three columns  text-center mobile-text-center  nopadding  ">
-        <h1>Seventy4</h1>    
-      </div>
-      <div class="six columns  text-center mobile-text-center  nopadding">
-        <h2>Fashion-Strictly For Women</h2>
-      </div>
-    </div>
-  </div>
 
 
-<div name="menu"class="twelve columns transition text-center  nopadding " style="" >
-  <div  class=" transition ">
-    <div class="twelve columns  transition  nopadding ">
-
-      <div class="twelve columns nopadding nav-bar-wrapper">
-        <div name="homebutton" class="three columns   text-left mobile-text-center menubox nopadding border-right border-shadow nav-bar" onClick="ontwerperspagehide();timhide();cathyhide();anhide();;chrishide();contacthide();homeshow()"   >
-          <li>
-            <a>Home</a>
-            <div class="exerp-menubox mobile-text-center">About our store
-            </div>
-          </li>  
-        </div>
-        <div name="ontwerpersbutton"onClick=";contacthide();ontwerperspageshow();homehide();cathyshow();" class=" three columns  text-left mobile-text-center menubox nopadding ontwerpersboxhover nav-bar border-right border-shadow">
-          <li >
-            <a>Designers</a>
-            <div class="exerp-menubox mobile-text-center">Belgian Fashion
-            </div>
-          </li>
-          <div class="arrow-down" style="top:10px;"> </div> 
-        </div>
-        <div name="contactbutton"class="three columns  nav-bar text-left mobile-text-center menubox nopadding border-right border-shadow">
-          <li onClick=";ontwerperspagehide();homehide();;contactshow()" >
-            <a>Contact</a>
-            <div class="exerp-menubox mobile-text-center">Get in touch
-            </div>
-          </li> 
-        </div>
-        <div name="facebookbutton"class="three columns  nav-bar text-left mobile-text-center menubox nopadding  border-shadow">
-          <div class="websymbols fb-icon">f</div> <li onClick="contacthide();contactshow()" >
-          <a target="_blank" href="http://www.youtube.com/watch?v=VvRVu78IHHo">Follow us</a>
-          <a target="_blank" href="http://www.youtube.com/watch?v=VvRVu78IHHo"><div class="exerp-menubox text-left mobile-text-center">See the new arivals</div></a>
-        </li> 
-      </div>  
-    </div>
-  </div>
-</div>
 
 
-<div id="homepage" class="twelve columns nopadding  text-center  transition background-opacity-corners   shadowbox-outer ">
-  <div class="arrow-up no-transition" style="margin-left:10%"> </div> 
-  <div   class="twelve columns transition text-center ">
-    <div   class="twelve columns transition text-center ">
-      <div class="three columns background-opacity-corners   " style="margin-top:22px;">
-        <div class="twelve columns background-opacity-corners " style="opacity:0.95">
-          <img class="background-opacity-corners low-padding "style="opacity:0.9;width:200%;;"src="images/fadepic4.jpg">
-          <div class="twelve columns text-center mobile-text-center low-padding ">
-            <h4  style="">Monday </h4>
-            <h5>01.30 pm - 06.30 pm</h5>
-            <h4  style="">Tuesday - Saturday</h4>
-            <h5>10.00 am - 12.00 am 
-            </br>& 01.30 pm - 06.30 pm</h5>
-            <h4  style="">Sunday & Public Holidays</h4>
-            <h5>closed</h5>
-          </div>
-        </div>
-      </div>
-      <div class="one columns"></div>
-      <div class="seven columns text-left mobile-text-center nopadding" style="margin-top:22px;">
-        <h3  style="">About </h3>
-        <p>De Belgische modeontwerpster Chris Janssens iet leiden door vluchtige hypes maar wel door een uitgesproken gevoel voor schoonheid, vrouwelijkheid en elegantie die ze op een heel eigentijdse en kleurige manier vertaalt.</p>  
-        <p> Haar fans zijnsensuele ondertoon. Denk vloeiend vallende zijde, supervrouwelijke wikkeleffecten en drapages maar ook knus breiwerk en speelse combinaties.</p>            
-        <p>Chris Janssens ontwerpt vanuit haar buikgevoel, maar verliest nooit de realiteit van de mode uit het oog. Haar perfecte pasvormen en kwalitatieve stohe modeopleiding v22 Octobre”.</p>
-        <div class="twelve columns background-opacity-corners shadowbox-outer " style="">
-          <div class="two columns background-opacity-corners" >
-            <img class=" "style="opacity:0.9;width:200%;float:right;"src="images/cathy2.jpg">
-          </div>
-          <div class="eight columns background-opacity-corners text-center" >
-            <h3  style="">share Seventy4 with your friends</h3>
-            <span class='st_facebook' displayText='Facebook'></span>
-            <span class='st_twitter' displayText='Tweet'></span>
-            <span class='st_linkedin' displayText='LinkedIn'></span>
-          </div>
-          <div class="two columns background-opacity-corners" >
-            <img class=" "style="opacity:1;width:200%;float:right;"src="images/cathy3.jpg">
-          </div>
-        </div>
-      </div>
-      <div class="one columns">
-      </div>
-    </div>
-  </div>
-</div>
 
-<div  id="ontwerperspage" class="twelve columns transition nopadding">
-  <div   class="row transition text-center nav-bar-wrapper nopadding" style="">
-    <div class="ontwerpersbox twelve columns nopadding  transition " style="-webkit-box-shadow: 1px 1px 2px 1px;box-shadow: 1px 1px 2px 1px ;">
-      <div class="tussenstuk" style=""> </div>
-      <div class="twelve columns text-left nopadding"style="" >
-        <ul>
-          <div id="cathy" class="two columns    text-center menubox nopadding border-right border-shadow" onClick="homehide();timhide();anhide();chrishide();cathyshow();">
-            <li class="" >
-              <a>Cathy Phill</a>
-            </li> 
-          </div>
-          <div id="tim" class="two columns    text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();chrishide();timshow();">
-            <li><a>Tim Van Steenbergen</a>
-            </li>
-          </div>
-          <div id="an" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();timhide();chrishide();anshow()">
-            <li><a>Annemie Verbeke</a>
-            </li>
-          </div>
-          <div id="chris" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
-            <li><a>Chris Jansens</a>
-            </li>
-          </div>
-          <div id="chris" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
-            <li><a>Chris Jansens</a>
-            </li>
-          </div>
-          <div id="chris" class="two columns  text-center menubox nopadding border-right border-shadow"onClick="homehide();cathyhide();anhide();timhide();chrisshow();">
-            <li><a>Chris Jansens</a>
-            </li>
-          </div>
-        </ul>
-      </div>
-    </div>    
-  </div>
-  <div   id="cathyphill" class="row transition text-center  background-opacity-corners shadowbox-outer">
-    <div class="arrow-up no-transition" style="margin-left:5%"> </div> 
-    <div   class="twelve columns transition text-center nopadding">
-      <div class="four columns text-center mobile-text-center background-opacity-corners">
-        <div id="featured" class="featured"style="height:0px;overflow:hidden;">          
-          <img style=""src="images/cathy3.jpg" alt="slide image">
-          <img style=""src="images/cathy1.jpg" alt="slide image">
-          <img style=""src="images/cathy2.jpg" alt="slide image">
-        </div>
-      </div>
-      <div class="one columns"></div>
-      <div class="six columns text-left mobile-text-center">
-        <h3  style="">cathy phill </h3>
-        <div class="four columns text-right  mobile-text-center nopadding-left-top ">
-          <img class="low-padding shadowbox"style=""src="images/cathy.jpg">
-        </div>
-        <p>Cathy Pill is a fashion designer living and working in Belgium. After completing her studies at the E.N.S.A.V. of La Cambre, Pill went on to work as an intern for A.F. Vandevorst and Vivienne Westwood. In 2003 Pill won The Collection of the Year at Trieste's contest.</p>  <p>In the same year she went onto win the Fabio Inghirami Award in Italy and the Modo Bruxellae Price in Belgium. Her first S/S 2006 collection titled 'Blink' married Art Nouveau influenced sinuous patterns with draped and bunched silhouettes. </p>  <p>Her collections continue to be recognised for their smart use of prints, drapes and sharp details, creating modern and feminine silhouettes. Her first ready-to-wear collection was launched during the S/S 2006 Paris Fashion Week.  </p>
-      </div>
-      <div class="one columns"></div>
-    </div>
-  </div>
-  <div id="timsteen" class="row transition text-center  background-opacity-corners shadowbox-outer">
-    <div class="arrow-up no-transition" style="margin-left:18%"> </div> 
-    <div   class="twelve columns transition text-center nopadding">
-      <div class="four columns text-center mobile-text-center background-opacity-corners">
-        <div id="featured2" class="featured"style="height:0px;overflow:hidden;">          
-          <img style=""src="images/tim3.jpg" alt="slide image">
-          <img style=""src="images/tim1.jpg" alt="slide image">
-          <img style=""src="images/tim2.jpg" alt="slide image">
-        </div>
-      </div>
-      <div class="one columns"></div>
-      <div class="six columns text-left mobile-text-center">
-        <h3  style="">Tim van Steenbergen </h3>
-        <div class="four columns text-right  mobile-text-center nopadding-left-top ">
-          <img class="low-padding shadowbox"style=""src="images/tim.jpg">
-        </div>
-        <p>Tim Van Steenbergen graduated Magna cum Laude at the Antwerp Royal Academy of Fine Arts (fashion department, textile creation and theatre costume). Subsequently he took classes in drapery and couture techniques and worked as the first assistant of Olivier Theyskens.His first collection was launched in 2001 in Paris and in the same year he set up his company Mitzlavv bvba.</p>
+
+
+
+
+
+
+   <div class="full-width  transition nopadding " style="margin-top:0px;">
+
+   <img src="images/fadepic4.png"style="position:absolute;left:0px;top:0px;">
         
-        <p>Tim Van Steenbergen also created jewellery for Swarovski UK, shoes for Novella Italia, "Barbie" outfits, a jean for Xfit by Lycra, an haute couture dress for the Museum of Fine Arts and Lace in Calais (France) and the bag "le Seau Elsa" for the French label Lancel.</p>
-      </div>
-      <div class="one columns">
-      </div>
-    </div>
-  </div>
-  <div   id="anverbeke" class="row transition text-center  background-opacity-corners shadowbox-outer">
-    <div class="arrow-up no-transition" style="margin-left:32%"> </div> 
-    <div   class="twelve columns transition text-center nopadding">
-      <div class="four columns text-center mobile-text-center background-opacity-corners">
-        <div id="featured3" class="featured"style="height:0px;overflow:hidden;">          
-          <img style=""src="images/an3.jpg" alt="slide image">
-          <img style=""src="images/an1.jpg" alt="slide image">
-          <img style=""src="images/an2.jpg" alt="slide image">
-        </div>
-      </div>
-      <div class="one columns"></div>
-      <div class="six columns text-left mobile-text-center">
-        <h3  style="">Annemie Verbeke </h3>
-        <div class="four columns text-right  mobile-text-center nopadding-left-top ">
-          <img class="low-padding shadowbox"style=""src="images/an.jpg">
-        </div>
-        <p>The most important continuity throughout all the collections of Annemie is the yearning, the desire to achieve a personal view on sublime "daily life" clothes.Her creative knitwear is unique and expresses her extreme sensibility for the intimate combinations of colors and materials. </p>
-        <p>Every season, mostly female personalities with an exceptional destiny (who accomplished an artistic career with a social involvement) are giving her a human profoundness she really needs. It's a way of traveling, analyzing her own metaphors and dualities.</p>
-        <p>Paradoxes seem reality for her and in her design strategy she succeeds to confront the ephemeral to the timelessness. A special attention is made on gorgeous shapes for dresses and skirts with surprising, almost hidden details.Her way is a fragile expression of an A-typical fashion but with a strong 'temperament'.</p>
-      </div>
-      <div class="one columns"></div>
-    </div>
-  </div>
-  <div   id="chrisjansens" class="row transition text-center  background-opacity-corners shadowbox-outer">
-        <div class="arrow-up no-transition" style="margin-left:45%"> </div> 
-        <div   class="twelve columns transition text-center nopadding">
-          <div class="four columns text-center mobile-text-center background-opacity-corners">
-            <div id="featured4" class="featured" style="height:0px;overflow:hidden;">          
-              <img style=""src="images/20.jpg" alt="slide image">
-              <img style=""src="images/10.jpg" alt="slide image">
-              <img style=""src="images/30.jpg" alt="slide image">
-            </div>
-          </div>
-          <div class="one columns"></div>
-          <div class="six columns text-left mobile-text-center">
-            <h3  style="">chris jansens </h3>
-            <div class="four columns text-right  mobile-text-center nopadding-left-top ">
-              <img class="low-padding shadowbox"style=""src="images/chris.jpg">
-            </div>
-            <p>De Belgische modeontwerpster Chris Janssens heeft door de jaren heen een eigen signatuur ontwikkeld die herkenbaar is uit de duizend. Ze laat zich niet leiden door vluchtige hypes maar wel door een uitgesproken gevoel voor schoonheid, vrouwelijkheid en elegantie die ze op een heel eigentijdse en kleurige manier vertaalt.</p>
-            <p>Chris Janssens ontwerpt vanuit haar buikgevoel, maar verliest nooit de realiteit van de mode uit het oog. Haar perfecte pasvormen en kwalitatieve stoffen verraden een sterke technische knowhow. Chris Janssens volgde inderdaad eerst een technische modeopleiding voor ze als ontwerpster aan de slag ging bij Olivier Strelli. Ze was jarenlang de ontwerpster achter de Strelli-collectie.</p>
-          </div><div class="one columns"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
- <div id="contactpage" class="row  text-center  transition background-opacity-corners border-left border-right border-shadow">
-    <div class="arrow-up no-transition" style="margin-left:10%"> </div> 
-    
-    
-
-
-<div   class="twelve columns transition text-center nopadding">
-          <div class="four columns text-center mobile-text-center background-opacity-corners">
-           
-
-            <iframe width="100%" height="470" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.be/maps?q=seventy4+roeselare+google+maps&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=seventy4&amp;hnear=Roeselare,+West-Vlaanderen,+Vlaams+Gewest&amp;t=m&amp;ll=50.947288,3.122263&amp;spn=0.018927,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.be/maps?q=seventy4+roeselare+google+maps&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=seventy4&amp;hnear=Roeselare,+West-Vlaanderen,+Vlaams+Gewest&amp;t=m&amp;ll=50.947288,3.122263&amp;spn=0.018927,0.036478&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">Grotere kaart weergeven</a></small>
-
-
-          </div>
-          <div class="one columns"></div>
-          <div class="six columns text-left mobile-text-center">
-           <h3>Contact us</h3>
-            <div class="four columns text-right  mobile-text-center nopadding-left-top ">
-              <img class="low-padding shadowbox"style=""src="images/bg.jpg">
-            </div>  <div class="one columns"></div>
-            <div class="four columns text-left  mobile-text-center nopadding-left-top ">
-            <h4  style="margin-top:0px;">Seventy4 </br>
-Noordstraat 74 </br>
-8800 Roeselare</br>
-
-Tel 051 21 25 30</br>
-
-<a style="font-size:25px;"href="mailto:seventy4@gmail.com">Seventy4@gmail.com</a></h4> 
-</div>
-
-<div id="contact-form" style="width:100%;float:left;margin-top:22px;">
-<form id="contact" method="post" action="">
-<fieldset style="width:100%">    
- <div style="width:50%;float:left;padding:5px;" >
-<label for="name">Naam</label>
-<input style="width:98%;float:left;"type="text" name="name">
- </div>
-
-  <div style="width:50%;float:left;padding:5px;" >
-<label for="email">E-mail</label>
-<input style="width:100%;float:left;" type="email" name="email">
- </div>
- <div style="width:100%;float:left;" >
-<label style="width:100%;float:left;" for="message">Jouw vraag?</label>
-<textarea style="width:100%;float:left;height:70%" name="message"></textarea>
-  </div>
-<input type="submit" name="submit" id="submit" value="Versturen" />
+<div class="row  transition nopadding ">
  
-</fieldset>
-</form>
-          </div></div>
-          <div class="one columns"></div>
 
-        </div>
+
+<div class="twelve columns ">
+  
+    <div class="five columns text-left nopadding " style="margin-top:-15px;">
+
+     <h2 style="">Seventy4</h2>
+
+<h4 style="margin-top:-50px;margin-left:50px;">- stricly for women -</h4>
+
+    </div>
+
+     <div class="seven columns menu ">
+        <h2 style="font-size:32px;margin-top:56px;text-shadow: 0 1px 1px #fff;color:#555;font-weight:bold;">Belgian designer clothes</h2>
+      <div class="three columns text-right nopadding">
+       
+ </div>
+<div class="three columns text-right nopadding" onClick="homeshow();ontwerperspagehide();">
+       <li><a >Home</a></li>
+ </div>
+       <div class="three columns text-right nopadding" onClick="homehide();ontwerperspageshow();">      
+       <li><a>Ontwerpers</a></li>
+ </div>
+       
+       <div class="three columns text-right nopadding">
+       <li><a>Contact</a></li>
+         </div>
+      </div>
+
+
+
+
+</div></div></div></div></div>
+
+
+   <div id="homepage"class="full-width  transition nopadding  shadowbox-white " style="padding-top:0px;border-top:1px dashed #d1d1d1;border-bottom:1px dashed #d1d1d1">
+
+      
+     
+
+     <div class="row  transition  " style="">
+
+
+    <div class="twelve columns nopadding ">
+
+
+
+
+       <div class="eight columns text-left box  textbox" style="float:right">
+
+    
+   <h5 style="">About us</h5>
+     
        
 
-     
-  </div>
 
+ <p>This is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you wouldhis is a random text that would represent something interesting that you wouo read.</p> <p>This is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you wouldhis is a random text that would represent something interesting that you wouo read.</p>
+  <div class="six columns text-left box  textbox nopadding">
+   <img src="images/bg.png"style="border-radius:5px;z-index:10;" class="">
+ </div>
+  <div class="six columns text-left box  textbox nopadding">
+   <img src="images/seventy42.png"style="border-radius:5px;z-index:10;" class="">
+ </div>
+ </div>
+
+     <!--  <div class="four columns text-left box  textbox">
+   <img src="images/cathy2.png"style="">
+        </div> -->
+
+
+
+
+
+
+  
+
+
+
+
+
+      
+    </div>
+    </div>
+    </div>
+
+
+
+     
+
+
+<div id="ontwerperspage"class="full-width  transition nopadding  shadowbox-white " style="">
+
+      
    
 
-  <div id="header"class="full-width transition text-center   " style="padding-bottom:25px;" >
-  <div class="row  transition nav-bar-wrapper nopadding">
+     <div class="row  transition  " style="">
 
-    <div class="twelve columns text-center mobile-text-center menubox" style="margin-top:0px;">
-      <div class="three columns  text-center mobile-text-center  nopadding  ">
-        <h5 style="width:200px;float:left;">© Copyright Seventy4.</h5>    
-      </div>
-      <div class="six columns  text-center mobile-text-center  nopadding">
+
+    <div class="twelve columns nopadding ">
        
-            <img src="images/fractured.png" style="width:80px;opacity:0.5;border:1px solid #444;border-radius:8px;">
-      </div>
+      <div class="three columns text-left box  textbox cathyone ontwerpersfoto pointer"style="max-height:50%;overflow:hidden;">
+        
+   <img src="images/cathy.jpg"style="border-radius:5px;z-index:10;" class="shadowbox-outer">
+
+     <div class="nopadding transition hoverbox text-center" style=";"> 
+     <h6>Cathy Phill</h6>
+     <h3>Biografie</h3>
+     </div>
+
+        </div>
+
+
+       <div class="three columns text-left box  textbox cathyone2 pointer ontwerpersfoto">
+
+    
+   <img src="images/tim1.jpg"style="border-radius:5px;" class="shadowbox-outer">
+    <div class="nopadding transition hoverbox text-center" style=";"> <h6>Tim van steenbergen<h6><h3>Biografie</h3>
     </div>
+ </div>
+
+
+
+          <div class="three columns text-left box  textbox cathyone3 pointer ontwerpersfoto">
+
+    
+   <img src="images/cathy3.jpg"style="border-radius:5px;" class="shadowbox-outer">
+    <div class="nopadding transition hoverbox text-center" style=";"> <h6>Annemie Verbeke</h6><h3>Biografie</h3> </div>
+ </div>
+
+          <div class="three columns text-left box  textbox cathyone4 pointer ontwerpersfoto">
+
+    
+   <img src="images/cathy2.jpg"style="border-radius:5px;" class="shadowbox-outer">
+     <div class="nopadding transition hoverbox text-center" style=";"> <h6>Crhis Jansens</h6><h3>Biografie</h3> </div>
+ </div>
+
+
+
+      
+    </div>
+
+
+
+
+
+
+    <div class="twelve columns nopadding ">
+       
+       <div class="three columns text-left box  textbox cathyone2 pointer ontwerpersfoto">
+   <img src="images/an2.jpg"style="border-radius:5px;" class="shadowbox-outer">
+   <div class="nopadding transition hoverbox text-center" style=";"> <h6>Tim van steenbergen<h6><h3>Biografie</h3>
+    </div>
+        </div>
+
+
+       <div class="three columns text-left box  textbox cathyone2 pointer ontwerpersfoto">
+
+    
+   <img src="images/an3.jpg"style="border-radius:5px;" class="shadowbox-outer">
+<div class="nopadding transition hoverbox text-center" style=";"> <h6>Tim van steenbergen<h6><h3>Biografie</h3>
+    </div> </div>
+
+
+
+       <div class="three columns text-left box  textbox cathyone2 pointer ontwerpersfoto">
+
+    
+   <img src="images/an1.jpg"style="border-radius:5px;" class="shadowbox-outer">
+<div class="nopadding transition hoverbox text-center" style=";"> <h6>Tim van steenbergen<h6><h3>Biografie</h3>
+    </div> </div>
+
+       <div class="three columns text-left box  textbox cathyone2 pointer ontwerpersfoto">
+
+    
+   <img src="images/an2.jpg"style="border-radius:5px;" class="shadowbox-outer">
+<div class="nopadding transition hoverbox text-center" style=";"> <h6>Tim van steenbergen<h6><h3>Biografie</h3>
+    </div> </div>
+
+
+
+      
+    </div>
+
+
+
+
+
+    </div>
+
+
+
+ </div>
+
+     
+    </div>    </div>
+
+     
+
+
+
+ <div class="twelve columns nopadding " style="background:#e1e1e1">
+   <h2 style="font-size:32px;margin-top:56px;text-shadow: 0 1px 1px #fff;color:#555;font-weight:bold;">Follow us on Facebook <div class="websymbols ">f</div></h2> </div>
+<div class="full-width footer shadowbox-white">
+  <div class="row ">
+
+
+<div class="four columns  text-left box">
+  <h3></h3>
+  <div class="twelve columns nopadding  borderlongblack"></div>
+  <div class="six columns  text-left nopadding">
+  <li><a><h3>Home</h3></a></li>
+  <li><a><h3>Realisaties</h3></a></li>
   </div>
+  <div class="six columns  text-left nopadding">
+  <li> <a><h3>Diensten</h3></a></li>
+  <li><a><h3>Contact</h3></a></li>
+</div>
+  <div class="twelve columns nopadding  borderlongblack"></div>
+</div>
+<div class="four columns  text-left box">
+  <h3></h3>
+  <div class="twelve columns nopadding  borderlongblack"></div>
+  <div class="six columns  text-left nopadding">
+  <li><a><h3>Facebook</h3></a></li>
+  <li><a><h3>Twitter</h3></a></li>
   </div>
+  <div class="six columns  text-left nopadding">
+  <li> <a><h3>Linked In</h3></a></li>
+  <li><a><h3>Google +</h3></a></li>
+</div>
+  <div class="twelve columns nopadding  borderlongblack"></div>
+</div>
+
+
+
 
     <!--                                                        scripts                                         -->
-     
+</div> </div> </div>    
 
 </body>
 
@@ -346,6 +303,7 @@ Tel 051 21 25 30</br>
 
 <script src="javascripts/jquery.placeholder.js"></script>
 <script src="javascripts/modernizr-min.js"></script>
+
 <script>
 if (!Modernizr.input.placeholder){
  $('input[placeholder], textarea[placeholder]').placeholder();
@@ -370,13 +328,12 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 </script>
 
 
-
 <script>
     function ontwerperspageshow() {
     var x, divArray = ["ontwerperspage"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
+            document.getElementById(divArray[x]).style.cssText = 'height:850px;visibility:visible;opacity:1';
         }
     }
 }
@@ -397,7 +354,7 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
     var x, divArray = ["homepage"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
+            document.getElementById(divArray[x]).style.cssText = 'height:550px;visibility:visible;opacity:1';
         }
     }
 }
@@ -621,5 +578,78 @@ $("#chris").hover(function () {
     $('#chrisshow').toggleClass('testings');
 });
 </script>
+<script>
+$("#slideshow > div:gt(0)").hide();
 
+        // fade out current slide (first), fade in next slide and move first slide to end
+        var nextSlide = function() { 
+            $("#slideshow > div:first")
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo("#slideshow");
+        }
+
+        var nextSlideTimer = setInterval(nextSlide,  9000);
+
+        // fade out current slide (first) and move last slide to top and fade in
+        $(".nav-left").click(function() {
+            clearInterval(nextSlideTimer);
+
+            $("#slideshow > div:first")
+            .fadeOut(1000);
+            $("#slideshow > div:last")
+            .fadeIn(1000)
+            .prependTo("#slideshow");
+
+            nextSlideTimer = setInterval(nextSlide, 9000)
+            setTimeout(nextSlideTimer, 9000)
+        });
+
+        $(".nav-right").click(function() {
+            clearInterval(nextSlideTimer);
+
+            $("#slideshow > div:first")
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo("#slideshow");
+
+            nextSlideTimer = setInterval(nextSlide, 9000)
+            setTimeout(nextSlideTimer, 9000)
+        });
+
+        $("#slideshow").hover(function() {
+            $("#nav-left").fadeToggle("slow", "linear");
+            $("#nav-right").fadeToggle("slow", "linear");
+        });
+      </script><script>
+
+        $(function() {
+
+$(“#slideshow > div:gt(0)”).hide();
+
+startInterval();
+
+$(“#slideshow > div”).mouseover(function() { stopInterval(); });
+$(“#slideshow > div”).mouseout(function() { startInterval(); });
+
+});
+
+function stopInterval() {
+clearInterval(intervalId);
+}
+
+function startInterval() {
+intervalId = setInterval(function() {
+$(‘#slideshow > div:first’)
+.fadeOut(1000)
+.next()
+.fadeIn(1000)
+.end()
+.appendTo(‘#slideshow’);
+}, 3000);
+}</script>
 </html>
