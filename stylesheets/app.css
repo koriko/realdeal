@@ -1,9 +1,5 @@
-body, html  {padding: 0;margin:0px;height: 100%;background: url(../images/pattern1.png) no-repeat center center fixed; background-size: 100%;
+body, html  {padding: 0;margin:0px;background: url(../images/bg-home.png) repeat ;
 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;height: 100%;
 }
 html  {padding: 0;margin:0px;}
 h1, h2, h3, h4, h5, h6 {font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-family: 'BenchNine', sans-serif;font-weight: normal;font-style: normal;color: #ffffff;text-rendering: optimizeLegibility;line-height: 1.1;}
@@ -47,8 +43,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 }
 
-.shadowbox-outer {-webkit-box-shadow: 0px 1px 3px 1px #444;
-box-shadow: 0px 1px 3px 1px #666;}
+.shadowbox-outer {-webkit-box-shadow: 0px 0px 1px 1px #000;
+box-shadow: 0px 0px 1px 1px #000;}
 .header-background {background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
 background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
 background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
@@ -65,7 +61,7 @@ background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0) 0%,rg
 background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
 
-.background-dark {background: url(../images/pattern1.jpg)
+.background-dark {background: url(../images/bg-home.png)
 }
 .background-light {background:#fff;background: url(../images/bgg.png)}
 .background-white {background:#fff}
@@ -83,7 +79,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .border-white {border: solid 1px #fff;}
 	.shadowbox {-webkit-box-shadow: inset 0px 0px 1px 1px #555;box-shadow: inset 0px 0px 1px 1px #555;}
 	.shadowbox-white {-webkit-box-shadow: inset 0px 0px 1px 1px #fff;box-shadow: inset 0px 0px 3px 1px #fff;}
-.columns { padding:15px;background: transparent;}
+.columns { padding:15px;}
 .fade-top {background: url(../images/bg-row.png) no-repeat scroll center top transparent;margin-bottom: 0px;}
 .hover-highlite img {width:100%;height: 220px; overflow:hidden;padding:10px;}
 .hover-highlite:hover {cursor: pointer;-webkit-box-shadow: inset 0px 0px 2px 1px #333;
@@ -148,8 +144,8 @@ h3 {color: #e1e1e1;
     text-shadow: 0 1px 1px #000; }
 
 
-h2 { ;color: #fff;letter-spacing: 4px;margin-top: 0px;margin-left: 0px;
-	font-family: 'Tangerine', cursive;font-size: 115px;text-shadow: 0 1px 1px #d1d1d1}
+h2 { ;color: #d1d1d1;letter-spacing: 4px;margin-top: 0px;margin-left: 0px;font-weight: bold;
+	font-family: 'Tangerine', cursive;font-size: 115px;text-shadow: 0 1px 4px #000}
 
 h4 {color: #fff;margin-top:0px;font-size: 20px; text-shadow: 0 1px 1px #000;  }
 
@@ -342,11 +338,11 @@ box-shadow: 1px 1px 1px 1px #d1d1d1;}
 
 .pointer { cursor: pointer;}
 
-.women { color: #555;margin-top:0px;font-size: 20px; text-shadow: 0 1px 1px #d1d1d1;
-position: absolute;margin-left:40%;margin-top: 25%;background: #e1e1e1;padding: 25px;-webkit-box-shadow: 0px 1px 1px 1px #d1d1d1;
+.women { color: #555;margin-top:-70px;font-size: 20px; text-shadow: 0 1px 1px #d1d1d1;width: 260px;
+margin-left:300px;background: #e1e1e1;padding: 25px;-webkit-box-shadow: 0px 1px 1px 1px #d1d1d1;
 box-shadow: 1px 1px 1px 1px #d1d1d1;border-radius: 100px;border:0px solid #d1d1d1; }
-
-
+.nopaddingtop {padding-top:0px;}
+.nopaddingbottom {padding-bottom:0px;}
 
 
 
@@ -366,7 +362,7 @@ box-shadow: 1px 1px 1px 1px #d1d1d1;border-radius: 100px;border:0px solid #d1d1d
 
 #backsytop { 
 
-  ;width:100%;margin-left: 0%
+  ;width:100%;margin-left: 0%;
  
 }
 
@@ -374,10 +370,10 @@ box-shadow: 1px 1px 1px 1px #d1d1d1;border-radius: 100px;border:0px solid #d1d1d
 margin-top: -2px;
   ;width:100%;margin-left: -50%;float:left;
 }
-#hometop{ opacity: 1;}
-#homebottom{ opacity: 1;}
-#ontwerperstop{ opacity: 1;}
-#ontwerpersbottom{ opacity: 1;}
+#hometop{ opacity: 1;background: url(../images/bg-home.png) repeat}
+#homebottom{ opacity: 1;background: url(../images/footbg.png) repeat;min-height: 600px;}
+#ontwerperstop{ opacity: 1;background: url(../images/bg-home.png) repeat}
+#ontwerpersbottom{ opacity: 1;background: url(../images/footbg.png) repeat}
 
 
 
@@ -394,8 +390,8 @@ margin-top: -2px;
 
 
 
-.hoverbox { float:right;height:200px;width:0%;background: url(../images/hover.png) no-repeat; 
-	-webkit-background-size: cover;overflow: hidden;margin-top:-200px;
+.hoverbox { float:right;height:140px;width:0%;background: url(../images/hover.png) no-repeat; 
+	-webkit-background-size: cover;overflow: hidden;margin-top:-140px;
 	-moz-background-size: cover;
 	-o-background-size: cover;z-index: 1800;
 	background-size: cover;;opacity: 1.0}
