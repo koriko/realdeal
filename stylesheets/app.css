@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {font-family: "Helvetica Neue", "Helvetica", Helvetica, A
 .websymbols {font-family: 'WebSymbolsRegular';   font-size: 50px;padding:0px;
 text-shadow: 0 3px 3px #000;color: #e1e1e1;}
 .full-width {width: 100%; background: transparent;float:none;}
-.row {z-index: 200; border-bottom:0px solid #999;border-top:0px solid #eaeaea;width: 1200px;min-width: 205px;
+.row {z-index: 200; border-bottom:0px solid #999;border-top:0px solid #eaeaea;width: 1100px;min-width: 205px;
   margin-top: 0px;
   padding-top: 0px;padding-bottom: 0px;
     }
@@ -24,7 +24,7 @@ transition: all 200ms ease-out;}
 -moz-transition: all 1000ms ease-out;
 -ms-transition: all 1000ms ease-out;
 -o-transition: all 1000ms ease-out;
-transition: all 1000ms ease-out;}
+transition: all 500ms ease-out;}
 .color-white {color: #e1e1e1}
 .no-transition{-webkit-transition: all 0ms ease-out;
 -moz-transition: all 0ms ease-out;
@@ -63,7 +63,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 .background-dark {background: url(../images/pattern1.jpg)
 }
-.background-light {background:#fff;background: url(../images/bgg.png)}
+.background-light {background:#fff;background: url(../images/bg-home.png)}
 .background-white {background:#fff}
 .background-medium {background:#666}
 .background-darker {background:#444}
@@ -338,19 +338,19 @@ box-shadow: 1px 1px 1px 1px #d1d1d1;}
 
 .pointer { cursor: pointer;}
 
-.women { color: #555;margin-top:55px;font-size: 20px; text-shadow: 0 1px 1px #d1d1d1;width: 260px;
+.women { color: #555;margin-top:-55px;margin-bottom:0px;font-size: 20px; text-shadow: 0 1px 1px #d1d1d1;width: 260px;
 margin-left:300px;background: #e1e1e1;padding: 25px;-webkit-box-shadow: 0px 1px 1px 1px #d1d1d1;
-box-shadow: 1px 1px 1px 1px #d1d1d1;border-radius: 100px;border:0px solid #d1d1d1; }
+box-shadow: 1px 1px 1px 1px #888;border-radius: 100px;border:0px solid #888; }
 .nopaddingtop {padding-top:0px;}
 .nopaddingbottom {padding-bottom:0px;}
 
 
 
 
-#homepage { float:left;height:auto;visibility: visible;overflow: hidden;
+#homepage { float:left;height:auto;visibility: visible;
 	border-top:0px dashed #d1d1d1;border-bottom:0px dashed #d1d1d1;}
 
-#ontwerperspage { height:0px;visibility: hidden;overflow: hidden;
+#ontwerperspage { height:0px;visibility: hidden;
 	border-top:0px dashed #d1d1d1;border-bottom:0px dashed #d1d1d1;
   background: url(../images/back2.png) no-repeat center center fixed; background-size: 100%;
 
@@ -362,18 +362,19 @@ box-shadow: 1px 1px 1px 1px #d1d1d1;border-radius: 100px;border:0px solid #d1d1d
 
 #backsytop { 
 
-  ;width:100%;margin-left: 0%;
+  ;width:100%;margin-left: 0%;margin-top: 35px;overflow: visible;
  
 }
 
 #backsybottom { 
-margin-top: -2px;
+margin-top: 0px;
   ;width:100%;margin-left: -50%;float:left;
 }
-#hometop{ opacity: 1;background: url(../images/footbg.png) repeat}
-#homebottom{ opacity: 1;background: url(../images/bg-home.png) repeat;min-height: 550px;}
+img {float: left; }
+#hometop{ opacity: 1;background: url(../images/bg-home.png) repeat}
+#homebottom{ opacity: 1;background: url(../images/footbg.png) repeat;min-height: 450px;}
 #ontwerperstop{ opacity: 1;background: url(../images/footbg.png) repeat;}
-#ontwerpersbottom{ opacity: 1;background: url(../images/bg-home.png) repeat;min-height: 550px;}
+#ontwerpersbottom{ opacity: 1;background: url(../images/bg-home.png) repeat;min-height: 450px;}
 
 
 
