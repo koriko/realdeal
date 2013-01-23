@@ -49,40 +49,40 @@
 
 
 
+<div id="toppage" class="twelve columns nopadding">       
+
+   <div class="full-width  transition nopadding background-dark  " style=";margin-top:0px;
+   position:fixed;top:0px;left:0px;z-index:500;;height:30;-webkit-box-shadow: 1px 1px 2px 1px #000000;
+box-shadow: 1px 1px 2px 1px #000000; " >
 
 
-
-   <div class="full-width  transition nopadding " style="margin-top:0px;">
-
-   <img src="images/fadepic4.png"style="position:absolute;left:0px;top:0px;">
         
-<div class="row  transition nopadding ">
+<div class="row  transition nopadding  ">
  
 
 
-<div class="twelve columns ">
+<div class="twelve columns nopadding" style="margin-top:0px;">
   
-    <div class="five columns text-left nopadding " style="margin-top:-15px;">
+    <div class="five columns text-left nopadding ">
 
-     <h2 style="">Seventy4</h2>
+     
 
-<h4 style="margin-top:-50px;margin-left:50px;">- stricly for women -</h4>
 
-    </div>
-
-     <div class="seven columns menu ">
-        <h2 style="font-size:32px;margin-top:56px;text-shadow: 0 1px 1px #fff;color:#555;font-weight:bold;">Belgian designer clothes</h2>
+    </div> 
+     <div class="seven columns menu nopadding "  style="margin-top:0px;">
+        
       <div class="three columns text-right nopadding">
        
  </div>
-<div class="three columns text-right nopadding" onClick="homeshow();ontwerperspagehide();">
-       <li><a >Home</a></li>
+<div class="three ontwerpers columns text-right nopadding" 
+onClick="homeshowtop();homeshowbottom();gohomebottom();gohometop();ontwerpershidebottom();ontwerpershidetop();contacthidebottom();contacthidetop();">
+       <li><a href="#toppage" >Home</a></li>
  </div>
-       <div class="three columns text-right nopadding" onClick="homehide();ontwerperspageshow();">      
-       <li><a>Ontwerpers</a></li>
+       <div class="three home columns text-right nopadding" onClick="goontwerperstop();goontwerpersbottom();homehidetop();homehidebottom();;contacthidebottom();contacthidetop();ontwerpersshowtop();ontwerpersshowbottom()">      
+       <li><a href="#toppage" >Ontwerpers</a></li>
  </div>
        
-       <div class="three columns text-right nopadding">
+       <div class="three columns text-right nopadding" onClick="gocontacttop();gocontactbottom();;ontwerpershidebottom();ontwerpershidetop();;homehidetop();homehidebottom();contactshowtop();contactshowbottom();">
        <li><a>Contact</a></li>
          </div>
       </div>
@@ -93,53 +93,272 @@
 </div></div></div></div></div>
 
 
-   <div id="homepage"class="full-width  transition nopadding  shadowbox-white " style="padding-top:0px;border-top:1px dashed #d1d1d1;border-bottom:1px dashed #d1d1d1">
 
+
+
+   <div id="homepage"class="full-width  transition nopadding  " style="overflow:hidden;margin-top:0px;">
+
+<div class="full-width  transition nopadding  " style="overflow:hidden;width:300%;height:auto;position:absolute;bottom:120px;top:30px;overflow:auto;">
+
+
+
+ 
+
+
+
+
+
+
+<div class="twelve columns nopadding" style="height:auto;">
+
+<div id="backsytop" class="transition six columns nopadding" style="">
+
+
+
+                                                                  <!--PAGE ONE  TOP-->
+
+
+
+
+<div id="hometop"class="four columns nopadding transition " style="height:auto;">
+   
+ <img class=""src="images/seventy01.png"style=";position:fixed;width:100%;top:30px;;left:0px;z-index:0;">
+ <div class="row nopadding " style="">
+
+
+ <div class="six columns nopaddingbottom nopaddingtop " >
+  
+</div>
+
+ <div class="six columns text-left " style="overflow:visible">
+
+<h2 style="margin-left:0px;font-size:120px;margin-top:-50px;text-shadow: 0 1px 1px #000;color:#d1d1d1">Seventy 4</h2>  
+<h2 style="margin-left:25px;font-size:50px;text-shadow: 0 1px 1px #000;color:#d1d1d1">Belgian designer clothes</h2>
+ 
+ </div>
+
+</div>
+
+</div>
+ 
+
+
+                                                                <!--PAGE TWO  TOP-->
+
+
+<div id="ontwerperstop"class="four columns nopadding transition " style="height:auto;">
+
+
+<img src="images/seventy04.png"style=";position:fixed;width:100%;top:30px;;left:0px;">
+ <div class="row nopadding " style="margin-bottom:0px;">
+ 
+ <div class="six columns nopaddingbottom nopaddingtop" style=""> 
+  
+  </div>
+
+
+ <div class="six columns fade-top" style="margin-bottom:-50px;">
+  <div class="twelve columns menu nopadding">
+        
       
-     
+<div class="three columns text-right nopadding" 
+onClick="homeshowtop();homeshowbottom();gohomebottom();gohometop();ontwerpershidebottom();ontwerpershidetop();">
+       <li><a ><h3>cathy phill</h3></a></li>
+ </div>
+       <div class="three columns text-right nopadding" onClick="ontwerperstop();ontwerpersbottom();homehidetop();homehidebottom();ontwerpersshowtop();ontwerpersshowbottom()">      
+       <li><a>tim van steenbergen</a></li>
+ </div>
+       
+       <div class="three columns text-right nopadding">
+       <li><a>annemie verbeke</a></li>
+         </div>
 
-     <div class="row  transition  " style="">
+          <div class="three columns text-right nopadding">
+       <li><a>chris jansens</a></li>
+         </div>
+      </div>
+  
 
 
-    <div class="twelve columns nopadding ">
-
-
-
-
-       <div class="eight columns text-left box  textbox" style="float:right">
-
-    
-   <h5 style="">About us</h5>
-     
        
 
+      </div>
 
- <p>This is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you wouldhis is a random text that would represent something interesting that you wouo read.</p> <p>This is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you wouldhis is a random text that would represent something interesting that you wouo read.</p>
-  <div class="six columns text-left box  textbox nopadding">
-   <img src="images/bg.png"style="border-radius:5px;z-index:10;" class="">
- </div>
-  <div class="six columns text-left box  textbox nopadding">
-   <img src="images/seventy42.png"style="border-radius:5px;z-index:10;" class="">
- </div>
- </div>
-
-     <!--  <div class="four columns text-left box  textbox">
-   <img src="images/cathy2.png"style="">
-        </div> -->
+    
 
 
 
 
+
+</div>
+</div>
+                                                              <!--PAGE three  top-->
+
+
+
+
+<div id="contacttop" class="four columns nopadding transition " style="height:auto;">
+<img src="images/seventy03.png"style=";position:fixed;width:100%;top:30px;;left:0px;">
+ <div class="row nopadding  fade-top" style="">
+
+ <div class="six columns nopaddingtop nopaddingbottom" >
+  </div> 
+   <div class="six columns nopaddingtop nopaddingbottom" ><h2 style="margin-left:0px;font-size:120px;margin-top:50px;text-shadow: 0 1px 1px #000;color:#d1d1d1">Seventy 4</h2>
+  </div> 
+
+</div></div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<div id="backsybottom" class="transition six columns nopadding" style="">
+
+
+
+                                                                <!--PAGE three  BOTTOM-->
+
+<div id="contactbottom" class="four columns nopadding transition " style="height:auto;">
+
+ <div class="row nopadding  " style="">
+ <div class="six columns nopaddingtop nopaddingbottom" >
+
+</div>
+
+
+ <div class="six columns nopaddingtop nopaddingbottom" >
+  <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.be/maps?q=seventy4+roeselare+google+maps&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=seventy4&amp;hnear=Roeselare,+West-Vlaanderen,+Vlaams+Gewest&amp;t=m&amp;ll=50.947288,3.122263&amp;spn=0.018927,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.be/maps?q=seventy4+roeselare+google+maps&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=seventy4&amp;hnear=Roeselare,+West-Vlaanderen,+Vlaams+Gewest&amp;t=m&amp;ll=50.947288,3.122263&amp;spn=0.018927,0.036478&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">Grotere kaart weergeven</a></small>
+
+</div> 
+</div></div>
+
+                                                          <!--PAGE TWO  BOTTOM-->
+<div id="ontwerpersbottom" class="four columns nopadding transition " style="">
+    
+
+ <div class="row nopadding  " style="margin-top:-100px;">
+  <div class="six columns nopaddingbottom nopaddingtop" style=""> 
 
 
   
 
+  </div>
 
 
 
+  <div class="six columns  text-left" style=""> <h5 style="color:#000;">Cathy Phill</h5>
+     
+       
 
+
+ <p>Cathy Pill is a fashion designer living and working in Belgium. After completing her studies at the E.N.S.A.V. of La Cambre, Pill went on to work as an intern for A.F. Vandevorst and Vivienne Westwood. In 2003 Pill won The Collection of the Year at Trieste's contest, and in 2005 she also won sponsorships from La Fondation Pierre Bergé et Yves Saint Laurent and from Yves Saint Laurent at the Andam contest in France. </p>  <p>In the same year she went onto win the Fabio Inghirami Award in Italy and the Modo Bruxellae Price in Belgium. Her first S/S 2006 collection titled 'Blink' married Art Nouveau influenced sinuous patterns with draped and bunched silhouettes. The collection itself was shown at the Louvre in Paris and since then Pill presents her collections during Paris Fashion Weeks. </p>  <p>Her collections continue to be recognised for their smart use of prints, drapes and sharp details, creating modern and feminine silhouettes. Her first ready-to-wear collection was launched during the S/S 2006 Paris Fashion Week.  </p>
+</div>
+
+      <div class="three columns  text-left" style="">
+
+<div id="featured" style="margin-top:0px;overflow:hidden;border: 0px solid #222;
       
-    </div>
+       -webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
+            
+        <img style=""src="images/cathy1.jpg" alt="slide image">
+        <img style="-webkit-box-shadow: 0px 0px 0px 0px #333;
+box-shadow: 0px 0px 0px 0px #333;"src="images/cathy2.jpg" alt="slide image">
+        <img style="-webkit-box-shadow: 0px 0px 0px 0px #333;
+box-shadow: 0px 0px 0px 0px #333;"src="images/cathy3.jpg" alt="slide image">
+    
+      </div>
+
+</div>      
+          
+</div>
+</div>
+
+
+                                                                <!--PAGE ONE  BOTTOM-->
+
+<div id="homebottom" class="four columns nopadding transition " style="height:auto;">
+
+
+
+ <div class="row nopadding   " style="">
+
+ <div class="six columns nopaddingtop nopaddingbottom" >
+ </div> 
+
+ <div class="six columns " style="">
+
+<h2 style="font-size:30px;text-shadow: 0 1px 1px #000;color:#d1d1d1;margin-top:15px;">Openinghours</h2>
+
+     
+       <div class="twelve columns nopadding fade-top" style="padding-top:50px;">
+
+
+  <span style="">Monday
+01.30 pm - 06.30 pm
+
+Tuesday - Saturday
+10.00 am - 12.00 am & 01.30 pm - 06.30 pm
+
+Sunday & Public Holidays
+closed
+
+</span>
+</div>
+ <div class="six columns nopadding  " style="margin-top:50px;">
+ <img src="images/bg.png"style="width:220px;"> </div>
+  <div class="six columns nopadding  " style="margin-top:50px;">
+ <img src="images/seventy42.png"style="width:220px;"> </div>
+ </div>
+</div>
+</div>
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</div></div>
+
+
+
+
+
+
+
+
+
+
+ 
     </div>
     </div>
 
@@ -148,15 +367,15 @@
      
 
 
-<div id="ontwerperspage"class="full-width  transition nopadding  shadowbox-white " style="">
+<div id="ontwerperspage"class="full-width  transition nopadding   " style="">
 
       
    
 
-     <div class="row  transition  " style="">
+     <div class="row  transition fade-top " style="">
+<div class="four columns nopadding "></div>
 
-
-    <div class="twelve columns nopadding ">
+    <div class="eight columns nopadding ">
        
       <div class="three columns text-left box  textbox cathyone ontwerpersfoto pointer"style="max-height:50%;overflow:hidden;">
         
@@ -197,55 +416,12 @@
 
 
       
-    </div>
-
-
-
-
-
-
-    <div class="twelve columns nopadding ">
-       
-       <div class="three columns text-left box  textbox cathyone2 pointer ontwerpersfoto">
-   <img src="images/an2.jpg"style="border-radius:5px;" class="shadowbox-outer">
-   <div class="nopadding transition hoverbox text-center" style=";"> <h6>Tim van steenbergen<h6><h3>Biografie</h3>
-    </div>
-        </div>
-
-
-       <div class="three columns text-left box  textbox cathyone2 pointer ontwerpersfoto">
-
     
-   <img src="images/an3.jpg"style="border-radius:5px;" class="shadowbox-outer">
-<div class="nopadding transition hoverbox text-center" style=";"> <h6>Tim van steenbergen<h6><h3>Biografie</h3>
-    </div> </div>
+
+ </div>
 
 
 
-       <div class="three columns text-left box  textbox cathyone2 pointer ontwerpersfoto">
-
-    
-   <img src="images/an1.jpg"style="border-radius:5px;" class="shadowbox-outer">
-<div class="nopadding transition hoverbox text-center" style=";"> <h6>Tim van steenbergen<h6><h3>Biografie</h3>
-    </div> </div>
-
-       <div class="three columns text-left box  textbox cathyone2 pointer ontwerpersfoto">
-
-    
-   <img src="images/an2.jpg"style="border-radius:5px;" class="shadowbox-outer">
-<div class="nopadding transition hoverbox text-center" style=";"> <h6>Tim van steenbergen<h6><h3>Biografie</h3>
-    </div> </div>
-
-
-
-      
-    </div>
-
-
-
-
-
-    </div>
 
 
 
@@ -254,49 +430,25 @@
      
     </div>    </div>
 
-     
 
 
+  <div class="twelve columns background-dark " style="margin-top:0px;;;position:fixed;bottom:0px;height:120px;z-index:600;" > 
 
- <div class="twelve columns nopadding " style="background:#e1e1e1">
-   <h2 style="font-size:32px;margin-top:56px;text-shadow: 0 1px 1px #fff;color:#555;font-weight:bold;">Follow us on Facebook <div class="websymbols ">f</div></h2> </div>
-<div class="full-width footer shadowbox-white">
-  <div class="row ">
-
-
-<div class="four columns  text-left box">
-  <h3></h3>
-  <div class="twelve columns nopadding  borderlongblack"></div>
-  <div class="six columns  text-left nopadding">
-  <li><a><h3>Home</h3></a></li>
-  <li><a><h3>Realisaties</h3></a></li>
-  </div>
-  <div class="six columns  text-left nopadding">
-  <li> <a><h3>Diensten</h3></a></li>
-  <li><a><h3>Contact</h3></a></li>
-</div>
-  <div class="twelve columns nopadding  borderlongblack"></div>
-</div>
-<div class="four columns  text-left box">
-  <h3></h3>
-  <div class="twelve columns nopadding  borderlongblack"></div>
-  <div class="six columns  text-left nopadding">
-  <li><a><h3>Facebook</h3></a></li>
-  <li><a><h3>Twitter</h3></a></li>
-  </div>
-  <div class="six columns  text-left nopadding">
-  <li> <a><h3>Linked In</h3></a></li>
-  <li><a><h3>Google +</h3></a></li>
-</div>
-  <div class="twelve columns nopadding  borderlongblack"></div>
+     <div class="six columns text-left"> 
+<h2 style="margin-top:0px;font-size:32px;margin-top:0px;text-shadow: 0 1px 1px #000;color:#74C2E1;font-weight:bold;">Follow us on Facebook  <h2 style="margin-top:-65px;margin-left:299px;"class="websymbols ">f</h2> </h2>
 </div>
 
+
+
+
+</div>
 
 
 
     <!--                                                        scripts                                         -->
-</div> </div> </div>    
-
+</div> </div> </div>   </div>   </div>    
+   
+ </div>
 </body>
 
 
@@ -328,47 +480,253 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 </script>
 
 
+
+
+
+
+<!-- //////////////////////////////              Fade IN pages             ////////////////////////////////////   -->
 <script>
-    function ontwerperspageshow() {
-    var x, divArray = ["ontwerperspage"];
+    function homeshowtop() {
+    var x, divArray = ["hometop"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'height:850px;visibility:visible;opacity:1';
+            document.getElementById(divArray[x]).style.cssText = 'opacity:1';
         }
     }
 }
 </script>
 <script>
-    function ontwerperspagehide() {
-    var x, divArray = ["ontwerperspage"];
+    function homeshowbottom() {
+    var x, divArray = ["homebottom"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
+            document.getElementById(divArray[x]).style.cssText = 'opacity:1';
         }
     }
 }
 </script>
 
 <script>
-    function homeshow() {
-    var x, divArray = ["homepage"];
+    function ontwerpersshowtop() {
+    var x, divArray = ["ontwerperstop"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'height:550px;visibility:visible;opacity:1';
+            document.getElementById(divArray[x]).style.cssText = 'opacity:1';
+        }
+    }
+}
+</script>
+
+
+<script>
+    function ontwerpersshowbottom() {
+    var x, divArray = ["ontwerpersbottom"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'opacity:1';
+        }
+    }
+}
+</script>
+
+<script>
+    function contactshowtop() {
+    var x, divArray = ["contacttop"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'opacity:1';
+        }
+    }
+}
+</script>
+
+
+<script>
+    function contactshowbottom() {
+    var x, divArray = ["contactbottom"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'opacity:1';
+        }
+    }
+}
+</script>
+
+
+<!-- //////////////////////////////              Fade OUT pages             ////////////////////////////////////   -->
+
+<script>
+    function homehidetop() {
+    var x, divArray = ["hometop"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'opacity:0.0';
+        }
+    }
+}
+</script>
+
+
+
+<script>
+    function homehidebottom() {
+    var x, divArray = ["homebottom"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'opacity:0.0';
+        }
+    }
+}
+</script>
+
+
+
+
+
+<script>
+    function ontwerpershidetop() {
+    var x, divArray = ["ontwerperstop"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'opacity:0.0';
+        }
+    }
+}
+</script>
+
+
+
+<script>
+    function ontwerpershidebottom() {
+    var x, divArray = ["ontwerpersbottom"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'opacity:0.0';
+        }
+    }
+}
+</script>
+
+<script>
+    function contacthidetop() {
+    var x, divArray = ["contacttop"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'opacity:0.0';
+        }
+    }
+}
+</script>
+
+
+<script>
+    function contacthidebottom() {
+    var x, divArray = ["contactbottom"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'opacity:0.0';
+        }
+    }
+}
+</script>
+
+
+<!-- /////////////////////////////              GO TO              //////////////////////////////////   -->
+
+
+<script>
+    function gohometop() {
+    var x, divArray = ["backsytop"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'margin-left:0%;';
         }
     }
 }
 </script>
 <script>
-    function homehide() {
-    var x, divArray = ["homepage"];
+    function gohomebottom() {
+    var x, divArray = ["backsybottom"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
+            document.getElementById(divArray[x]).style.cssText = 'margin-right:0%;';
         }
     }
 }
 </script>
+
+<script>
+    function goontwerperstop() {
+    var x, divArray = ["backsytop"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'margin-left:-33.33%;';
+        }
+    }
+}
+</script>
+<script>
+    function goontwerpersbottom() {
+    var x, divArray = ["backsybottom"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'margin-left:-33.33%;';
+        }
+    }
+}
+</script>
+
+<script>
+    function gocontacttop() {
+    var x, divArray = ["backsytop"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'margin-left:-66.66%;';
+        }
+    }
+}
+</script>
+<script>
+    function gocontactbottom() {
+    var x, divArray = ["backsybottom"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = 'margin-left:0%;';
+        }
+    }
+}
+</script>
+
+
+
+
+<!-- /////////////////////////////          BACKGROUNDS         //////////////////////////////////   -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
