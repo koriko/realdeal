@@ -49,200 +49,262 @@
 
 
 
-<div id="toppage" class="twelve columns nopadding">       
-
-   <div class="full-width  transition nopadding background-dark  " style=";margin-top:0px;
-   position:fixed;top:0px;left:0px;z-index:500;;height:30;-webkit-box-shadow: 1px 1px 2px 1px #000000;
-box-shadow: 1px 1px 2px 1px #000000; " >
+<div id="toppage" class="twelve columns nopadding"></div>
 
 
+<!-- //////////////////////////////              START MAIN MENU             ////////////////////////////////////   -->
+
+<div class="full-width  transition nopadding background-dark"style=";margin-top:0px;position:fixed;top:0px;left:0px;z-index:900;;height:57px;;-webkit-box-shadow: 1px 1px 2px 1px #000000;box-shadow: 1px 1px 2px 1px #000000; " >
+  <div class="row  transition nopadding  ">
+    <div class="twelve columns " style="margin-top:0px;">
+      <div class="twelve columns menu nopadding "  style="margin-top:0px;">
+           <div class="barz">
         
-<div class="row  transition nopadding  ">
- 
+</div>
 
-
-<div class="twelve columns nopadding" style="margin-top:0px;">
-  
-    <div class="five columns text-left nopadding ">
-
-     
-
-
-    </div> 
-     <div class="seven columns menu nopadding "  style="margin-top:0px;">
-        
-      <div class="three columns text-right nopadding">
-       
- </div>
-<div class="three ontwerpers columns text-right nopadding" 
-onClick="homeshowtop();homeshowbottom();gohomebottom();gohometop();ontwerpershidebottom();ontwerpershidetop();contacthidebottom();contacthidetop();">
-       <li><a href="#toppage" >Home</a></li>
- </div>
-       <div class="three home columns text-right nopadding" onClick="goontwerperstop();goontwerpersbottom();homehidetop();homehidebottom();;contacthidebottom();contacthidetop();ontwerpersshowtop();ontwerpersshowbottom()">      
-       <li><a href="#toppage" >Ontwerpers</a></li>
- </div>
-       
-       <div class="three columns text-right nopadding" onClick="gocontacttop();gocontactbottom();;ontwerpershidebottom();ontwerpershidetop();;homehidetop();homehidebottom();contactshowtop();contactshowbottom();">
-       <li><a>Contact</a></li>
-         </div>
+        <div class="three columns nopaddingbottom nopaddingtop text-center " >
+           <h1 style="font-size:35px;text-shadow: 0 2px 1px #000;margin-top:0px;font-family: 'Tangerine', cursive;" >Fashion For Women</h1>
+        </div>
+        <div class="three columns nopaddingbottom nopaddingtop text-center " >
+           
+        </div>
+        <div class="two ontwerpers menuz columns text-center nopadding" onClick="homeshowtop();homeshowbottom();gohomebottom();gohometop();ontwerpershidebottom();ontwerpershidetop();contacthidebottom();contacthidetop();">
+          <li><a href="#toppage" >Home</a></li>
+        </div>
+        <div class="two home columns  menuz text-center nopadding" onClick="goontwerperstop();goontwerpersbottom();homehidetop();homehidebottom();;contacthidebottom();contacthidetop();ontwerpersshowtop();ontwerpersshowbottom()">      
+          <li><a href="#toppage" >Ontwerpers</a></li>
+        </div>
+        <div class="two columns menuz text-center nopadding" onClick="gocontacttop();gocontactbottom();;ontwerpershidebottom();ontwerpershidetop();;homehidetop();homehidebottom();contactshowtop();contactshowbottom();">
+          <li><a href="#toppage">Contact</a></li>
+        </div>
       </div>
-
-
-
-
-</div></div></div></div></div>
-
-
-
-
-
-   <div id="homepage"class="full-width  transition nopadding  " style="overflow:hidden;margin-top:0px;">
-
-<div class="full-width  transition nopadding  " style="overflow:hidden;width:300%;height:auto;position:absolute;bottom:120px;top:30px;overflow:auto;">
-
-
-
- 
-
-
-
-
-
-
-<div class="twelve columns nopadding" style="height:auto;">
-
-<div id="backsytop" class="transition six columns nopadding" style="">
-
-
-
-                                                                  <!--PAGE ONE  TOP-->
-
-
-
-
-<div id="hometop"class="four columns nopadding transition " style="height:auto;">
-   
- <img class=""src="images/seventy01.png"style=";position:fixed;width:100%;top:30px;;left:0px;z-index:0;">
- <div class="row nopadding " style="">
-
-
- <div class="six columns nopaddingbottom nopaddingtop " >
-  
-</div>
-
- <div class="six columns text-left " style="overflow:visible">
-
-<h2 style="margin-left:0px;font-size:120px;margin-top:-50px;text-shadow: 0 1px 1px #000;color:#d1d1d1">Seventy 4</h2>  
-<h2 style="margin-left:25px;font-size:50px;text-shadow: 0 1px 1px #000;color:#d1d1d1">Belgian designer clothes</h2>
- 
- </div>
-
-</div>
-
-</div>
- 
-
-
-                                                                <!--PAGE TWO  TOP-->
-
-
-<div id="ontwerperstop"class="four columns nopadding transition " style="height:auto;">
-
-
-<img src="images/seventy04.png"style=";position:fixed;width:100%;top:30px;;left:0px;">
- <div class="row nopadding " style="margin-bottom:0px;">
- 
- <div class="six columns nopaddingbottom nopaddingtop" style=""> 
-  
+    </div>
   </div>
+</div>
+<!-- /////////////////////////              CLOSE MAIN MENU             ////////////////////////////////////   -->
 
 
- <div class="six columns fade-top" style="margin-bottom:-50px;">
-  <div class="twelve columns menu nopadding">
-        
+
+
+<!-- //////////////////////////              START MAIN CONTENT            ////////////////////////////////////   -->
+<div id="homepage"class="full-width  transition nopadding  " style="overflow:hidden;margin-top:0px;">
+  <div class="full-width  transition nopadding  " style="width:300%;">
+
+    <div id="backsytop" class="transition twelve columns " style="">
+
+
+
+<!-- //////////////////////////              HOMEPAGE TOP SIDE            ////////////////////////////////////   -->
+      <div id="hometop"class="four columns nopadding transition " style="height:auto;">
+         <div class="row nopadding  " style="">
+        <img class=""src="images/seventy02.png"style=";opacity:0.95; 
+        ;position:fixed;top:0px;max-width:48%;height:100%;z-index:20;left:0%;">
+        <h2 style="opacity:0.95; ;position:fixed;top:66%;z-index:10;left:20%;">
+          Loading . . .</h2>
+          <div class="six columns nopaddingbottom nopaddingtop " >
+          </div>
+          
+          <div class="four columns text-left fade-top" style="margin-top:10px;">
+           
+            <h1 style="text-shadow: 0 3px 2px #fff;color: #b1b1b1;font-weight:lighter;font-size:72px;">Seventy4</h1>
+             <h3 style="color:#777;">Belgian Fashion Designers</h3>
+
+
+            <div class="twelve columns text-center nopadding" style="opacity:0.7;left:0%;background: url(images/pattern1.jpg) ;;padding:7px;;border-radius:3px;overflow:visible;">
+               <div class="arrow-rightside"></div>
+            <h3 style="">- Strictly for women -</h3>
+            </div>
+          
+          </div>    <div class="two columns nopaddingbottom nopaddingtop " >
+           <img src="images/cathy2.png"style="width:140px;position:absolute;top:80px;right:5%;">
+
+          </div>
+        </div>    </div>
       
-<div class="three columns text-right nopadding" 
-onClick="homeshowtop();homeshowbottom();gohomebottom();gohometop();ontwerpershidebottom();ontwerpershidetop();">
-       <li><a ><h3>cathy phill</h3></a></li>
- </div>
-       <div class="three columns text-right nopadding" onClick="ontwerperstop();ontwerpersbottom();homehidetop();homehidebottom();ontwerpersshowtop();ontwerpersshowbottom()">      
-       <li><a>tim van steenbergen</a></li>
- </div>
-       
-       <div class="three columns text-right nopadding">
-       <li><a>annemie verbeke</a></li>
-         </div>
+<!-- //////////////////////////            END HOMEPAGE TOP SIDE     ////////////////////////////////////   -->
 
-          <div class="three columns text-right nopadding">
-       <li><a>chris jansens</a></li>
-         </div>
-      </div>
-  
 
+
+
+
+
+<!-- ////////////////////              ONTWERPERS  TOP (images)            ///////////////////////////   -->
+
+
+      <div id="ontwerperstop"class="four columns nopadding transition " >
+        <div class="row nopadding  " style="">
 
        
+        <div class="row nopadding " style="margin-bottom:0px;">
+          <div class="six columns nopaddingbottom nopaddingtop" style=""> 
+          </div>
 
+<!-- //////////////////////////              ONTWERPERS TOP (menu)         ////////////////////////////////////   -->
+
+          <div class="twelve columns background-dark" style="z-index:880;opacity:0.8;position:fixed;top:55px;left:0px;-">
+            <div class="row ">
+              <div class="twelve columns menu ">
+                <div class="three columns text-center menuz nopadding pointer"onClick="cathy();anhide();timhide();chrishide()">
+                  <li><a href="#toppage">cathy phill</a></li>
+                </div>
+                <div class="three columns text-center menuz  nopadding" onClick="cathyhide();anhide();chrishide();tim();">      
+                  <li><a href="#toppage">tim van steenbergen</a></li>
+                </div>
+                <div class="three columns text-center menuz  nopadding" onClick="cathyhide();an();timhide();chrishide()">
+                  <li><a href="#toppage">annemie verbeke</a></li>
+                </div>
+                <div class="three columns text-center menuz  nopadding pointer" onClick="chris();cathyhide();timhide();anhide();">
+                  <li><a href="#toppage">chris jansens</a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    </div>
+<!-- //////////////////////////             END ONTWERPERS TOP         ////////////////////////////////////   -->
+
+<!-- ////////////////    //////////             CONTACT TOP         ////////////    ////////////////////////   -->
+      <div id="contacttop" class="four columns nopadding transition " style="height:auto;">
+        <div class="row nopadding  " style="">
+       
+        <div class="row nopadding fade-top " style=";z-index:0">
+          <div class="six columns nopaddingbottom nopaddingtop " >
+          </div>
+          
+          <div class="four columns text-left " style="margin-top:10px;">
+           
+            <h1 style="text-shadow: 0 3px 2px #fff;color: #b1b1b1;font-weight:lighter;font-size:72px;">Seventy4</h1>
+             <h3 style="color:#777;">Belgian Fashion Designers</h3>
+
+
+            <div class="twelve columns text-center nopadding" style="opacity:0.7;left:0%;background: url(images/pattern1.jpg) ;;padding:7px;;border-radius:3px;overflow:visible;">
+               <div class="arrow-rightside"></div>
+            <h3 style="">- Strictly for women -</h3>
+            </div>
+          
+          </div>    <div class="two columns nopaddingbottom nopaddingtop " >
+           <img src="images/cathy2.png"style="width:140px;position:absolute;top:80px;right:5%;">
+
+          </div>
+        </div>
       </div>
+    </div>
+        </div>
 
-    
+    <!-- //////////////////////////             END CONTACT TOP         ////////////////////////////////////   -->
+
+<!-- ////////////////    //////             START CONTACT BOTTOM        //////////////////////////////////   -->
+    <div id="backsybottom" class="transitionfast twelve columns " style="">
+      <div id="contactbottom" class="four columns nopadding transition " style=";">
+        <div class="row nopadding  " style="">
+           <img class=""src="images/seventy01.png"style="opacity:0.95; ;position:fixed;top:30px;max-width:45%;height:100%;z-index:580;left:0%;">
+          <div class="six columns nopaddingtop nopaddingbottom " >
+          </div>
+          <div class="six columns text-left nopaddingtop nopaddingbottom fade-top" style=";;margin-top:0px;">
+            <div class="six columns text-left nopaddingtop" style="">
+              <h2>Adress</h2>              
+              <p>8800 Roeselare</p>
+              <p>West-vlaanderen</p>
+              <p>Noordstraat 74</p>
+            </div>
+            <div class="six columns text-left nopaddingtop" style="">
+              <h2>Phone</h2>
+              <p>051 21 25 30</p>
+              <h2>Email</h2>
+              <p>Seventy4@gmail.com</p>
+            </div>
+            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.be/maps?q=seventy4+roeselare+google+maps&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=seventy4&amp;hnear=Roeselare,+West-Vlaanderen,+Vlaams+Gewest&amp;t=m&amp;ll=50.947288,3.122263&amp;spn=0.018927,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.be/maps?q=seventy4+roeselare+google+maps&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=seventy4&amp;hnear=Roeselare,+West-Vlaanderen,+Vlaams+Gewest&amp;t=m&amp;ll=50.947288,3.122263&amp;spn=0.018927,0.036478&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">Grotere kaart weergeven</a></small>
+          </div>
+        </div>
+      </div>
+      <!-- //////////////////////////             END CONTACT BOTTOM         ////////////////////////////////////   -->
+
+<!-- ///////////////////////                  START ONTWERPERS BOTTOM         ///////////////////////////////   -->
+      <div id="ontwerpersbottom" class="four columns nopadding transition " style="">
+        <div class="row   " style="margin-top:-220px;">
+
+           <div  id="cathypic" class="transition " style=";position:fixed;width:100%;top:30px;;left:0px;;z-index:250" >
+          <img src="images/seventy04.png"style="opacity:0.95; ;position:fixed;top:30px;max-width:45%;height:100%;z-index:200;right:0%;">
+        </div>
+         <div  id="timpic" class="transition " style=";position:fixed;width:100%;top:30px;;left:0px;;z-index:250" >
+          <img src="images/seventy09.png"style="opacity:0.95; ;position:fixed;top:30px;max-width:45%;height:100%;z-index:200;right:0%;">
+        </div>
+        <div  id="anpic" class="transition " style=";position:fixed;width:100%;top:30px;;left:0px;;z-index:250" >
+          <img src="images/seventy05.png"style="opacity:0.95; ;position:fixed;top:30px;max-width:45%;height:100%;z-index:200;right:0%;">
+        </div>
+        <div  id="chrispic" class="transition " style=";position:fixed;width:100%;top:30px;;left:0px;;z-index:250" >
+          <img src="images/seventy08.png"style="opacity:0.95; ;position:fixed;top:30px;max-width:45%;height:100%;z-index:200;right:0%;">
+        </div>
 
 
+          <div class="twelve columns" >
+          <div class="six columns  text-left" style=";z-index:90;height:auto;">
+            <div id="cathybio" class="transition fade-top twelve columns">
+              <h2 >Cathy Phill</h2>
+              <p>Cathy Pill is a fashion designer living and working in Belgium. After completing her studies at the E.N.S.A.V. of La Cambre, Pill went on to work as an intern for A.F. Vandevorst and Vivienne Westwood. In 2003 Pill won The Collection of the Year at Trieste's contest, and in 2005 she also won sponsorships from La Fondation Pierre Bergé et Yves Saint Laurent and from Yves Saint Laurent at the Andam contest in France. </p>  <p>In the same year she went onto win the Fabio Inghirami Award in Italy and the Modo Bruxellae Price in Belgium. Her first S/S 2006 collection titled 'Blink' married Art Nouveau influenced sinuous patterns with draped and bunched silhouettes. The collection itself was shown at the Louvre in Paris and since then Pill presents her collections during Paris Fashion Weeks. </p>  <p>Her collections continue to be recognised for their smart use of prints, drapes and sharp details, creating modern and feminine silhouettes. Her first ready-to-wear collection was launched during the S/S 2006 Paris Fashion Week.  </p>
+              <div class="twelve columns  text-left fade-top nopadding" style=";z-index:50">
+                <div class="six columns  text-left " style=";z-index:50">
+                  <h2 >Colection Preview</h2>
+                  <div id="featured" style="margin-top:0px;overflow:hidden;border: 0px solid #222;-webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
+                    <img src="images/cathy1.jpg" alt="slide image">
+                    <img src="images/cathy2.jpg" alt="slide image">
+                    <img src="images/cathy3.jpg" alt="slide image">
+                  </div>
+                </div>
+              </div>      
+            </div>
+            <div id="timbio" class="transition fade-top  twelve columns">
+              <h2 >Tim van steenbergen</h2>
+              <p>Tim Van Steenbergen graduated Magna cum Laude at the Antwerp Royal Academy of Fine Arts (fashion department, textile creation and theatre costume). Subsequently he took classes in drapery and couture techniques and worked as the first assistant of Olivier Theyskens.His first collection was launched in 2001 in Paris and in the same year he set up his company Mitzlavv bvba.</p>
+              <p>Meanwhile he's up to his twenty first collection/fashion show and the label Tim Van Steenbergen is being sold in the best designer shops all over the world. His style evolves into a refined pureness and female elegance. </p>
+              <p>Tim Van Steenbergen also created jewellery for Swarovski UK, shoes for Novella Italia, "Barbie" outfits, a jean for Xfit by Lycra, an haute couture dress for the Museum of Fine Arts and Lace in Calais (France) and the bag "le Seau Elsa" for the French label Lancel. </p>
+              <div class="twelve columns  text-left fade-top nopadding" style=";z-index:50">
+                <div class="six columns  text-left " style=";z-index:50">
+                  <h2 >Colection Preview</h2>
+                  <div id="featured2" style="margin-top:0px;overflow:hidden;border: 0px solid #222;-webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
+                    <img src="images/tim1.jpg" alt="slide image">
+                    <img src="images/tim2.jpg" alt="slide image">
+                    <img src="images/tim3.jpg" alt="slide image">
+                  </div>
+                </div>
+              </div>      
+            </div>
+            <div id="anbio" class="transition fade-top twelve columns">
+              <h2 >Annemie Verbeke</h2>
+              <p>The most important continuity throughout all the collections of Annemie is the yearning, the desire to achieve a personal view on sublime "daily life" clothes.Her creative knitwear is unique and expresses her extreme sensibility for the intimate combinations of colors and materials. </p>
+              <p>Every season, mostly female personalities with an exceptional destiny (who accomplished an artistic career with a social involvement) are giving her a human profoundness she really needs. It's a way of traveling, analyzing her own metaphors and dualities.</p>
+              <p>Paradoxes seem reality for her and in her design strategy she succeeds to confront the ephemeral to the timelessness. A special attention is made on gorgeous shapes for dresses and skirts with surprising, almost hidden details.Her way is a fragile expression of an A-typical fashion but with a strong 'temperament'. </p>
+              <div class="twelve columns  text-left fade-top nopadding" style=";z-index:50">
+                <div class="six columns  text-left " style=";z-index:50">
+                  <h2 >Colection Preview</h2>
+                  <div id="featured3" style="margin-top:0px;overflow:hidden;border: 0px solid #222;-webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
+                    <img src="images/an1.jpg" alt="slide image">
+                    <img src="images/an2.jpg" alt="slide image">
+                    <img src="images/an3.jpg" alt="slide image">
+                  </div>
+                </div>
+              </div>      
+            </div>
+            <div id="chrisbio" class="transition fade-top twelve columns">
+              <h2 >Chris jansens</h2>
+              <p>The most important continuity throughout all the collections of Annemie is the yearning, the desire to achieve a personal view on sublime "daily life" clothes.Her creative knitwear is unique and expresses her extreme sensibility for the intimate combinations of colors and materials. </p>
+              <p>Every season, mostly female personalities with an exceptional destiny (who accomplished an artistic career with a social involvement) are giving her a human profoundness she really needs. It's a way of traveling, analyzing her own metaphors and dualities.</p>
+              <p>Paradoxes seem reality for her and in her design strategy she succeeds to confront the ephemeral to the timelessness. A special attention is made on gorgeous shapes for dresses and skirts with surprising, almost hidden details.Her way is a fragile expression of an A-typical fashion but with a strong 'temperament'. </p>
+              <div class="twelve columns  text-left fade-top nopadding" style=";z-index:50">
+                <div class="six columns  text-left " style=";z-index:50">
+                  <h2 >Colection Preview</h2>
+                  <div id="featured4" style="margin-top:0px;overflow:hidden;border: 0px solid #222;-webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
+                    <img src="images/1.jpg" alt="slide image">
+                    <img src="images/2.jpg" alt="slide image">
+                    <img src="images/3.jpg" alt="slide image">
+                    <img src="images/4.jpg" alt="slide image">
+                  </div>
+                </div>
+              </div>      
+            </div>  
+          </div>
 
 
-
-</div>
-</div>
-                                                              <!--PAGE three  top-->
-
-
-
-
-<div id="contacttop" class="four columns nopadding transition " style="height:auto;">
-<img src="images/seventy03.png"style=";position:fixed;width:100%;top:30px;;left:0px;">
- <div class="row nopadding  fade-top" style="">
-
- <div class="six columns nopaddingtop nopaddingbottom" >
-  </div> 
-   <div class="six columns nopaddingtop nopaddingbottom" ><h2 style="margin-left:0px;font-size:120px;margin-top:50px;text-shadow: 0 1px 1px #000;color:#d1d1d1">Seventy 4</h2>
-  </div> 
-
-</div></div>
-</div>
-
-
-
-
-</div>
-
-
-
-
-
-<div id="backsybottom" class="transition six columns nopadding" style="">
-
-
-
-                                                                <!--PAGE three  BOTTOM-->
-
-<div id="contactbottom" class="four columns nopadding transition " style="height:auto;">
-
- <div class="row nopadding  " style="">
- <div class="six columns nopaddingtop nopaddingbottom" >
-
-</div>
-
-
- <div class="six columns nopaddingtop nopaddingbottom" >
-  <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.be/maps?q=seventy4+roeselare+google+maps&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=seventy4&amp;hnear=Roeselare,+West-Vlaanderen,+Vlaams+Gewest&amp;t=m&amp;ll=50.947288,3.122263&amp;spn=0.018927,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.be/maps?q=seventy4+roeselare+google+maps&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=seventy4&amp;hnear=Roeselare,+West-Vlaanderen,+Vlaams+Gewest&amp;t=m&amp;ll=50.947288,3.122263&amp;spn=0.018927,0.036478&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">Grotere kaart weergeven</a></small>
-
-</div> 
-</div></div>
-
-                                                          <!--PAGE TWO  BOTTOM-->
-<div id="ontwerpersbottom" class="four columns nopadding transition " style="">
-    
-
- <div class="row nopadding  " style="margin-top:-100px;">
   <div class="six columns nopaddingbottom nopaddingtop" style=""> 
 
 
@@ -252,30 +314,38 @@ onClick="homeshowtop();homeshowbottom();gohomebottom();gohometop();ontwerpershid
 
 
 
-  <div class="six columns  text-left" style=""> <h5 style="color:#000;">Cathy Phill</h5>
-     
-       
 
 
- <p>Cathy Pill is a fashion designer living and working in Belgium. After completing her studies at the E.N.S.A.V. of La Cambre, Pill went on to work as an intern for A.F. Vandevorst and Vivienne Westwood. In 2003 Pill won The Collection of the Year at Trieste's contest, and in 2005 she also won sponsorships from La Fondation Pierre Bergé et Yves Saint Laurent and from Yves Saint Laurent at the Andam contest in France. </p>  <p>In the same year she went onto win the Fabio Inghirami Award in Italy and the Modo Bruxellae Price in Belgium. Her first S/S 2006 collection titled 'Blink' married Art Nouveau influenced sinuous patterns with draped and bunched silhouettes. The collection itself was shown at the Louvre in Paris and since then Pill presents her collections during Paris Fashion Weeks. </p>  <p>Her collections continue to be recognised for their smart use of prints, drapes and sharp details, creating modern and feminine silhouettes. Her first ready-to-wear collection was launched during the S/S 2006 Paris Fashion Week.  </p>
+
+
 </div>
 
-      <div class="three columns  text-left" style="">
 
-<div id="featured" style="margin-top:0px;overflow:hidden;border: 0px solid #222;
-      
-       -webkit-box-shadow: 0px 0px 0px 0px #333;box-shadow: 0px 0px 0px 0px #333;height:0px;overflow:hidden;">
-            
-        <img style=""src="images/cathy1.jpg" alt="slide image">
-        <img style="-webkit-box-shadow: 0px 0px 0px 0px #333;
-box-shadow: 0px 0px 0px 0px #333;"src="images/cathy2.jpg" alt="slide image">
-        <img style="-webkit-box-shadow: 0px 0px 0px 0px #333;
-box-shadow: 0px 0px 0px 0px #333;"src="images/cathy3.jpg" alt="slide image">
-    
-      </div>
 
-</div>      
-          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 </div>
 
@@ -291,15 +361,28 @@ box-shadow: 0px 0px 0px 0px #333;"src="images/cathy3.jpg" alt="slide image">
  <div class="six columns nopaddingtop nopaddingbottom" >
  </div> 
 
- <div class="six columns " style="">
+ <div class="six columns text-left nopadding" style="">
 
-<h2 style="font-size:30px;text-shadow: 0 1px 1px #000;color:#d1d1d1;margin-top:15px;">Openinghours</h2>
+<div class="twelve columns text-left nopadding fade-top" style="margin-top:-40px;">
+ <div class="twelve columns" >
+<h2>About us</h2>
 
      
-       <div class="twelve columns nopadding fade-top" style="padding-top:50px;">
+       
 
 
-  <span style="">Monday
+<p>In the same year she went onto win the Fabio Inghirami Award in Italy and the Modo Bruxellae Price in Belgium. Her first S/S 2006 collection titled 'Blink' married Art Nouveau influenced sinuous patterns with draped and bunched silhouettes. The collection itself was shown at the Louvre in Paris and since then Pill presents her collections during Paris Fashion Weeks. </p>
+ </div>
+ </div>
+ <div class="twelve columns nopadding fade-top" style="">
+   <div class="twelve columns" >
+<h2>Openinghours</h2>
+
+     
+       
+
+
+  <p>Monday
 01.30 pm - 06.30 pm
 
 Tuesday - Saturday
@@ -308,12 +391,14 @@ Tuesday - Saturday
 Sunday & Public Holidays
 closed
 
-</span>
+</p>
 </div>
- <div class="six columns nopadding  " style="margin-top:50px;">
- <img src="images/bg.png"style="width:220px;"> </div>
-  <div class="six columns nopadding  " style="margin-top:50px;">
- <img src="images/seventy42.png"style="width:220px;"> </div>
+</div>
+ <div class="twelve columns nopadding fade-top " style="margin-top:0px;">
+
+  <div class="twelve columns" style="margin-top:0px;">
+ <img src="images/bg.png"style=""> </div>
+ </div>
  </div>
 </div>
 </div>
@@ -367,55 +452,6 @@ closed
      
 
 
-<div id="ontwerperspage"class="full-width  transition nopadding   " style="">
-
-      
-   
-
-     <div class="row  transition fade-top " style="">
-<div class="four columns nopadding "></div>
-
-    <div class="eight columns nopadding ">
-       
-      <div class="three columns text-left box  textbox cathyone ontwerpersfoto pointer"style="max-height:50%;overflow:hidden;">
-        
-   <img src="images/cathy.jpg"style="border-radius:5px;z-index:10;" class="shadowbox-outer">
-
-     <div class="nopadding transition hoverbox text-center" style=";"> 
-     <h6>Cathy Phill</h6>
-     <h3>Biografie</h3>
-     </div>
-
-        </div>
-
-
-       <div class="three columns text-left box  textbox cathyone2 pointer ontwerpersfoto">
-
-    
-   <img src="images/tim1.jpg"style="border-radius:5px;" class="shadowbox-outer">
-    <div class="nopadding transition hoverbox text-center" style=";"> <h6>Tim van steenbergen<h6><h3>Biografie</h3>
-    </div>
- </div>
-
-
-
-          <div class="three columns text-left box  textbox cathyone3 pointer ontwerpersfoto">
-
-    
-   <img src="images/cathy3.jpg"style="border-radius:5px;" class="shadowbox-outer">
-    <div class="nopadding transition hoverbox text-center" style=";"> <h6>Annemie Verbeke</h6><h3>Biografie</h3> </div>
- </div>
-
-          <div class="three columns text-left box  textbox cathyone4 pointer ontwerpersfoto">
-
-    
-   <img src="images/cathy2.jpg"style="border-radius:5px;" class="shadowbox-outer">
-     <div class="nopadding transition hoverbox text-center" style=";"> <h6>Crhis Jansens</h6><h3>Biografie</h3> </div>
- </div>
-
-
-
-      
     
 
  </div>
@@ -432,12 +468,14 @@ closed
 
 
 
-  <div class="twelve columns background-dark " style="margin-top:0px;;;position:fixed;bottom:0px;height:120px;z-index:600;" > 
+  <div class="twelve columns background-dark " style="margin-top:0px;;;position:fixed;bottom:0px;height:5%;z-index:600;opacity:0.99;" > 
 
-     <div class="six columns text-left"> 
-<h2 style="margin-top:0px;font-size:32px;margin-top:0px;text-shadow: 0 1px 1px #000;color:#74C2E1;font-weight:bold;">Follow us on Facebook  <h2 style="margin-top:-65px;margin-left:299px;"class="websymbols ">f</h2> </h2>
+     <div class="six columns text-left nopadding"> 
+<h2 style="margin-top:0px;font-size:27px;margin-top:-5px;text-shadow: 0 1px 1px #000;color:#fff;font-weight:bold;  font-family: 'Tangerine', cursive;">Follow us on Facebook  <h2 style="margin-top:-50px;margin-left:239px;"class="websymbols ">f</h2> </h2>
 </div>
-
+     <div class="six columns text-right nopadding"> 
+<h2 style="margin-top:0px;font-size:27px;margin-top:-5px;text-shadow: 0 1px 1px #000;color:#fff;font-weight:bold;  font-family: 'Tangerine', cursive;">Designed by Fracture </h2>
+</div>
 
 
 
@@ -705,109 +743,96 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script>
-    function cathyshow() {
-    var x, divArray = ["cathyphill"];
+    function cathy() {
+    var x, divArray = ["cathypic","cathybio"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
+            document.getElementById(divArray[x]).style.cssText = '; opacity: 1;';
         }
     }
 }
 </script>
+
+
 <script>
     function cathyhide() {
-    var x, divArray = ["cathyphill"];
+    var x, divArray = ["cathypic","cathybio"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
+            document.getElementById(divArray[x]).style.cssText = '; opacity: 0;';
         }
     }
 }
 </script>
+
+
 <script>
-    function timshow() {
-    var x, divArray = ["timsteen"];
+    function an() {
+    var x, divArray = ["anpic","anbio"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
+            document.getElementById(divArray[x]).style.cssText = '; opacity: 1;';
         }
     }
 }
 </script>
+
+
+<script>
+    function anhide() {
+    var x, divArray = ["anpic","anbio"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = '; opacity: 0;';
+        }
+    }
+}
+</script>
+
+
+<script>
+    function tim() {
+    var x, divArray = ["timpic","timbio"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = '; opacity: 1;';
+        }
+    }
+}
+</script>
+
+
 <script>
     function timhide() {
-    var x, divArray = ["timsteen"];
+    var x, divArray = ["timpic","timbio"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
+            document.getElementById(divArray[x]).style.cssText = '; opacity: 0;';
         }
     }
 }
 </script>
 
+
 <script>
-    function anshow() {
-    var x, divArray = ["anverbeke"];
+    function chris() {
+    var x, divArray = ["chrispic","chrisbio"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
-        }
-    }
-}
-</script>
-<script>
-    function anhide() {
-    var x, divArray = ["anverbeke"];
-    for (x in divArray) {
-        if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
+            document.getElementById(divArray[x]).style.cssText = '; opacity: 1;';
         }
     }
 }
 </script>
 
-<script>
-    function chrisshow() {
-    var x, divArray = ["chrisjansens"];
-    for (x in divArray) {
-        if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
-        }
-    }
-}
-</script>
+
 <script>
     function chrishide() {
-    var x, divArray = ["chrisjansens"];
+    var x, divArray = ["chrispic","chrisbio"];
     for (x in divArray) {
         if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
+            document.getElementById(divArray[x]).style.cssText = '; opacity: 0;';
         }
     }
 }
@@ -815,27 +840,10 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 
 
 
-<script>
-    function contacthide() {
-    var x, divArray = ["contactpage"];
-    for (x in divArray) {
-        if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'visibility:hidden;height:0px;opacity:0.0;';
-        }
-    }
-}
-</script>
 
-<script>
-    function contactshow() {
-    var x, divArray = ["contactpage"];
-    for (x in divArray) {
-        if (x) {
-            document.getElementById(divArray[x]).style.cssText = 'height:auto;visibility:visible;opacity:1';
-        }
-    }
-}
-</script>
+
+
+
 
 
 
@@ -874,7 +882,6 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
   <!-- Initialize JS Plugins -->
   <script src="javascripts/app.js"></script>
 
-  
     <script>
     $(window).load(function(){
       $("#featured").orbit();
@@ -919,95 +926,5 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
     });
     </script> 
  
- <script>
-$("#cathy").hover(function () {
-    $('#cathyshow').toggleClass('testings');
-});
-
-$("#tim").hover(function () {
-    $('#timshow').toggleClass('testings');
-});
-
-$("#an").hover(function () {
-    $('#anshow').toggleClass('testings');
-});
-
-$("#chris").hover(function () {
-    $('#chrisshow').toggleClass('testings');
-});
-</script>
-<script>
-$("#slideshow > div:gt(0)").hide();
-
-        // fade out current slide (first), fade in next slide and move first slide to end
-        var nextSlide = function() { 
-            $("#slideshow > div:first")
-            .fadeOut(1000)
-            .next()
-            .fadeIn(1000)
-            .end()
-            .appendTo("#slideshow");
-        }
-
-        var nextSlideTimer = setInterval(nextSlide,  9000);
-
-        // fade out current slide (first) and move last slide to top and fade in
-        $(".nav-left").click(function() {
-            clearInterval(nextSlideTimer);
-
-            $("#slideshow > div:first")
-            .fadeOut(1000);
-            $("#slideshow > div:last")
-            .fadeIn(1000)
-            .prependTo("#slideshow");
-
-            nextSlideTimer = setInterval(nextSlide, 9000)
-            setTimeout(nextSlideTimer, 9000)
-        });
-
-        $(".nav-right").click(function() {
-            clearInterval(nextSlideTimer);
-
-            $("#slideshow > div:first")
-            .fadeOut(1000)
-            .next()
-            .fadeIn(1000)
-            .end()
-            .appendTo("#slideshow");
-
-            nextSlideTimer = setInterval(nextSlide, 9000)
-            setTimeout(nextSlideTimer, 9000)
-        });
-
-        $("#slideshow").hover(function() {
-            $("#nav-left").fadeToggle("slow", "linear");
-            $("#nav-right").fadeToggle("slow", "linear");
-        });
-      </script><script>
-
-        $(function() {
-
-$(“#slideshow > div:gt(0)”).hide();
-
-startInterval();
-
-$(“#slideshow > div”).mouseover(function() { stopInterval(); });
-$(“#slideshow > div”).mouseout(function() { startInterval(); });
-
-});
-
-function stopInterval() {
-clearInterval(intervalId);
-}
-
-function startInterval() {
-intervalId = setInterval(function() {
-$(‘#slideshow > div:first’)
-.fadeOut(1000)
-.next()
-.fadeIn(1000)
-.end()
-.appendTo(‘#slideshow’);
-}, 3000);
-}</script>
+ 
 </html>
