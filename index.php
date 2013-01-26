@@ -58,7 +58,7 @@
   <div class="row  transition nopadding  ">
     <div class="twelve columns " style="margin-top:0px;">
       <div class="twelve columns menu nopadding "  style="margin-top:0px;">
-           <div class="barz">
+           <div id="barz" class="transitionfast">
         
 </div>
 
@@ -68,13 +68,13 @@
         <div class="three columns nopaddingbottom nopaddingtop text-center " >
            
         </div>
-        <div class="two ontwerpers menuz columns text-center nopadding" onClick="homeshowtop();homeshowbottom();gohomebottom();gohometop();ontwerpershidebottom();ontwerpershidetop();contacthidebottom();contacthidetop();">
+        <div class="two ontwerpers menuz columns text-center nopadding" onClick="barzhome();homeshowtop();homeshowbottom();gohomebottom();gohometop();ontwerpershidebottom();ontwerpershidetop();contacthidebottom();contacthidetop();">
           <li><a href="#toppage" >Home</a></li>
         </div>
-        <div class="two home columns  menuz text-center nopadding" onClick="goontwerperstop();goontwerpersbottom();homehidetop();homehidebottom();;contacthidebottom();contacthidetop();ontwerpersshowtop();ontwerpersshowbottom()">      
+        <div class="two home columns  menuz text-center nopadding" onClick="barzontwerpers();goontwerperstop();goontwerpersbottom();homehidetop();homehidebottom();;contacthidebottom();contacthidetop();ontwerpersshowtop();ontwerpersshowbottom()">      
           <li><a href="#toppage" >Ontwerpers</a></li>
         </div>
-        <div class="two columns menuz text-center nopadding" onClick="gocontacttop();gocontactbottom();;ontwerpershidebottom();ontwerpershidetop();;homehidetop();homehidebottom();contactshowtop();contactshowbottom();">
+        <div class="two columns menuz text-center nopadding" onClick="barzcontact();gocontacttop();gocontactbottom();;ontwerpershidebottom();ontwerpershidetop();;homehidetop();homehidebottom();contactshowtop();contactshowbottom();">
           <li><a href="#toppage">Contact</a></li>
         </div>
       </div>
@@ -670,6 +670,39 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 
 
 <!-- /////////////////////////////              GO TO              //////////////////////////////////   -->
+
+<script>
+    function barzhome() {
+    var x, divArray = ["barz"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = '  width: 63%;';
+        }
+    }
+}
+</script>
+
+<script>
+    function barzontwerpers() {
+    var x, divArray = ["barz"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = '  width: 83%;';
+        }
+    }
+}
+</script>
+
+<script>
+    function barzcontact() {
+    var x, divArray = ["barz"];
+    for (x in divArray) {
+        if (x) {
+            document.getElementById(divArray[x]).style.cssText = '  width: 97%;';
+        }
+    }
+}
+</script>
 
 
 <script>
