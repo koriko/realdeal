@@ -165,8 +165,8 @@ h1 {
 
     text-shadow: 0 2px 1px #fff;color: #d1d1d1;
 
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: -15px;
+    margin-bottom: 0px;
  margin-left: 0px;
 font-family: 'OpenSansLight',sans-serif;
 font-family: 'BenchNine', sans-serif;
@@ -178,7 +178,7 @@ p {color: #999;}
 a > h3 {margin-top:0px;margin-bottom:2px; text-shadow: 0 1px 1px #000;color: #fff;letter-spacing: 3px;font-size: 15px;}
 
 h3 {color: #e1e1e1;
-    font-size: 29px;
+    font-size: 25px;
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 30px;
@@ -203,30 +203,32 @@ h5 {color: #1F768E;
     text-shadow: 0 1px 1px #FFFFFF;
 
 }
-
+.showpic{cursor: pointer;}
+.showpic:hover > .piclarge {opacity: 1.0;}
+.showpic > .piclarge {opacity: 0.0;}
 h6 {color: #fff;margin-top: 59%;opacity: 0.0;
 	font-size: 16px;text-shadow: 0 1px 1px #000;   font-family: 'OpenSansLight',sans-serif; }
-.arrow-leftside {
-	 float:left;
+.arrow-up {
+	 float:left;position: absolute;
 	width: 0px; 
 	height: 0; 
-	border-left: 60px solid transparent;
-	border-right: 60px solid black;
-	margin-top: 0px;
-	margin-left:0px;
-	border-bottom: 60px solid transparent;
-opacity: 0.9;z-index: 500;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	top: -7px;
+	margin-left:10px;
+	border-bottom: 7px solid #333;
+opacity: 1;z-index: 1500;
 }
 
 .arrow-rightside {
-   float:left;
+   float:left;position:absolute;
   width: 0px; 
   height: 0; 
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  margin-top: -17px;
-  margin-left:0px;
-  border-bottom: 10px solid #222;
+bottom: -10px;
+  margin-left:5px;
+  border-top: 10px solid #222;
 ;z-index: 1500;
 }
 .bar {
@@ -242,8 +244,8 @@ opacity: 0.9;z-index: 500;
 
 #barz {
   position:absolute;
-  width: 63%; 
-  height: 20px; 
+  width: 0%; 
+  height: 0px; 
 background: url(../images/bar.png) no-repeat; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -442,7 +444,7 @@ box-shadow: 1px 1px 1px 1px #888;border-radius: 100px;border:0px solid #888; }
 }
 
 #backsybottom { 
-margin-top: 0px;
+margin-top: 150px;
   ;width:100%;margin-left: -66.66%;float:left;height:50%;
 }
 img {float: left; }
